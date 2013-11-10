@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Bones
 __A Lightweight Wordpress Development Theme__
 
@@ -28,3 +29,9 @@ __[WTFPL](http://sam.zoy.org/wtfpl/)__
 
 ## Meta
 * [Changelog](../../blob/master/CHANGELOG.md)
+=======
+hohoto
+======
+
+WordPress theme for HoHoTo
+>>>>>>> 7f25fabe0de307fac223891af4a945cb7a7493de
