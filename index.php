@@ -7,9 +7,11 @@
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					<div class="article">
 						<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
-						<?php
-							printf(__('<span class="author">%3$s</span><span class="date">%2$s</span>', 'bonestheme'), get_the_time('Y-m-j'), get_the_time(get_option('date_format')), bones_get_the_author_posts_link(), get_the_category_list(', '));
-						?>
+						<div class="metadata">
+							<?php
+								printf(__('<span class="date">%2$s</span>, by <span class="author">%3$s</span>', 'bonestheme'), get_the_time('Y-m-j'), get_the_time(get_option('date_format')), bones_get_the_author_posts_link(), get_the_category_list(', '));
+							?>
+						</div>
 				
 						<section class="entry-content clearfix">
 							<?php if ( is_home() ) { ?>
