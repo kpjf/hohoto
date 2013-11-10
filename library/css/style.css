@@ -1227,6 +1227,10 @@ form input[type='submit'] {
   }
 }
 /* line 3, ../scss/_blog.sass */
+#blog_container .article-header {
+  margin-bottom: 20px;
+}
+/* line 6, ../scss/_blog.sass */
 #blog_container .articles {
   display: -moz-inline-stack;
   display: inline-block;
@@ -1237,7 +1241,25 @@ form input[type='submit'] {
   width: 65.625%;
   margin-right: 3.125%;
 }
-/* line 9, ../scss/_blog.sass */
+/* line 11, ../scss/_blog.sass */
+#blog_container .wp-caption {
+  padding: 10px;
+  background-color: #eeeeee;
+  margin-bottom: 20px;
+}
+/* line 16, ../scss/_blog.sass */
+#blog_container .wp-caption img {
+  display: block;
+  margin-bottom: 10px;
+}
+/* line 20, ../scss/_blog.sass */
+#blog_container .wp-caption p {
+  font-family: "Museo Sans", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 20px;
+}
+/* line 26, ../scss/_blog.sass */
 #blog_container .article {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -1266,7 +1288,7 @@ form input[type='submit'] {
   width: 100%;
   margin-bottom: 20px;
 }
-/* line 23, ../scss/_blog.sass */
+/* line 40, ../scss/_blog.sass */
 #blog_container .article h1 {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -1274,11 +1296,11 @@ form input[type='submit'] {
   line-height: 36px;
   color: #bc2132;
 }
-/* line 28, ../scss/_blog.sass */
+/* line 45, ../scss/_blog.sass */
 #blog_container .article h2 a {
   color: #bc2132;
 }
-/* line 31, ../scss/_blog.sass */
+/* line 48, ../scss/_blog.sass */
 #blog_container .article .metadata {
   margin: 1em 0 1.5em;
   font-family: "Museo Sans", Helvetica, Arial, sans-serif;
@@ -1286,15 +1308,15 @@ form input[type='submit'] {
   font-size: 16px;
   line-height: 20px;
 }
-/* line 38, ../scss/_blog.sass */
+/* line 55, ../scss/_blog.sass */
 #blog_container .article p:first-of-type {
   clear: both;
 }
-/* line 41, ../scss/_blog.sass */
+/* line 58, ../scss/_blog.sass */
 #blog_container .article p:last-of-type {
   margin-bottom: 0;
 }
-/* line 44, ../scss/_blog.sass */
+/* line 61, ../scss/_blog.sass */
 #blog_container .sidebar {
   display: -moz-inline-stack;
   display: inline-block;
@@ -1304,7 +1326,7 @@ form input[type='submit'] {
   *display: inline;
   width: 31.25%;
 }
-/* line 48, ../scss/_blog.sass */
+/* line 65, ../scss/_blog.sass */
 #blog_container #connect_and_share {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -1319,17 +1341,17 @@ form input[type='submit'] {
   text-align: left;
   vertical-align: top;
 }
-/* line 58, ../scss/_blog.sass */
+/* line 75, ../scss/_blog.sass */
 #blog_container #connect_and_share #stay_connected {
   margin-bottom: 2em;
   max-width: none;
   width: 100%;
 }
-/* line 63, ../scss/_blog.sass */
+/* line 80, ../scss/_blog.sass */
 #blog_container #connect_and_share #stay_connected p {
   max-width: none;
 }
-/* line 68, ../scss/_blog.sass */
+/* line 85, ../scss/_blog.sass */
 #blog_container #connect_and_share #stay_connected form input {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1337,13 +1359,13 @@ form input[type='submit'] {
   width: 100%;
   margin-bottom: 0.5em;
 }
-/* line 73, ../scss/_blog.sass */
+/* line 90, ../scss/_blog.sass */
 #blog_container #connect_and_share #share {
   max-width: none;
   width: 100%;
 }
 
-/* line 78, ../scss/_blog.sass */
+/* line 95, ../scss/_blog.sass */
 .pagination li {
   display: -moz-inline-stack;
   display: inline-block;
@@ -1354,25 +1376,25 @@ form input[type='submit'] {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 83, ../scss/_blog.sass */
+  /* line 100, ../scss/_blog.sass */
   #blog_container .articles {
     width: 100%;
     margin: 0 0 20px;
   }
-  /* line 87, ../scss/_blog.sass */
+  /* line 104, ../scss/_blog.sass */
   #blog_container .article {
     margin: 0 0 20px;
     max-width: none;
     width: 100%;
   }
-  /* line 92, ../scss/_blog.sass */
+  /* line 109, ../scss/_blog.sass */
   #blog_container #connect_and_share {
     margin: 0 0 20px;
     max-width: none;
     width: 100%;
     text-align: center;
   }
-  /* line 100, ../scss/_blog.sass */
+  /* line 117, ../scss/_blog.sass */
   #blog_container #connect_and_share #stay_connected form input {
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
@@ -1382,7 +1404,7 @@ form input[type='submit'] {
   }
 }
 @media screen and (max-width: 520px) {
-  /* line 107, ../scss/_blog.sass */
+  /* line 124, ../scss/_blog.sass */
   #blog_container .sidebar {
     display: -moz-inline-stack;
     display: inline-block;
@@ -1392,18 +1414,18 @@ form input[type='submit'] {
     *display: inline;
     width: 100%;
   }
-  /* line 111, ../scss/_blog.sass */
+  /* line 128, ../scss/_blog.sass */
   #blog_container .article .author,
   #blog_container .article .date {
     float: none;
     display: block;
     margin: 0;
   }
-  /* line 117, ../scss/_blog.sass */
+  /* line 134, ../scss/_blog.sass */
   #blog_container .article .author {
     margin-top: 1em;
   }
-  /* line 119, ../scss/_blog.sass */
+  /* line 136, ../scss/_blog.sass */
   #blog_container .article .date {
     margin-bottom: 1em;
   }

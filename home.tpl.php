@@ -36,16 +36,30 @@ Template Name: Home Page
 			<h2>News &amp; Updates</h2>
 
 			<ul id="stories">
-				<li>
-					<h2>Article 1 Title</h2>
-					<h3>Nov 1, 2013</h3>
-					<div class="inner-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, accusamus, ducimus incidunt tempore dolore molestias possimus fugit iure a nam.</div>
-				</li>
-				<li>
-					<h2>Article 2 Title</h2>
-					<h3>Oct 25, 2013</h3>
-					<div class="inner-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, accusamus, ducimus incidunt tempore dolore molestias possimus fugit iure a nam.</div>
-				</li>
+			<?php
+
+			// The Query
+			$the_query = new WP_Query( array(
+				'posts_per_page' => 2
+			) );
+
+			// The Loop
+			if ( $the_query->have_posts() ) {
+				while ( $the_query->have_posts() ) {
+					$the_query->the_post();
+			?>
+			<li>
+
+				<h2><?php the_title(); ?></h2>
+				<h3><?php echo get_the_time(get_option('date_format')); ?></h3>
+				<div class="inner-content"><?php the_excerpt(); ?></div>
+			</li>
+
+			<?php
+					}
+				}
+			wp_reset_postdata();
+			?>
 				<li class="tweets">
 					<h2>Latest Tweets <a href="http://twitter.com/hohoto">@hohoto</a></h2>
 					<div id="tweets">
