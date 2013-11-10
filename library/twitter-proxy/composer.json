@@ -1,0 +1,14 @@
+{
+    "name": "zuul/test",
+    "description": "testing doing a composer build",
+    "require": {
+        "themattharris/tmhoauth": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Keith Foster",
+            "email": "keith@zuul.ca"
+        }
+    ],
+    "minimum-stability": "dev"
+}

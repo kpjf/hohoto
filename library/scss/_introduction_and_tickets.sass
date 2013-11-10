@@ -1,0 +1,140 @@
+#event_container
+	:padding-bottom 20px
+	//:background
+		//:image image_url("bkgr/bkgr_event_container.jpg")
+		//:size cover
+		//:position 50% 0
+
+#introduction_and_tickets
+	:clear both
+
+	#introduction
+		+headline(28px,36px)
+		+inline-block
+		:vertical-align top
+		:width 61.50%
+		:margin-right 7.25%
+		:max-width 590px
+
+		h2
+			+headline(44px,52px)
+
+		h3
+			:color #FFB3BB
+
+		h3+p
+			:margin-top 1.5em
+
+		p
+			:margin-bottom 1.5em
+
+		.event_details
+			+headline(20px,50px)
+			:background #FFCC33
+			:color #231F20
+			:padding 0 2em
+
+	#tickets
+		+inline-block
+		:vertical-align top
+		:width 100%
+		:width 31.25%
+		
+		:max-width 300px
+
+		a.button
+			:margin-bottom 30px
+			:width 100%
+
+		.buy_tickets
+			+headline(36px,40px)
+			:padding 40px 0
+			:background #FFCC33
+			:color #231F20
+			:position relative
+
+			&:before
+				:content ''
+				:position absolute
+				:top -10px
+				:left -2px
+				:width 100%
+				:padding 0 2px
+
+				:height 20px
+				:background
+					:image image_url('bkgr/bkgr_buy_tickets.png')
+					:size 100% 20px
+					:repeat no-repeat
+
+		.be_a_sponsor,
+		.get_involved
+			+headline(20px,24px)
+			:padding 13px 0
+			:background #FFF
+			:color #231F20
+
+		.get_involved
+			:background #991B29
+			:color #FFF
+
++breakpoint(tablet) // iPad Portrait (& similar) 
+	#introduction_and_tickets #tickets .buy_tickets
+		+headline(30px,34px)
+
++breakpoint(oversize_phone) // Less than 520px down to iPhone (& similar)
+	#introduction_and_tickets
+		:text-align center
+		
+		#introduction
+			:width 100%
+			:max-width 480px
+			:margin 0
+
+			.event_details
+				:display none
+
+		#tickets
+			:width 100%
+			:max-width 480px
+			:margin 0
+			.buy_tickets
+				+headline(30px,34px)
+
++breakpoint(phone) // Less than 520px down to iPhone (& similar)
+	#introduction_and_tickets
+		#introduction
+			+headline(20px,26px)
+
+			h2
+				+headline(30px,38px)
+
+			h3
+				:color #FFB3BB
+
+			h3+p
+				:margin-top 1em
+
+			p
+				:margin-bottom 1.5em
+
+			.event_details
+				+headline(20px,50px)
+				:background #FFCC33
+				:color #231F20
+				:padding 0 2em
+
+		#tickets
+			a.button
+				:margin-bottom 10px
+				:width 100%
+
+			.buy_tickets
+				+headline(28px,32px)
+				:padding 20px 0
+
+
+			.be_a_sponsor,
+			.get_involved
+				+headline(16px,20px)
+				:padding 12px 0

@@ -1,0 +1,120 @@
+#blog_container
+
+	.articles
+		+inline-block
+		:width 65.625%
+		:margin-right 3.125%
+
+
+	.article,
+		+border-radius(4px)
+		+box-sizing(border-box)
+		+paragraph(24px,30px)
+		+inline-block
+		:background #FFF
+		:color #333333
+		:margin-right 3.125%
+		:max-width 630px
+		:padding 20px 20px 40px
+		:vertical-align top
+		:width 100%
+		:margin-bottom 20px
+
+		h2
+			a
+				:color #BC2132
+
+		.author,
+		.date
+			+paragraph(16px,20px)
+			:margin 1em 0 1.5em
+
+		.author
+			:float left
+
+		.date
+			:float right
+
+		p:first-of-type
+			:clear both
+
+		p:last-of-type
+			:margin-bottom 0
+
+	.sidebar
+		+inline-block(top)
+		:width 31.25%
+
+	#connect_and_share
+		+border-radius(4px)
+		+box-sizing(border-box)
+		
+		:max-width 300px
+		:padding 0
+		:text-align left
+		:vertical-align top
+		
+
+		#stay_connected
+			:margin-bottom 2em
+			:max-width none
+			:width 100%
+
+			p
+				:max-width none
+
+
+			form
+				input
+					+box-sizing(border-box)
+					:width 100%
+					:margin-bottom 0.5em
+
+		#share
+			:max-width none
+			:width 100%
+
+.pagination
+	li
+		+inline-block
+
++breakpoint(tablet)
+	#blog_container
+		.articles
+			:width 100%
+			:margin 0 0 20px
+
+		.article
+			:margin 0 0 20px
+			:max-width none
+			:width 100%
+		
+		#connect_and_share
+			:margin 0 0 20px
+			:max-width none
+			:width 100%
+			:text-align center
+
+			#stay_connected
+				form
+					input
+						+box-sizing(content-box)
+						:width auto
+						:margin-bottom 0
+
++breakpoint(phone)
+	#blog_container 
+		.sidebar
+			+inline-block(top)
+			:width 100%
+		.article
+			.author,
+			.date
+				:float none
+				:display block
+				:margin 0
+
+			.author
+				:margin-top 1em
+			.date
+				:margin-bottom 1em
