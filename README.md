@@ -1,24 +1,7 @@
-<<<<<<< HEAD
-# Bones
-__A Lightweight Wordpress Development Theme__
+HoHoTo WordPress Theme
+======
 
-Bones is designed to make the life of developers easier. It's built
-using HTML5 & has a strong semantic foundation. It was updated recently
-using some of the HTML5 Boilerplate's recommended markup and setup.
-It's constantly growing so be sure to check back often if you are a
-frequent user. I'm always open to contribution. :)
-
-Designed by **Eddie Machado**: http://themble.com/bones
-
-Special Thanks to:
-* Paul Irish & the HTML5 Boilerplate
-* Yoast for some WP functions & optimization ideas
-* Andrew Rogers for code optimization
-* David Dellanave for speed & code optimization
-* and several other developers. :)
-
-Submit Bugs & or Fixes:
-https://github.com/eddiemachado/bones/issues
+WordPress theme for HoHoTo, using [Bones](http://themble.com/bones) as the base.
 
 
 ## License
@@ -26,12 +9,3 @@ __[WTFPL](http://sam.zoy.org/wtfpl/)__
 
 	Are You Serious? Yes.
 
-
-## Meta
-* [Changelog](../../blob/master/CHANGELOG.md)
-=======
-hohoto
-======
-
-WordPress theme for HoHoTo
->>>>>>> 7f25fabe0de307fac223891af4a945cb7a7493de
