@@ -1579,15 +1579,16 @@ form input[type='submit'] {
     line-height: 22px;
     float: none;
     padding: 0;
+    margin-bottom: 0.25em;
   }
-  /* line 83, ../sass/_tickets.sass */
+  /* line 84, ../sass/_tickets.sass */
   .ticket_container h2 img,
   .raffle_container h2 img,
   .sponsor_container h2 img {
     top: 0;
     display: none;
   }
-  /* line 87, ../sass/_tickets.sass */
+  /* line 88, ../sass/_tickets.sass */
   .ticket_container .button,
   .raffle_container .button,
   .sponsor_container .button {
@@ -1595,14 +1596,14 @@ form input[type='submit'] {
     width: 100%;
     max-width: 320px;
   }
-  /* line 92, ../sass/_tickets.sass */
+  /* line 93, ../sass/_tickets.sass */
   .ticket_container .tickets li,
   .raffle_container .tickets li,
   .sponsor_container .tickets li {
     margin-top: 1em;
     margin-bottom: 0;
   }
-  /* line 96, ../sass/_tickets.sass */
+  /* line 97, ../sass/_tickets.sass */
   .ticket_container .tickets ol li,
   .raffle_container .tickets ol li,
   .sponsor_container .tickets ol li {
@@ -1610,7 +1611,7 @@ form input[type='submit'] {
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 101, ../sass/_tickets.sass */
+  /* line 102, ../sass/_tickets.sass */
   .ticket_container .tickets .price,
   .raffle_container .tickets .price,
   .sponsor_container .tickets .price {
