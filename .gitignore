@@ -53,3 +53,7 @@ temp/
 .Trashes
 
 .svn
+
+*.scssc
+
+*.sassc

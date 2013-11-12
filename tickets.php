@@ -24,11 +24,61 @@ Template Name: Tickets Page
 
 				</ul>
 
-				<div id="eventbrite_iframe">
+				<!-- Ticket Code -->
+				<div class="ticket_container">
 
-					Placeholder for Ticket Widget
+					<h2><img src="/img/icon_ticket.png"/>Tickets</h2>
+					<a href="https://www.uniiverse.com/listings/hohoto-2013-supporting-the-daily-bread-food-bank-toronto-ZBHGW" class="button">Buy Tickets</a>
+
+					 <ul class="tickets">
+					 	<li>
+					 		<ol>
+						 		<li class="price">$40</li>
+						 		<li class="details">
+									<span>Early-bird admission</span>
+								</li>
+							</ol>
+						</li>
+						<li>
+							<ol>
+								<li class="price">$150</li>
+								<li class="details">
+									<span>VIP admission package</span>
+									<span class="description">Cocktails and appetizers from 7p - 9p</span>
+								</li>
+							</ol>
+						</li>
+					</ul>
 
 				</div>
+				<div class="raffle_container">
+
+
+					 <h2><img src="/img/icon_raffle.png"/>Raffle Ticket Pre-order*</h2>
+					 <a href="https://www.uniiverse.com/listings/hohoto-2013-supporting-the-daily-bread-food-bank-toronto-ZBHGW" class="button">Add Raffle Tickets</a>
+
+					 <ul class="tickets">
+
+					 	<li>
+					 		<ol>
+						 		<li class="price">$20</li>
+						 		<li class="details">
+									<span>20 tickets</span>
+								</li>
+							</ol>
+						</li>
+						<li>
+							<ol>
+								<li class="price">$100</li>
+						 		<li class="details">
+									<span>150 tickets</span>
+								</li>
+								</li>
+							</ol>
+						</li>
+					</ul>
+
+					 <span class="fine_print">*does not include admission.</span>
 
 				<h2>Holiday Party Central</h2>
 				<p>Party with 600 of your favourite startup, tech, social media, and design friends.</p>

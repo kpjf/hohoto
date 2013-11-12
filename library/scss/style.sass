@@ -2,14 +2,14 @@
 @import compass
 
 // Font Mixins
-=headline($size: 22px, $line-height: 26px)
+=headline($size: 22px, $line-height: $size + 4)
 	:font
 		:family "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif
 		:weight 500
 		:size $size
 	:line-height $line-height
 
-=paragraph($size: 16px, $line-height: 20px)
+=paragraph($size: 16px, $line-height: $size + 4)
 	:font
 		:family "Museo Sans", Helvetica, Arial, sans-serif
 		:weight 100
@@ -208,3 +208,4 @@ form
 @import "overview_and_features"
 @import "connect_and_share"
 @import "blog"
+@import "tickets"

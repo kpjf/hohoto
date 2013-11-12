@@ -1,0 +1,92 @@
+.ticket_container,
+.raffle_container
+	:margin 0 -20px
+	:padding 20px
+	:width 100%
+
+
+	h2
+		+headline(22px,44px)
+		:float left
+		:margin-bottom 0.5em
+		:padding-left 32px
+		:position relative
+
+		img
+			:position absolute
+			:top 11px
+			:left 0
+
+	.button
+		+headline(16px,44px)
+		:background #FFCC33
+		:color #231F20
+		:float right
+		:padding 0 0.75em
+
+	.tickets
+		:clear both
+		li
+			+paragraph(18px)
+			:display block
+			:margin-bottom 0.5em
+		
+			&:last-of-type
+				:margin-bottom 0
+
+		ol li
+			+inline-block
+			:vertical-align top
+
+		.price
+			:min-width 80px
+		.details
+			span
+				:display block
+
+				&.description
+					+paragraph(14px)
+					:margin-top 0.25em
+
+	.fine_print
+		+paragraph(14px)
+		:color #DD9098
+
+.ticket_container
+	:background #E6E6E6
+	:margin-top 20px
+
+.raffle_container
+	:background #F2F2F2
+	:margin-bottom 20px
+
++breakpoint(phone)
+	.ticket_container,
+	.raffle_container
+		:text-align center
+		h2
+			+headline(20px,22px)
+			:float none
+			:padding 0
+
+			img
+				:top 0
+				:display none
+
+		.button
+			:float none
+			:width 100%
+			:max-width 320px
+		.tickets
+			li
+				:margin
+					:top 1em
+					:bottom 0
+			ol li
+				:display block
+				:margin
+					:top 0
+					:bottom 0
+			.price
+				:min-width 0
+				+headline(20px)
