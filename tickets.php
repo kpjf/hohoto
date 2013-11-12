@@ -165,8 +165,7 @@ Template Name: Tickets Page
 			<p>Share HoHoTO with everyone you care about.</p>
 
 			<a href="https://www.facebook.com/HoHoTO" class="share facebook"><img alt="" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_facebook.png"/></a><!--
-			--><a href="http://twitter.com/hohoto" class="share twitter"><img alt="" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_twitter.png"/></a><!--
-			--><a href="#" class="share google"><img alt="" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_google.png"/></a>
+			--><a href="http://twitter.com/hohoto" class="share twitter"><img alt="" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_twitter.png"/></a>
 		</div>
 	</div>
 

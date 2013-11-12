@@ -763,7 +763,7 @@ form input[type='submit'] {
 #sponsors .kind_is.in-kind a {
   padding: 5px;
   width: 22.4%;
-  margin-left: 3.125%;
+  margin-left: 2.025%;
 }
 /* line 61, ../scss/_sponsors.sass */
 #sponsors .kind_is.in-kind a:nth-child(4n+1) {

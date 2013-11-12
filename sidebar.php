@@ -26,8 +26,7 @@
 			<p>Share HoHoTO with everyone you care about.</p>
 
 			<a href="https://www.facebook.com/HoHoTO" class="share facebook"><img src="<?php echo get_template_directory_uri(); ?>/library/images/icon_facebook.png"/></a><!--
-			--><a href="http://twitter.com/hohoto" class="share twitter"><img src="<?php echo get_template_directory_uri(); ?>/library/images/icon_twitter.png"/></a><!--
-			--><a href="#" class="share google"><img src="<?php echo get_template_directory_uri(); ?>/library/images/icon_google.png"/></a>
+			--><a href="http://twitter.com/hohoto" class="share twitter"><img src="<?php echo get_template_directory_uri(); ?>/library/images/icon_twitter.png"/></a>
 		</div>
 	</div>
 
