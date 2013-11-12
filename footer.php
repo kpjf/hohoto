@@ -47,11 +47,20 @@
 				'sponsor_tier' => 'candycane',
 				'order'=>'ASC'
 			));
+
+			$inkind = new WP_Query(array(
+				'post_type' => 'sponsor', 
+				'posts_per_page' => -1, 
+				'sponsor_tier' => 'in-kind',
+				'order'=>'ASC'
+			));
 		?>
 		
 		<div id="sponsor_container">
 			<div id="sponsors" class="content">
 				<h2>Our incredible sponsors</h2>
+
+				<?php if ( count($santas->posts) > 0 ) { ?>
 				<h3>Santa</h3>
 				<div class="kind_is santa">
 
@@ -73,7 +82,9 @@
 					<?php } ?>
 					
 				</div>
+				<?php } ?>
 				
+				<?php if ( count($mrsclaus->posts) > 0 ) { ?>
 				<h3>Mrs. Claus</h3>
 				<div class="kind_is mrsclaus">
 					<?php while ( $mrsclaus->have_posts() ) { 
@@ -93,8 +104,10 @@
 					</a>
 					<?php } ?>
 				</div>
+				<?php } ?>
 
 				
+				<?php if ( count($elf->posts) > 0 ) { ?>
 				<h3>Elf</h3>
 				<div class="kind_is elf">
 					<?php while ( $elf->have_posts() ) { 
@@ -114,7 +127,9 @@
 					</a>
 					<?php } ?>
 				</div>
+				<?php } ?>
 
+				<?php if ( count($reindeer->posts) > 0 ) { ?>
 				<h3>Reindeer</h3>
 				<div class="kind_is reindeer">
 					<?php while ( $reindeer->have_posts() ) { 
@@ -134,7 +149,9 @@
 					</a>
 					<?php } ?>
 				</div>
+				<?php } ?>
 				
+				<?php if ( count($snowflake->posts) > 0 ) { ?>
 				<h3>Snowflake</h3>
 				<div class="kind_is snowflake">
 					<?php while ( $snowflake->have_posts() ) { 
@@ -154,7 +171,9 @@
 					</a>
 					<?php } ?>
 				</div>
+				<?php } ?>
 
+				<?php if ( count($gingerbread->posts) > 0 ) { ?>
 				<h3>Gingerbread</h3>
 				<div class="kind_is gingerbread">
 					<?php while ( $gingerbread->have_posts() ) { 
@@ -174,7 +193,9 @@
 					</a>
 					<?php } ?>
 				</div>
+				<?php } ?>
 
+				<?php if ( count($candycane->posts) > 0 ) { ?>
 				<h3>Candycane</h3>
 				<div class="kind_is candycane">
 					<?php while ( $candycane->have_posts() ) { 
@@ -186,6 +207,28 @@
 						}
 					?>
 					<a href="#">
+						<?php
+							if ( $image[0] ) {
+								echo '<img src="'.$image[0].'" alt="'.get_the_title().'" />';
+							}
+						?>
+					</a>
+
+					<?php } ?>
+				</div>
+				<?php } ?>
+
+				<h3>In Kind</h3>
+				<div class="kind_is in-kind">
+					<?php while ( $inkind->have_posts() ) { 
+						$inkind->the_post(); 
+						if (has_post_thumbnail( $post->ID ) ) {
+							$image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); 
+						} else {
+							$image = null;
+						}
+					?>
+					<a href="<?php echo get_post_meta( get_the_ID(), 'sponsor_url', true ); ?>">
 						<?php
 							if ( $image[0] ) {
 								echo '<img src="'.$image[0].'" alt="'.get_the_title().'" />';

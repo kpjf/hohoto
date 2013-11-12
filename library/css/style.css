@@ -1,4 +1,4 @@
-/* line 17, ../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,50 +20,50 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
-/* line 48, ../sass/style.sass */
+/* line 48, ../scss/style.sass */
 body {
   font-family: "Museo Sans", Helvetica, Arial, sans-serif;
   font-weight: 100;
@@ -73,18 +73,18 @@ body {
   color: white;
 }
 
-/* line 57, ../sass/style.sass */
+/* line 57, ../scss/style.sass */
 a {
   color: white;
   text-decoration: none;
 }
 
-/* line 62, ../sass/style.sass */
+/* line 62, ../scss/style.sass */
 .article a {
   color: #bc2132;
 }
 
-/* line 65, ../sass/style.sass */
+/* line 65, ../scss/style.sass */
 .button {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -103,7 +103,7 @@ a {
   text-align: center;
 }
 
-/* line 71, ../sass/style.sass */
+/* line 71, ../scss/style.sass */
 .content {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -116,7 +116,7 @@ a {
   font-size: 0;
 }
 
-/* line 81, ../sass/style.sass */
+/* line 81, ../scss/style.sass */
 h2 {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -124,7 +124,7 @@ h2 {
   line-height: 36px;
 }
 
-/* line 84, ../sass/style.sass */
+/* line 84, ../scss/style.sass */
 h3 {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -132,7 +132,7 @@ h3 {
   line-height: 24px;
 }
 
-/* line 87, ../sass/style.sass */
+/* line 87, ../scss/style.sass */
 p, ul, ul li {
   font-family: "Museo Sans", Helvetica, Arial, sans-serif;
   font-weight: 100;
@@ -140,18 +140,18 @@ p, ul, ul li {
   line-height: 22px;
 }
 
-/* line 90, ../sass/style.sass */
+/* line 90, ../scss/style.sass */
 p {
   margin-bottom: 1.5em;
 }
 
-/* line 94, ../sass/style.sass */
+/* line 94, ../scss/style.sass */
 h2 + p, h3 + p,
 h2 + ul, h3 + ul {
   margin-top: 0.25em;
 }
 
-/* line 100, ../sass/style.sass */
+/* line 100, ../scss/style.sass */
 form input[type='text'] {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -171,11 +171,11 @@ form input[type='text'] {
   outline: none;
   padding: 8px 16px;
 }
-/* line 109, ../sass/style.sass */
+/* line 109, ../scss/style.sass */
 form input[type='text']:focus {
   background: #e6f7ff;
 }
-/* line 112, ../sass/style.sass */
+/* line 112, ../scss/style.sass */
 form input[type='submit'] {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -197,32 +197,32 @@ form input[type='submit'] {
   padding: 8px 16px;
 }
 
-/* line 123, ../sass/style.sass */
+/* line 123, ../scss/style.sass */
 .sidebar {
   width: 31.25%;
 }
 
-/* line 127, ../sass/style.sass */
+/* line 127, ../scss/style.sass */
 #menu_container {
   overflow: hidden;
   *zoom: 1;
   padding: 20px 0 40px;
 }
 
-/* line 132, ../sass/style.sass */
+/* line 132, ../scss/style.sass */
 #menu h1 {
   float: left;
 }
-/* line 135, ../sass/style.sass */
+/* line 135, ../scss/style.sass */
 #menu h1 img {
   display: inline;
 }
-/* line 138, ../sass/style.sass */
+/* line 138, ../scss/style.sass */
 #menu ul {
   float: left;
   font-size: 0;
 }
-/* line 142, ../sass/style.sass */
+/* line 142, ../scss/style.sass */
 #menu ul li {
   display: -moz-inline-stack;
   display: inline-block;
@@ -232,7 +232,7 @@ form input[type='submit'] {
   *display: inline;
   margin-left: 3em;
 }
-/* line 146, ../sass/style.sass */
+/* line 146, ../scss/style.sass */
 #menu ul li a {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -241,7 +241,7 @@ form input[type='submit'] {
 }
 
 @media screen and (max-width: 760px) {
-  /* line 150, ../sass/style.sass */
+  /* line 150, ../scss/style.sass */
   h2 {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
@@ -249,32 +249,32 @@ form input[type='submit'] {
     line-height: 30px;
   }
 
-  /* line 152, ../sass/style.sass */
+  /* line 152, ../scss/style.sass */
   #menu_container {
     background: #991b29;
     margin-bottom: 10px;
     padding: 10px 0;
   }
 
-  /* line 158, ../sass/style.sass */
+  /* line 158, ../scss/style.sass */
   #menu h1 {
     margin-bottom: 10px;
     text-align: center;
     width: 100%;
   }
-  /* line 163, ../sass/style.sass */
+  /* line 163, ../scss/style.sass */
   #menu ul {
     float: none;
     text-align: center;
   }
-  /* line 167, ../sass/style.sass */
+  /* line 167, ../scss/style.sass */
   #menu ul li {
     margin: 0 1.5%;
     width: 30%;
   }
 }
 @media screen and (max-width: 520px) {
-  /* line 172, ../sass/style.sass */
+  /* line 172, ../scss/style.sass */
   h2 {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
@@ -282,7 +282,7 @@ form input[type='submit'] {
     line-height: 24px;
   }
 
-  /* line 175, ../sass/style.sass */
+  /* line 175, ../scss/style.sass */
   h3 {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
@@ -290,33 +290,33 @@ form input[type='submit'] {
     line-height: 20px;
   }
 
-  /* line 178, ../sass/style.sass */
+  /* line 178, ../scss/style.sass */
   .content {
     padding-left: 8px;
     padding-right: 8px;
   }
 
-  /* line 184, ../sass/style.sass */
+  /* line 184, ../scss/style.sass */
   #menu h1 {
     width: 100%;
     text-align: center;
   }
-  /* line 188, ../sass/style.sass */
+  /* line 188, ../scss/style.sass */
   #menu h1 img {
     width: 150px;
     height: 30px;
   }
-  /* line 192, ../sass/style.sass */
+  /* line 192, ../scss/style.sass */
   #menu ul {
     float: none;
     text-align: center;
   }
-  /* line 196, ../sass/style.sass */
+  /* line 196, ../scss/style.sass */
   #menu ul li {
     margin: 0 1.5%;
     width: 30%;
   }
-  /* line 200, ../sass/style.sass */
+  /* line 200, ../scss/style.sass */
   #menu ul li a {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
@@ -324,16 +324,16 @@ form input[type='submit'] {
     line-height: 44px;
   }
 }
-/* line 1, ../sass/_introduction_and_tickets.sass */
+/* line 1, ../scss/_introduction_and_tickets.sass */
 #event_container {
   padding-bottom: 20px;
 }
 
-/* line 8, ../sass/_introduction_and_tickets.sass */
+/* line 8, ../scss/_introduction_and_tickets.sass */
 #introduction_and_tickets {
   clear: both;
 }
-/* line 11, ../sass/_introduction_and_tickets.sass */
+/* line 11, ../scss/_introduction_and_tickets.sass */
 #introduction_and_tickets #introduction {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -350,26 +350,26 @@ form input[type='submit'] {
   margin-right: 7.25%;
   max-width: 590px;
 }
-/* line 19, ../sass/_introduction_and_tickets.sass */
+/* line 19, ../scss/_introduction_and_tickets.sass */
 #introduction_and_tickets #introduction h2 {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
 }
-/* line 22, ../sass/_introduction_and_tickets.sass */
+/* line 22, ../scss/_introduction_and_tickets.sass */
 #introduction_and_tickets #introduction h3 {
   color: #ffb3bb;
 }
-/* line 25, ../sass/_introduction_and_tickets.sass */
+/* line 25, ../scss/_introduction_and_tickets.sass */
 #introduction_and_tickets #introduction h3 + p {
   margin-top: 1.5em;
 }
-/* line 28, ../sass/_introduction_and_tickets.sass */
+/* line 28, ../scss/_introduction_and_tickets.sass */
 #introduction_and_tickets #introduction p {
   margin-bottom: 1.5em;
 }
-/* line 31, ../sass/_introduction_and_tickets.sass */
+/* line 31, ../scss/_introduction_and_tickets.sass */
 #introduction_and_tickets #introduction .event_details {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -379,7 +379,7 @@ form input[type='submit'] {
   color: #231f20;
   padding: 0 2em;
 }
-/* line 37, ../sass/_introduction_and_tickets.sass */
+/* line 37, ../scss/_introduction_and_tickets.sass */
 #introduction_and_tickets #tickets {
   display: -moz-inline-stack;
   display: inline-block;
@@ -392,12 +392,12 @@ form input[type='submit'] {
   width: 31.25%;
   max-width: 300px;
 }
-/* line 45, ../sass/_introduction_and_tickets.sass */
+/* line 45, ../scss/_introduction_and_tickets.sass */
 #introduction_and_tickets #tickets a.button {
   margin-bottom: 30px;
   width: 100%;
 }
-/* line 49, ../sass/_introduction_and_tickets.sass */
+/* line 49, ../scss/_introduction_and_tickets.sass */
 #introduction_and_tickets #tickets .buy_tickets {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -408,7 +408,7 @@ form input[type='submit'] {
   color: #231f20;
   position: relative;
 }
-/* line 56, ../sass/_introduction_and_tickets.sass */
+/* line 56, ../scss/_introduction_and_tickets.sass */
 #introduction_and_tickets #tickets .buy_tickets:before {
   content: "";
   position: absolute;
@@ -417,11 +417,11 @@ form input[type='submit'] {
   width: 100%;
   padding: 0 2px;
   height: 20px;
-  background-image: url('/img/bkgr/bkgr_buy_tickets.png?1383067047');
+  background-image: url('../images/bkgr/bkgr_buy_tickets.png?1383586485');
   background-size: 100% 20px;
   background-repeat: no-repeat;
 }
-/* line 70, ../sass/_introduction_and_tickets.sass */
+/* line 70, ../scss/_introduction_and_tickets.sass */
 #introduction_and_tickets #tickets .be_a_sponsor,
 #introduction_and_tickets #tickets .get_involved {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
@@ -432,14 +432,14 @@ form input[type='submit'] {
   background: white;
   color: #231f20;
 }
-/* line 77, ../sass/_introduction_and_tickets.sass */
+/* line 77, ../scss/_introduction_and_tickets.sass */
 #introduction_and_tickets #tickets .get_involved {
   background: #991b29;
   color: white;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 82, ../sass/_introduction_and_tickets.sass */
+  /* line 82, ../scss/_introduction_and_tickets.sass */
   #introduction_and_tickets #tickets .buy_tickets {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
@@ -448,27 +448,27 @@ form input[type='submit'] {
   }
 }
 @media screen and (max-width: 760px) {
-  /* line 86, ../sass/_introduction_and_tickets.sass */
+  /* line 86, ../scss/_introduction_and_tickets.sass */
   #introduction_and_tickets {
     text-align: center;
   }
-  /* line 89, ../sass/_introduction_and_tickets.sass */
+  /* line 89, ../scss/_introduction_and_tickets.sass */
   #introduction_and_tickets #introduction {
     width: 100%;
     max-width: 480px;
     margin: 0;
   }
-  /* line 94, ../sass/_introduction_and_tickets.sass */
+  /* line 94, ../scss/_introduction_and_tickets.sass */
   #introduction_and_tickets #introduction .event_details {
     display: none;
   }
-  /* line 97, ../sass/_introduction_and_tickets.sass */
+  /* line 97, ../scss/_introduction_and_tickets.sass */
   #introduction_and_tickets #tickets {
     width: 100%;
     max-width: 480px;
     margin: 0;
   }
-  /* line 101, ../sass/_introduction_and_tickets.sass */
+  /* line 101, ../scss/_introduction_and_tickets.sass */
   #introduction_and_tickets #tickets .buy_tickets {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
@@ -477,33 +477,33 @@ form input[type='submit'] {
   }
 }
 @media screen and (max-width: 520px) {
-  /* line 106, ../sass/_introduction_and_tickets.sass */
+  /* line 106, ../scss/_introduction_and_tickets.sass */
   #introduction_and_tickets #introduction {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 26px;
   }
-  /* line 109, ../sass/_introduction_and_tickets.sass */
+  /* line 109, ../scss/_introduction_and_tickets.sass */
   #introduction_and_tickets #introduction h2 {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
     font-size: 30px;
     line-height: 38px;
   }
-  /* line 112, ../sass/_introduction_and_tickets.sass */
+  /* line 112, ../scss/_introduction_and_tickets.sass */
   #introduction_and_tickets #introduction h3 {
     color: #ffb3bb;
   }
-  /* line 115, ../sass/_introduction_and_tickets.sass */
+  /* line 115, ../scss/_introduction_and_tickets.sass */
   #introduction_and_tickets #introduction h3 + p {
     margin-top: 1em;
   }
-  /* line 118, ../sass/_introduction_and_tickets.sass */
+  /* line 118, ../scss/_introduction_and_tickets.sass */
   #introduction_and_tickets #introduction p {
     margin-bottom: 1.5em;
   }
-  /* line 121, ../sass/_introduction_and_tickets.sass */
+  /* line 121, ../scss/_introduction_and_tickets.sass */
   #introduction_and_tickets #introduction .event_details {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
@@ -513,12 +513,12 @@ form input[type='submit'] {
     color: #231f20;
     padding: 0 2em;
   }
-  /* line 128, ../sass/_introduction_and_tickets.sass */
+  /* line 128, ../scss/_introduction_and_tickets.sass */
   #introduction_and_tickets #tickets a.button {
     margin-bottom: 10px;
     width: 100%;
   }
-  /* line 132, ../sass/_introduction_and_tickets.sass */
+  /* line 132, ../scss/_introduction_and_tickets.sass */
   #introduction_and_tickets #tickets .buy_tickets {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
@@ -526,7 +526,7 @@ form input[type='submit'] {
     line-height: 32px;
     padding: 20px 0;
   }
-  /* line 137, ../sass/_introduction_and_tickets.sass */
+  /* line 137, ../scss/_introduction_and_tickets.sass */
   #introduction_and_tickets #tickets .be_a_sponsor,
   #introduction_and_tickets #tickets .get_involved {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
@@ -536,11 +536,11 @@ form input[type='submit'] {
     padding: 12px 0;
   }
 }
-/* line 1, ../sass/_news_and_updates.sass */
+/* line 1, ../scss/_news_and_updates.sass */
 #news_and_updates {
   margin-top: 40px;
 }
-/* line 3, ../sass/_news_and_updates.sass */
+/* line 3, ../scss/_news_and_updates.sass */
 #news_and_updates h2 {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -548,34 +548,34 @@ form input[type='submit'] {
   line-height: 36px;
   text-align: center;
 }
-/* line 8, ../sass/_news_and_updates.sass */
+/* line 8, ../scss/_news_and_updates.sass */
 #news_and_updates #stories {
   display: table;
   border-spacing: 30px;
   margin: 0 -30px 0;
 }
-/* line 13, ../sass/_news_and_updates.sass */
+/* line 13, ../scss/_news_and_updates.sass */
 #news_and_updates #stories ul {
   display: block;
   height: 200px;
 }
-/* line 17, ../sass/_news_and_updates.sass */
+/* line 17, ../scss/_news_and_updates.sass */
 #news_and_updates #stories ul li {
   display: block;
   width: 100%;
   padding: 0;
   height: auto;
 }
-/* line 23, ../sass/_news_and_updates.sass */
+/* line 23, ../scss/_news_and_updates.sass */
 #news_and_updates #stories ul .from-now {
   font-size: 0.7em;
   text-transform: uppercase;
 }
-/* line 27, ../sass/_news_and_updates.sass */
+/* line 27, ../scss/_news_and_updates.sass */
 #news_and_updates #stories ul a {
   color: #bc2132;
 }
-/* line 30, ../sass/_news_and_updates.sass */
+/* line 30, ../scss/_news_and_updates.sass */
 #news_and_updates li {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -593,11 +593,11 @@ form input[type='submit'] {
   width: 30%;
   height: 275px;
 }
-/* line 42, ../sass/_news_and_updates.sass */
+/* line 42, ../scss/_news_and_updates.sass */
 #news_and_updates li.tweets h2 {
   margin-bottom: 20px;
 }
-/* line 45, ../sass/_news_and_updates.sass */
+/* line 45, ../scss/_news_and_updates.sass */
 #news_and_updates li h2 {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -606,12 +606,12 @@ form input[type='submit'] {
   text-align: left;
   padding: 0;
 }
-/* line 50, ../sass/_news_and_updates.sass */
+/* line 50, ../scss/_news_and_updates.sass */
 #news_and_updates li h2 a {
   text-decoration: none;
   color: #bc2132;
 }
-/* line 54, ../sass/_news_and_updates.sass */
+/* line 54, ../scss/_news_and_updates.sass */
 #news_and_updates li h3 {
   font-family: "Museo Sans", Helvetica, Arial, sans-serif;
   font-weight: 100;
@@ -619,39 +619,39 @@ form input[type='submit'] {
   line-height: 20px;
   margin-bottom: 20px;
 }
-/* line 58, ../sass/_news_and_updates.sass */
+/* line 58, ../scss/_news_and_updates.sass */
 #news_and_updates li h3 + p {
   margin-top: 1em;
 }
-/* line 61, ../sass/_news_and_updates.sass */
+/* line 61, ../scss/_news_and_updates.sass */
 #news_and_updates li p {
   margin-bottom: 1em;
 }
-/* line 64, ../sass/_news_and_updates.sass */
+/* line 64, ../scss/_news_and_updates.sass */
 #news_and_updates li a.psudeo_anchor {
   color: black;
   text-decoration: underline;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 71, ../sass/_news_and_updates.sass */
+  /* line 71, ../scss/_news_and_updates.sass */
   body #news_and_updates li:nth-child(2) {
     display: none;
   }
 }
 @media screen and (max-width: 760px) {
-  /* line 76, ../sass/_news_and_updates.sass */
+  /* line 76, ../scss/_news_and_updates.sass */
   #news_and_updates li:nth-child(2) {
     display: none;
   }
 }
 @media screen and (max-width: 520px) {
-  /* line 81, ../sass/_news_and_updates.sass */
+  /* line 81, ../scss/_news_and_updates.sass */
   #news_and_updates {
     display: block;
     margin: 20px 0 0;
   }
-  /* line 85, ../sass/_news_and_updates.sass */
+  /* line 85, ../scss/_news_and_updates.sass */
   #news_and_updates h2 {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
@@ -659,12 +659,12 @@ form input[type='submit'] {
     line-height: 28px;
     padding: 1em 0 1em;
   }
-  /* line 89, ../sass/_news_and_updates.sass */
+  /* line 89, ../scss/_news_and_updates.sass */
   #news_and_updates #stories {
     display: block;
     margin: 0;
   }
-  /* line 93, ../sass/_news_and_updates.sass */
+  /* line 93, ../scss/_news_and_updates.sass */
   #news_and_updates #stories li {
     color: black;
     display: block;
@@ -672,7 +672,7 @@ form input[type='submit'] {
     margin-bottom: 10px;
     padding: 10px;
   }
-  /* line 100, ../sass/_news_and_updates.sass */
+  /* line 100, ../scss/_news_and_updates.sass */
   #news_and_updates #stories li h2 {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
@@ -680,16 +680,16 @@ form input[type='submit'] {
     line-height: 28px;
   }
 }
-/* line 1, ../sass/_sponsors.sass */
+/* line 1, ../scss/_sponsors.sass */
 #sponsor_container {
   background: #991b29;
 }
 
-/* line 4, ../sass/_sponsors.sass */
+/* line 4, ../scss/_sponsors.sass */
 #sponsors {
   text-align: center;
 }
-/* line 7, ../sass/_sponsors.sass */
+/* line 7, ../scss/_sponsors.sass */
 #sponsors h2 {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -697,7 +697,7 @@ form input[type='submit'] {
   line-height: 36px;
   padding: 1em 0 0;
 }
-/* line 10, ../sass/_sponsors.sass */
+/* line 10, ../scss/_sponsors.sass */
 #sponsors h3 {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -706,13 +706,13 @@ form input[type='submit'] {
   color: #ffb3bb;
   padding: 1em 0 1em;
 }
-/* line 15, ../sass/_sponsors.sass */
+/* line 15, ../scss/_sponsors.sass */
 #sponsors .kind_is {
   text-align: center;
   border-bottom: 2px #bc2132 solid;
   font-size: 0px;
 }
-/* line 21, ../sass/_sponsors.sass */
+/* line 21, ../scss/_sponsors.sass */
 #sponsors .kind_is a {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -726,78 +726,89 @@ form input[type='submit'] {
   zoom: 1;
   *display: inline;
   text-align: center;
-  padding: 50px 0;
+  padding: 5px;
   background: white;
   margin-bottom: 30px;
 }
-/* line 29, ../sass/_sponsors.sass */
+/* line 29, ../scss/_sponsors.sass */
 #sponsors .kind_is a img {
   margin: 0 auto;
   max-width: 80%;
   text-align: center;
+  display: block;
 }
-/* line 36, ../sass/_sponsors.sass */
+/* line 37, ../scss/_sponsors.sass */
 #sponsors .kind_is.santa a {
   width: 100%;
 }
-/* line 39, ../sass/_sponsors.sass */
+/* line 40, ../scss/_sponsors.sass */
 #sponsors .kind_is.mrsclaus a {
   width: 48.4375%;
   margin-left: 3.125%;
 }
-/* line 43, ../sass/_sponsors.sass */
+/* line 44, ../scss/_sponsors.sass */
 #sponsors .kind_is.mrsclaus a:nth-child(2n+1) {
   margin-left: 0;
 }
-/* line 47, ../sass/_sponsors.sass */
+/* line 48, ../scss/_sponsors.sass */
 #sponsors .kind_is.elf a {
   width: 31.25%;
   margin-left: 3.125%;
 }
-/* line 51, ../sass/_sponsors.sass */
+/* line 52, ../scss/_sponsors.sass */
 #sponsors .kind_is.elf a:nth-child(3n+1) {
   margin-left: 0;
 }
-/* line 58, ../sass/_sponsors.sass */
+/* line 56, ../scss/_sponsors.sass */
+#sponsors .kind_is.in-kind a {
+  padding: 5px;
+  width: 22.4%;
+  margin-left: 3.125%;
+}
+/* line 61, ../scss/_sponsors.sass */
+#sponsors .kind_is.in-kind a:nth-child(4n+1) {
+  margin-left: 0;
+}
+/* line 68, ../scss/_sponsors.sass */
 #sponsors .kind_is.reindeer a, #sponsors .kind_is.snowflake a, #sponsors .kind_is.gingerbread a, #sponsors .kind_is.candycane a {
   width: 22.4%;
   margin-left: 3.125%;
 }
-/* line 62, ../sass/_sponsors.sass */
+/* line 72, ../scss/_sponsors.sass */
 #sponsors .kind_is.reindeer a:nth-child(4n+1), #sponsors .kind_is.snowflake a:nth-child(4n+1), #sponsors .kind_is.gingerbread a:nth-child(4n+1), #sponsors .kind_is.candycane a:nth-child(4n+1) {
   margin-left: 0;
 }
 
 @media screen and (max-width: 520px) {
-  /* line 67, ../sass/_sponsors.sass */
+  /* line 77, ../scss/_sponsors.sass */
   #sponsors h2 {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
   }
-  /* line 69, ../sass/_sponsors.sass */
+  /* line 79, ../scss/_sponsors.sass */
   #sponsors h3 {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
   }
-  /* line 77, ../sass/_sponsors.sass */
+  /* line 87, ../scss/_sponsors.sass */
   #sponsors .kind_is.reindeer a, #sponsors .kind_is.snowflake a, #sponsors .kind_is.gingerbread a, #sponsors .kind_is.candycane a {
     width: 31.25%;
     margin-left: 3.125%;
   }
-  /* line 81, ../sass/_sponsors.sass */
+  /* line 91, ../scss/_sponsors.sass */
   #sponsors .kind_is.reindeer a:nth-child(4n+1), #sponsors .kind_is.snowflake a:nth-child(4n+1), #sponsors .kind_is.gingerbread a:nth-child(4n+1), #sponsors .kind_is.candycane a:nth-child(4n+1) {
     margin-left: 3.125%;
   }
-  /* line 84, ../sass/_sponsors.sass */
+  /* line 94, ../scss/_sponsors.sass */
   #sponsors .kind_is.reindeer a:nth-child(3n+1), #sponsors .kind_is.snowflake a:nth-child(3n+1), #sponsors .kind_is.gingerbread a:nth-child(3n+1), #sponsors .kind_is.candycane a:nth-child(3n+1) {
     margin-left: 0;
   }
 }
-/* line 1, ../sass/_overview_and_features.sass */
+/* line 1, ../scss/_overview_and_features.sass */
 #overview {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -825,11 +836,11 @@ form input[type='submit'] {
   vertical-align: top;
   width: 65.625%;
 }
-/* line 14, ../sass/_overview_and_features.sass */
+/* line 14, ../scss/_overview_and_features.sass */
 #overview h2, #overview h3 {
   color: #bc2132;
 }
-/* line 18, ../sass/_overview_and_features.sass */
+/* line 18, ../scss/_overview_and_features.sass */
 #overview ul#date_and_location li {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -844,29 +855,29 @@ form input[type='submit'] {
   position: relative;
   vertical-align: top;
 }
-/* line 25, ../sass/_overview_and_features.sass */
+/* line 25, ../scss/_overview_and_features.sass */
 #overview ul#date_and_location li.date {
   width: 50%;
   margin-right: 10%;
 }
-/* line 29, ../sass/_overview_and_features.sass */
+/* line 29, ../scss/_overview_and_features.sass */
 #overview ul#date_and_location li.location {
   width: 40%;
 }
-/* line 32, ../sass/_overview_and_features.sass */
+/* line 32, ../scss/_overview_and_features.sass */
 #overview ul#date_and_location img {
   position: absolute;
   top: 0;
   left: 0;
 }
-/* line 37, ../sass/_overview_and_features.sass */
+/* line 37, ../scss/_overview_and_features.sass */
 #overview ul#date_and_location h2 {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
 }
-/* line 40, ../sass/_overview_and_features.sass */
+/* line 40, ../scss/_overview_and_features.sass */
 #overview ul#date_and_location span {
   display: block;
   font-family: "Museo Sans", Helvetica, Arial, sans-serif;
@@ -875,11 +886,11 @@ form input[type='submit'] {
   line-height: 22px;
   color: #333333;
 }
-/* line 45, ../sass/_overview_and_features.sass */
+/* line 45, ../scss/_overview_and_features.sass */
 #overview img#img_logo_dbfb {
   float: right;
 }
-/* line 49, ../sass/_overview_and_features.sass */
+/* line 49, ../scss/_overview_and_features.sass */
 #overview ul#featuring li {
   display: -moz-inline-stack;
   display: inline-block;
@@ -894,12 +905,12 @@ form input[type='submit'] {
   vertical-align: top;
   width: 30%;
 }
-/* line 56, ../sass/_overview_and_features.sass */
+/* line 56, ../scss/_overview_and_features.sass */
 #overview ul#featuring li:first-of-type {
   margin-left: 0;
 }
 
-/* line 59, ../sass/_overview_and_features.sass */
+/* line 59, ../scss/_overview_and_features.sass */
 #features {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -921,7 +932,7 @@ form input[type='submit'] {
   vertical-align: top;
   width: 31.25%;
 }
-/* line 69, ../sass/_overview_and_features.sass */
+/* line 69, ../scss/_overview_and_features.sass */
 #features h3 {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -929,12 +940,12 @@ form input[type='submit'] {
   line-height: 22px;
   color: #0084a6;
 }
-/* line 73, ../sass/_overview_and_features.sass */
+/* line 73, ../scss/_overview_and_features.sass */
 #features h3 + p,
 #features h3 + ul {
   margin-top: 0.5em;
 }
-/* line 77, ../sass/_overview_and_features.sass */
+/* line 77, ../scss/_overview_and_features.sass */
 #features p, #features ul {
   font-family: "Museo Sans", Helvetica, Arial, sans-serif;
   font-weight: 100;
@@ -943,35 +954,35 @@ form input[type='submit'] {
   color: #333333;
   margin-bottom: 0.5em;
 }
-/* line 82, ../sass/_overview_and_features.sass */
+/* line 82, ../scss/_overview_and_features.sass */
 #features p + h3 {
   margin-top: 1em;
 }
-/* line 85, ../sass/_overview_and_features.sass */
+/* line 85, ../scss/_overview_and_features.sass */
 #features ul#activities li {
   margin-bottom: 1.5em;
 }
-/* line 89, ../sass/_overview_and_features.sass */
+/* line 89, ../scss/_overview_and_features.sass */
 #features ul#entertainment li {
   margin-bottom: 1.5em;
   padding-left: 26%;
   position: relative;
 }
-/* line 94, ../sass/_overview_and_features.sass */
+/* line 94, ../scss/_overview_and_features.sass */
 #features ul#entertainment li h4 {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
 }
-/* line 96, ../sass/_overview_and_features.sass */
+/* line 96, ../scss/_overview_and_features.sass */
 #features ul#entertainment li span {
   font-family: "Museo Sans", Helvetica, Arial, sans-serif;
   font-weight: 100;
   font-size: 18px;
   line-height: 22px;
 }
-/* line 98, ../sass/_overview_and_features.sass */
+/* line 98, ../scss/_overview_and_features.sass */
 #features ul#entertainment li img {
   position: absolute;
   left: 0;
@@ -993,14 +1004,14 @@ form input[type='submit'] {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 109, ../sass/_overview_and_features.sass */
+  /* line 109, ../scss/_overview_and_features.sass */
   #overview {
     margin: 0 0 16px;
     max-width: none;
     width: 100%;
   }
 
-  /* line 114, ../sass/_overview_and_features.sass */
+  /* line 114, ../scss/_overview_and_features.sass */
   #features {
     margin: 0;
     max-width: none;
@@ -1008,7 +1019,7 @@ form input[type='submit'] {
   }
 }
 @media screen and (max-width: 768px) and (min-width: 521px) {
-  /* line 121, ../sass/_overview_and_features.sass */
+  /* line 121, ../scss/_overview_and_features.sass */
   #features ul#activities li {
     display: -moz-inline-stack;
     display: inline-block;
@@ -1020,11 +1031,11 @@ form input[type='submit'] {
     width: 47%;
     margin-bottom: 0.5em;
   }
-  /* line 127, ../sass/_overview_and_features.sass */
+  /* line 127, ../scss/_overview_and_features.sass */
   #features ul#activities li:first-of-type {
     margin-right: 6%;
   }
-  /* line 130, ../sass/_overview_and_features.sass */
+  /* line 130, ../scss/_overview_and_features.sass */
   #features ul#entertainment li {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -1040,54 +1051,54 @@ form input[type='submit'] {
     width: 30%;
     margin-left: 5%;
   }
-  /* line 138, ../sass/_overview_and_features.sass */
+  /* line 138, ../scss/_overview_and_features.sass */
   #features ul#entertainment li:nth-of-type(3n+1) {
     margin-left: 0;
   }
 }
 @media screen and (max-width: 520px) {
-  /* line 145, ../sass/_overview_and_features.sass */
+  /* line 145, ../scss/_overview_and_features.sass */
   #overview ul#date_and_location {
     text-align: center;
   }
-  /* line 148, ../sass/_overview_and_features.sass */
+  /* line 148, ../scss/_overview_and_features.sass */
   #overview ul#date_and_location li {
     display: block;
     padding-left: 0;
   }
-  /* line 152, ../sass/_overview_and_features.sass */
+  /* line 152, ../scss/_overview_and_features.sass */
   #overview ul#date_and_location li.date {
     width: 100%;
     margin-right: 0;
     margin-bottom: 10px;
   }
-  /* line 158, ../sass/_overview_and_features.sass */
+  /* line 158, ../scss/_overview_and_features.sass */
   #overview ul#date_and_location li.location {
     width: 100%;
   }
-  /* line 161, ../sass/_overview_and_features.sass */
+  /* line 161, ../scss/_overview_and_features.sass */
   #overview ul#date_and_location li h2 {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
   }
-  /* line 164, ../sass/_overview_and_features.sass */
+  /* line 164, ../scss/_overview_and_features.sass */
   #overview ul#date_and_location li img {
     display: none;
   }
-  /* line 167, ../sass/_overview_and_features.sass */
+  /* line 167, ../scss/_overview_and_features.sass */
   #overview img#img_logo_dbfb {
     display: none;
   }
-  /* line 172, ../sass/_overview_and_features.sass */
+  /* line 172, ../scss/_overview_and_features.sass */
   #overview ul#featuring li {
     width: 100%;
     margin-bottom: 0.5em;
     margin-left: 0;
   }
 
-  /* line 178, ../sass/_overview_and_features.sass */
+  /* line 178, ../scss/_overview_and_features.sass */
   #features ul#entertainment li {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -1102,22 +1113,22 @@ form input[type='submit'] {
     vertical-align: top;
     width: 100%;
   }
-  /* line 186, ../sass/_overview_and_features.sass */
+  /* line 186, ../scss/_overview_and_features.sass */
   #features ul#entertainment li:nth-of-type(3n+1) {
     margin-left: 0;
   }
 }
-/* line 1, ../sass/_connect_and_share.sass */
+/* line 1, ../scss/_connect_and_share.sass */
 .sidebar {
   width: 31.25%;
 }
 
-/* line 4, ../sass/_connect_and_share.sass */
+/* line 4, ../scss/_connect_and_share.sass */
 #connect_and_share {
   padding-bottom: 20px;
 }
 
-/* line 7, ../sass/_connect_and_share.sass */
+/* line 7, ../scss/_connect_and_share.sass */
 #stay_connected {
   display: -moz-inline-stack;
   display: inline-block;
@@ -1131,20 +1142,20 @@ form input[type='submit'] {
   vertical-align: top;
   width: 100%;
 }
-/* line 15, ../sass/_connect_and_share.sass */
+/* line 15, ../scss/_connect_and_share.sass */
 .page-template-tickets-php #stay_connected {
   width: 65.625%;
 }
-/* line 17, ../sass/_connect_and_share.sass */
+/* line 17, ../scss/_connect_and_share.sass */
 .page-template-tickets-php #stay_connected p {
   width: 60%;
 }
-/* line 20, ../sass/_connect_and_share.sass */
+/* line 20, ../scss/_connect_and_share.sass */
 #stay_connected p {
   max-width: 100%;
 }
 
-/* line 23, ../sass/_connect_and_share.sass */
+/* line 23, ../scss/_connect_and_share.sass */
 #share {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1159,11 +1170,11 @@ form input[type='submit'] {
   width: 31.25%;
   max-width: 300px;
 }
-/* line 30, ../sass/_connect_and_share.sass */
+/* line 30, ../scss/_connect_and_share.sass */
 .sidebar #share {
   margin-top: 25px;
 }
-/* line 33, ../sass/_connect_and_share.sass */
+/* line 33, ../scss/_connect_and_share.sass */
 #share a.share {
   display: -moz-inline-stack;
   display: inline-block;
@@ -1173,7 +1184,7 @@ form input[type='submit'] {
   *display: inline;
   margin-right: 16px;
 }
-/* line 37, ../sass/_connect_and_share.sass */
+/* line 37, ../scss/_connect_and_share.sass */
 #share a.share img {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -1184,45 +1195,45 @@ form input[type='submit'] {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 43, ../sass/_connect_and_share.sass */
+  /* line 43, ../scss/_connect_and_share.sass */
   #stay_connected p {
     max-width: 90%;
   }
 }
 @media screen and (max-width: 760px) {
-  /* line 47, ../sass/_connect_and_share.sass */
+  /* line 47, ../scss/_connect_and_share.sass */
   #stay_connected {
     text-align: center;
     margin-bottom: 2em;
     max-width: none;
     width: 100%;
   }
-  /* line 53, ../sass/_connect_and_share.sass */
+  /* line 53, ../scss/_connect_and_share.sass */
   .page-template-tickets-php #stay_connected {
     width: 100%;
     margin-bottom: 20px;
   }
-  /* line 56, ../sass/_connect_and_share.sass */
+  /* line 56, ../scss/_connect_and_share.sass */
   .page-template-tickets-php #stay_connected p {
     width: 100%;
   }
-  /* line 59, ../sass/_connect_and_share.sass */
+  /* line 59, ../scss/_connect_and_share.sass */
   #stay_connected p {
     max-width: none;
   }
 
-  /* line 62, ../sass/_connect_and_share.sass */
+  /* line 62, ../scss/_connect_and_share.sass */
   #share {
     text-align: center;
     max-width: none;
     width: 100%;
   }
 }
-/* line 3, ../sass/_blog.sass */
+/* line 3, ../scss/_blog.sass */
 #blog_container .article-header {
   margin-bottom: 20px;
 }
-/* line 6, ../sass/_blog.sass */
+/* line 6, ../scss/_blog.sass */
 #blog_container .articles {
   display: -moz-inline-stack;
   display: inline-block;
@@ -1233,25 +1244,25 @@ form input[type='submit'] {
   width: 65.625%;
   margin-right: 3.125%;
 }
-/* line 11, ../sass/_blog.sass */
+/* line 11, ../scss/_blog.sass */
 #blog_container .wp-caption {
   padding: 10px;
   background-color: #eeeeee;
   margin-bottom: 20px;
 }
-/* line 16, ../sass/_blog.sass */
+/* line 16, ../scss/_blog.sass */
 #blog_container .wp-caption img {
   display: block;
   margin-bottom: 10px;
 }
-/* line 20, ../sass/_blog.sass */
+/* line 20, ../scss/_blog.sass */
 #blog_container .wp-caption p {
   font-family: "Museo Sans", Helvetica, Arial, sans-serif;
   font-weight: 100;
   font-size: 16px;
   line-height: 20px;
 }
-/* line 26, ../sass/_blog.sass */
+/* line 26, ../scss/_blog.sass */
 #blog_container .article {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -1280,7 +1291,7 @@ form input[type='submit'] {
   width: 100%;
   margin-bottom: 20px;
 }
-/* line 40, ../sass/_blog.sass */
+/* line 40, ../scss/_blog.sass */
 #blog_container .article h1 {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -1288,11 +1299,11 @@ form input[type='submit'] {
   line-height: 36px;
   color: #bc2132;
 }
-/* line 45, ../sass/_blog.sass */
+/* line 45, ../scss/_blog.sass */
 #blog_container .article h2 a {
   color: #bc2132;
 }
-/* line 48, ../sass/_blog.sass */
+/* line 48, ../scss/_blog.sass */
 #blog_container .article .metadata {
   margin: 1em 0 1.5em;
   font-family: "Museo Sans", Helvetica, Arial, sans-serif;
@@ -1300,15 +1311,15 @@ form input[type='submit'] {
   font-size: 16px;
   line-height: 20px;
 }
-/* line 55, ../sass/_blog.sass */
+/* line 55, ../scss/_blog.sass */
 #blog_container .article p:first-of-type {
   clear: both;
 }
-/* line 58, ../sass/_blog.sass */
+/* line 58, ../scss/_blog.sass */
 #blog_container .article p:last-of-type {
   margin-bottom: 0;
 }
-/* line 61, ../sass/_blog.sass */
+/* line 61, ../scss/_blog.sass */
 #blog_container .sidebar {
   display: -moz-inline-stack;
   display: inline-block;
@@ -1318,7 +1329,7 @@ form input[type='submit'] {
   *display: inline;
   width: 31.25%;
 }
-/* line 65, ../sass/_blog.sass */
+/* line 65, ../scss/_blog.sass */
 #blog_container #connect_and_share {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -1333,17 +1344,17 @@ form input[type='submit'] {
   text-align: left;
   vertical-align: top;
 }
-/* line 75, ../sass/_blog.sass */
+/* line 75, ../scss/_blog.sass */
 #blog_container #connect_and_share #stay_connected {
   margin-bottom: 2em;
   max-width: none;
   width: 100%;
 }
-/* line 80, ../sass/_blog.sass */
+/* line 80, ../scss/_blog.sass */
 #blog_container #connect_and_share #stay_connected p {
   max-width: none;
 }
-/* line 85, ../sass/_blog.sass */
+/* line 85, ../scss/_blog.sass */
 #blog_container #connect_and_share #stay_connected form input {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1351,13 +1362,13 @@ form input[type='submit'] {
   width: 100%;
   margin-bottom: 0.5em;
 }
-/* line 90, ../sass/_blog.sass */
+/* line 90, ../scss/_blog.sass */
 #blog_container #connect_and_share #share {
   max-width: none;
   width: 100%;
 }
 
-/* line 95, ../sass/_blog.sass */
+/* line 95, ../scss/_blog.sass */
 .pagination li {
   display: -moz-inline-stack;
   display: inline-block;
@@ -1368,25 +1379,25 @@ form input[type='submit'] {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 100, ../sass/_blog.sass */
+  /* line 100, ../scss/_blog.sass */
   #blog_container .articles {
     width: 100%;
     margin: 0 0 20px;
   }
-  /* line 104, ../sass/_blog.sass */
+  /* line 104, ../scss/_blog.sass */
   #blog_container .article {
     margin: 0 0 20px;
     max-width: none;
     width: 100%;
   }
-  /* line 109, ../sass/_blog.sass */
+  /* line 109, ../scss/_blog.sass */
   #blog_container #connect_and_share {
     margin: 0 0 20px;
     max-width: none;
     width: 100%;
     text-align: center;
   }
-  /* line 117, ../sass/_blog.sass */
+  /* line 117, ../scss/_blog.sass */
   #blog_container #connect_and_share #stay_connected form input {
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
@@ -1396,7 +1407,7 @@ form input[type='submit'] {
   }
 }
 @media screen and (max-width: 520px) {
-  /* line 124, ../sass/_blog.sass */
+  /* line 124, ../scss/_blog.sass */
   #blog_container .sidebar {
     display: -moz-inline-stack;
     display: inline-block;
@@ -1406,23 +1417,28 @@ form input[type='submit'] {
     *display: inline;
     width: 100%;
   }
-  /* line 128, ../sass/_blog.sass */
+  /* line 128, ../scss/_blog.sass */
   #blog_container .article .author,
   #blog_container .article .date {
     float: none;
     display: block;
     margin: 0;
   }
-  /* line 134, ../sass/_blog.sass */
+  /* line 134, ../scss/_blog.sass */
   #blog_container .article .author {
     margin-top: 1em;
   }
-  /* line 136, ../sass/_blog.sass */
+  /* line 136, ../scss/_blog.sass */
   #blog_container .article .date {
     margin-bottom: 1em;
   }
 }
-/* line 1, ../sass/_tickets.sass */
+/* line 2, ../scss/_tickets.sass */
+.page-template-tickets-php #stay_connected input[type="text"] {
+  margin-right: 10px;
+}
+
+/* line 5, ../scss/_tickets.sass */
 .ticket_container,
 .raffle_container,
 .sponsor_container {
@@ -1431,7 +1447,7 @@ form input[type='submit'] {
   padding: 20px;
   width: 100%;
 }
-/* line 38, ../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .ticket_container:after,
 .raffle_container:after,
 .sponsor_container:after {
@@ -1439,7 +1455,7 @@ form input[type='submit'] {
   display: table;
   clear: both;
 }
-/* line 10, ../sass/_tickets.sass */
+/* line 14, ../scss/_tickets.sass */
 .ticket_container h2,
 .raffle_container h2,
 .sponsor_container h2 {
@@ -1452,7 +1468,7 @@ form input[type='submit'] {
   padding-left: 32px;
   position: relative;
 }
-/* line 17, ../sass/_tickets.sass */
+/* line 21, ../scss/_tickets.sass */
 .ticket_container h2 img,
 .raffle_container h2 img,
 .sponsor_container h2 img {
@@ -1460,7 +1476,7 @@ form input[type='submit'] {
   top: 11px;
   left: 0;
 }
-/* line 22, ../sass/_tickets.sass */
+/* line 26, ../scss/_tickets.sass */
 .ticket_container .button,
 .raffle_container .button,
 .sponsor_container .button {
@@ -1473,13 +1489,13 @@ form input[type='submit'] {
   float: right;
   padding: 0 0.75em;
 }
-/* line 30, ../sass/_tickets.sass */
+/* line 34, ../scss/_tickets.sass */
 .ticket_container .tickets,
 .raffle_container .tickets,
 .sponsor_container .tickets {
   clear: both;
 }
-/* line 33, ../sass/_tickets.sass */
+/* line 37, ../scss/_tickets.sass */
 .ticket_container .tickets li,
 .raffle_container .tickets li,
 .sponsor_container .tickets li {
@@ -1490,13 +1506,13 @@ form input[type='submit'] {
   display: block;
   margin-bottom: 0.5em;
 }
-/* line 38, ../sass/_tickets.sass */
+/* line 42, ../scss/_tickets.sass */
 .ticket_container .tickets li:last-of-type,
 .raffle_container .tickets li:last-of-type,
 .sponsor_container .tickets li:last-of-type {
   margin-bottom: 0;
 }
-/* line 41, ../sass/_tickets.sass */
+/* line 45, ../scss/_tickets.sass */
 .ticket_container .tickets ol li,
 .raffle_container .tickets ol li,
 .sponsor_container .tickets ol li {
@@ -1508,19 +1524,19 @@ form input[type='submit'] {
   *display: inline;
   vertical-align: top;
 }
-/* line 45, ../sass/_tickets.sass */
+/* line 49, ../scss/_tickets.sass */
 .ticket_container .tickets .price,
 .raffle_container .tickets .price,
 .sponsor_container .tickets .price {
   min-width: 80px;
 }
-/* line 48, ../sass/_tickets.sass */
+/* line 52, ../scss/_tickets.sass */
 .ticket_container .tickets .details span,
 .raffle_container .tickets .details span,
 .sponsor_container .tickets .details span {
   display: block;
 }
-/* line 51, ../sass/_tickets.sass */
+/* line 55, ../scss/_tickets.sass */
 .ticket_container .tickets .details span.description,
 .raffle_container .tickets .details span.description,
 .sponsor_container .tickets .details span.description {
@@ -1530,7 +1546,7 @@ form input[type='submit'] {
   line-height: 18px;
   margin-top: 0.25em;
 }
-/* line 55, ../sass/_tickets.sass */
+/* line 59, ../scss/_tickets.sass */
 .ticket_container .fine_print,
 .raffle_container .fine_print,
 .sponsor_container .fine_print {
@@ -1541,35 +1557,35 @@ form input[type='submit'] {
   color: #dd9098;
 }
 
-/* line 59, ../sass/_tickets.sass */
+/* line 63, ../scss/_tickets.sass */
 .ticket_container {
   background: #fffaec;
   margin-top: 20px;
 }
 
-/* line 63, ../sass/_tickets.sass */
+/* line 67, ../scss/_tickets.sass */
 .raffle_container {
   background: #fffcf5;
 }
 
-/* line 66, ../sass/_tickets.sass */
+/* line 70, ../scss/_tickets.sass */
 .sponsor_container {
   background: #fffaec;
   margin-bottom: 20px;
 }
-/* line 70, ../sass/_tickets.sass */
+/* line 74, ../scss/_tickets.sass */
 .sponsor_container h2 {
   margin-bottom: 0;
 }
 
 @media screen and (max-width: 520px) {
-  /* line 74, ../sass/_tickets.sass */
+  /* line 78, ../scss/_tickets.sass */
   .ticket_container,
   .raffle_container,
   .sponsor_container {
     text-align: center;
   }
-  /* line 78, ../sass/_tickets.sass */
+  /* line 82, ../scss/_tickets.sass */
   .ticket_container h2,
   .raffle_container h2,
   .sponsor_container h2 {
@@ -1581,14 +1597,14 @@ form input[type='submit'] {
     padding: 0;
     margin-bottom: 0.25em;
   }
-  /* line 84, ../sass/_tickets.sass */
+  /* line 88, ../scss/_tickets.sass */
   .ticket_container h2 img,
   .raffle_container h2 img,
   .sponsor_container h2 img {
     top: 0;
     display: none;
   }
-  /* line 88, ../sass/_tickets.sass */
+  /* line 92, ../scss/_tickets.sass */
   .ticket_container .button,
   .raffle_container .button,
   .sponsor_container .button {
@@ -1596,14 +1612,14 @@ form input[type='submit'] {
     width: 100%;
     max-width: 320px;
   }
-  /* line 93, ../sass/_tickets.sass */
+  /* line 97, ../scss/_tickets.sass */
   .ticket_container .tickets li,
   .raffle_container .tickets li,
   .sponsor_container .tickets li {
     margin-top: 1em;
     margin-bottom: 0;
   }
-  /* line 97, ../sass/_tickets.sass */
+  /* line 101, ../scss/_tickets.sass */
   .ticket_container .tickets ol li,
   .raffle_container .tickets ol li,
   .sponsor_container .tickets ol li {
@@ -1611,7 +1627,7 @@ form input[type='submit'] {
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 102, ../sass/_tickets.sass */
+  /* line 106, ../scss/_tickets.sass */
   .ticket_container .tickets .price,
   .raffle_container .tickets .price,
   .sponsor_container .tickets .price {

@@ -22,7 +22,7 @@
 			+border-radius(4px)
 			+inline-block
 			:text-align center
-			:padding 50px 0
+			:padding 5px
 			:background #FFF//rgba(255,255,255,0.5)
 			:margin-bottom 30px
 
@@ -30,6 +30,7 @@
 				:margin 0 auto
 				:max-width 80%
 				:text-align center
+				:display block
 		
 
 		&.santa
@@ -50,6 +51,15 @@
 					:left 3.125%
 				&:nth-child(3n+1) // Setup for 3UP
 					:margin-left 0
+
+		&.in-kind
+			a
+				:padding 5px
+				:width 22.40%
+				:margin-left 3.125%
+				
+				&:nth-child(4n+1) // Setup for 4UP
+					:margin-left 0	 
 
 		&.reindeer,
 		&.snowflake,

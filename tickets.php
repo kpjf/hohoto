@@ -27,7 +27,7 @@ Template Name: Tickets Page
 				<!-- Ticket Code -->
 				<div class="ticket_container">
 
-					<h2><img src="/img/icon_ticket.png"/>Tickets</h2>
+					<h2><img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon_ticket.png"/>Tickets</h2>
 					<a href="https://www.uniiverse.com/listings/hohoto-2013-supporting-the-daily-bread-food-bank-toronto-ZBHGW" class="button">Buy Tickets</a>
 
 					 <ul class="tickets">
@@ -53,7 +53,7 @@ Template Name: Tickets Page
 				</div>
 				<div class="raffle_container">
 
-					 <h2><img src="/img/icon_raffle.png"/>Raffle Ticket Pre-order*</h2>
+					 <h2><img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon_raffle.png"/>Raffle Ticket Pre-order*</h2>
 					 <a href="https://www.uniiverse.com/listings/hohoto-2013-supporting-the-daily-bread-food-bank-toronto-ZBHGW" class="button">Add Raffle Tickets</a>
 
 					 <ul class="tickets">
@@ -82,7 +82,7 @@ Template Name: Tickets Page
 
 				<div class="sponsor_container">
 
-					 <h2><img src="/img/icon_sponsor.png"/>Sponsorship</h2>
+					 <h2><img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon_sponsor.png"/>Sponsorship</h2>
 					 <a href="/become-a-sponsor" class="button">Become a sponsor</a>
 
 				</div>
@@ -123,10 +123,11 @@ Template Name: Tickets Page
 				?>
 				<ul id="entertainment">
 					<?php
-						while ( $entertainment->have_posts() ) : $entertainment->the_post(); 					
+						while ( $entertainment->have_posts() ) : $entertainment->the_post();
+							$image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); 
 					?>
 						<li>
-						<img alt="" src="<?php echo get_template_directory_uri(); ?>/library/images/hold_headshot.png"/><!--
+						<img src="<?php echo $image[0]; ?>" alt="<?php get_the_title(); ?>" /><!--
 						--><h4><?php the_title(); ?></h4><!--
 						--><span><?php echo get_the_excerpt(); ?></span>
 					</li>
@@ -146,9 +147,15 @@ Template Name: Tickets Page
 			<h2>Stay connected</h2>
 			<p>Join our mailing list to stay up to date on event comings and going.</p>
 
-			<form>
-				<input type="text" name="email_address" placeholder="Your email address" />
-				<input type="submit" value="Join"/>
+			<form action="http://hohoto.us6.list-manage2.com/subscribe/post?u=67a33ff465a0ef22fdc2184b8&amp;id=076c32d755" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+				<input type="text" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Your email address" />
+
+				<input type="submit" name="subscribe" id="mc-embedded-subscribe" value="Join"/>
+
+				<div id="mce-responses" class="clear">
+					<div class="response" id="mce-error-response" style="display:none"></div>
+					<div class="response" id="mce-success-response" style="display:none"></div>
+				</div>
 			</form>
 
 		</div><!--
@@ -157,8 +164,8 @@ Template Name: Tickets Page
 			<h2>Tell your friends</h2>
 			<p>Share HoHoTO with everyone you care about.</p>
 
-			<a href="#" class="share facebook"><img alt="" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_facebook.png"/></a><!--
-			--><a href="#" class="share twitter"><img alt="" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_twitter.png"/></a><!--
+			<a href="https://www.facebook.com/HoHoTO" class="share facebook"><img alt="" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_facebook.png"/></a><!--
+			--><a href="http://twitter.com/hohoto" class="share twitter"><img alt="" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_twitter.png"/></a><!--
 			--><a href="#" class="share google"><img alt="" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_google.png"/></a>
 		</div>
 	</div>
