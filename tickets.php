@@ -53,7 +53,6 @@ Template Name: Tickets Page
 				</div>
 				<div class="raffle_container">
 
-
 					 <h2><img src="/img/icon_raffle.png"/>Raffle Ticket Pre-order*</h2>
 					 <a href="https://www.uniiverse.com/listings/hohoto-2013-supporting-the-daily-bread-food-bank-toronto-ZBHGW" class="button">Add Raffle Tickets</a>
 
@@ -79,6 +78,14 @@ Template Name: Tickets Page
 					</ul>
 
 					 <span class="fine_print">*does not include admission.</span>
+				</div>
+
+				<div class="sponsor_container">
+
+					 <h2><img src="/img/icon_sponsor.png"/>Sponsorship</h2>
+					 <a href="/become-a-sponsor" class="button">Become a sponsor</a>
+
+				</div>
 
 				<h2>Holiday Party Central</h2>
 				<p>Party with 600 of your favourite startup, tech, social media, and design friends.</p>

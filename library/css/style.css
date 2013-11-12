@@ -1424,14 +1424,25 @@ form input[type='submit'] {
 }
 /* line 1, ../sass/_tickets.sass */
 .ticket_container,
-.raffle_container {
+.raffle_container,
+.sponsor_container {
+  *zoom: 1;
   margin: 0 -20px;
   padding: 20px;
   width: 100%;
 }
-/* line 8, ../sass/_tickets.sass */
+/* line 38, ../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.ticket_container:after,
+.raffle_container:after,
+.sponsor_container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 10, ../sass/_tickets.sass */
 .ticket_container h2,
-.raffle_container h2 {
+.raffle_container h2,
+.sponsor_container h2 {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 22px;
@@ -1441,16 +1452,18 @@ form input[type='submit'] {
   padding-left: 32px;
   position: relative;
 }
-/* line 15, ../sass/_tickets.sass */
+/* line 17, ../sass/_tickets.sass */
 .ticket_container h2 img,
-.raffle_container h2 img {
+.raffle_container h2 img,
+.sponsor_container h2 img {
   position: absolute;
   top: 11px;
   left: 0;
 }
-/* line 20, ../sass/_tickets.sass */
+/* line 22, ../sass/_tickets.sass */
 .ticket_container .button,
-.raffle_container .button {
+.raffle_container .button,
+.sponsor_container .button {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -1460,14 +1473,16 @@ form input[type='submit'] {
   float: right;
   padding: 0 0.75em;
 }
-/* line 27, ../sass/_tickets.sass */
+/* line 30, ../sass/_tickets.sass */
 .ticket_container .tickets,
-.raffle_container .tickets {
+.raffle_container .tickets,
+.sponsor_container .tickets {
   clear: both;
 }
-/* line 29, ../sass/_tickets.sass */
+/* line 33, ../sass/_tickets.sass */
 .ticket_container .tickets li,
-.raffle_container .tickets li {
+.raffle_container .tickets li,
+.sponsor_container .tickets li {
   font-family: "Museo Sans", Helvetica, Arial, sans-serif;
   font-weight: 100;
   font-size: 18px;
@@ -1475,14 +1490,16 @@ form input[type='submit'] {
   display: block;
   margin-bottom: 0.5em;
 }
-/* line 34, ../sass/_tickets.sass */
+/* line 38, ../sass/_tickets.sass */
 .ticket_container .tickets li:last-of-type,
-.raffle_container .tickets li:last-of-type {
+.raffle_container .tickets li:last-of-type,
+.sponsor_container .tickets li:last-of-type {
   margin-bottom: 0;
 }
-/* line 37, ../sass/_tickets.sass */
+/* line 41, ../sass/_tickets.sass */
 .ticket_container .tickets ol li,
-.raffle_container .tickets ol li {
+.raffle_container .tickets ol li,
+.sponsor_container .tickets ol li {
   display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
@@ -1491,28 +1508,32 @@ form input[type='submit'] {
   *display: inline;
   vertical-align: top;
 }
-/* line 41, ../sass/_tickets.sass */
+/* line 45, ../sass/_tickets.sass */
 .ticket_container .tickets .price,
-.raffle_container .tickets .price {
+.raffle_container .tickets .price,
+.sponsor_container .tickets .price {
   min-width: 80px;
 }
-/* line 44, ../sass/_tickets.sass */
+/* line 48, ../sass/_tickets.sass */
 .ticket_container .tickets .details span,
-.raffle_container .tickets .details span {
+.raffle_container .tickets .details span,
+.sponsor_container .tickets .details span {
   display: block;
 }
-/* line 47, ../sass/_tickets.sass */
+/* line 51, ../sass/_tickets.sass */
 .ticket_container .tickets .details span.description,
-.raffle_container .tickets .details span.description {
+.raffle_container .tickets .details span.description,
+.sponsor_container .tickets .details span.description {
   font-family: "Museo Sans", Helvetica, Arial, sans-serif;
   font-weight: 100;
   font-size: 14px;
   line-height: 18px;
   margin-top: 0.25em;
 }
-/* line 51, ../sass/_tickets.sass */
+/* line 55, ../sass/_tickets.sass */
 .ticket_container .fine_print,
-.raffle_container .fine_print {
+.raffle_container .fine_print,
+.sponsor_container .fine_print {
   font-family: "Museo Sans", Helvetica, Arial, sans-serif;
   font-weight: 100;
   font-size: 14px;
@@ -1520,27 +1541,38 @@ form input[type='submit'] {
   color: #dd9098;
 }
 
-/* line 55, ../sass/_tickets.sass */
+/* line 59, ../sass/_tickets.sass */
 .ticket_container {
-  background: #e6e6e6;
+  background: #fffaec;
   margin-top: 20px;
 }
 
-/* line 59, ../sass/_tickets.sass */
+/* line 63, ../sass/_tickets.sass */
 .raffle_container {
-  background: #f2f2f2;
+  background: #fffcf5;
+}
+
+/* line 66, ../sass/_tickets.sass */
+.sponsor_container {
+  background: #fffaec;
   margin-bottom: 20px;
+}
+/* line 70, ../sass/_tickets.sass */
+.sponsor_container h2 {
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 520px) {
-  /* line 64, ../sass/_tickets.sass */
+  /* line 74, ../sass/_tickets.sass */
   .ticket_container,
-  .raffle_container {
+  .raffle_container,
+  .sponsor_container {
     text-align: center;
   }
-  /* line 67, ../sass/_tickets.sass */
+  /* line 78, ../sass/_tickets.sass */
   .ticket_container h2,
-  .raffle_container h2 {
+  .raffle_container h2,
+  .sponsor_container h2 {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -1548,35 +1580,40 @@ form input[type='submit'] {
     float: none;
     padding: 0;
   }
-  /* line 72, ../sass/_tickets.sass */
+  /* line 83, ../sass/_tickets.sass */
   .ticket_container h2 img,
-  .raffle_container h2 img {
+  .raffle_container h2 img,
+  .sponsor_container h2 img {
     top: 0;
     display: none;
   }
-  /* line 76, ../sass/_tickets.sass */
+  /* line 87, ../sass/_tickets.sass */
   .ticket_container .button,
-  .raffle_container .button {
+  .raffle_container .button,
+  .sponsor_container .button {
     float: none;
     width: 100%;
     max-width: 320px;
   }
-  /* line 81, ../sass/_tickets.sass */
+  /* line 92, ../sass/_tickets.sass */
   .ticket_container .tickets li,
-  .raffle_container .tickets li {
+  .raffle_container .tickets li,
+  .sponsor_container .tickets li {
     margin-top: 1em;
     margin-bottom: 0;
   }
-  /* line 85, ../sass/_tickets.sass */
+  /* line 96, ../sass/_tickets.sass */
   .ticket_container .tickets ol li,
-  .raffle_container .tickets ol li {
+  .raffle_container .tickets ol li,
+  .sponsor_container .tickets ol li {
     display: block;
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 90, ../sass/_tickets.sass */
+  /* line 101, ../sass/_tickets.sass */
   .ticket_container .tickets .price,
-  .raffle_container .tickets .price {
+  .raffle_container .tickets .price,
+  .sponsor_container .tickets .price {
     min-width: 0;
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
