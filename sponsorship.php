@@ -79,8 +79,8 @@ Template Name: Sponsorship Page
 							</ol>
 							<a href="mailto:sponsors@hohoto.ca?subject=Santa%20Sponsorship" class="button">Get in touch</a>
 						</li><li>
-							<h2>Mrs. Claus</h2>
-							<h3>$7,500 Daily Bread Donation</h3>
+							<h2>Angel</h2>
+							<h3>Let's talk</h3>
 
 							<p>Want to go above and beyond to make this year’s HoHoTO the best one yet? Please contact us to discuss the details of your contribution and our commitment to you, including:</p>
 							<ol>
