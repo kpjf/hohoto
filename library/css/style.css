@@ -146,12 +146,28 @@ p {
 }
 
 /* line 94, ../scss/style.sass */
+.entry-content blockquote {
+  font-style: italic;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+/* line 99, ../scss/style.sass */
+.entry-content ul {
+  list-style: disc;
+  padding-left: 25px;
+}
+/* line 103, ../scss/style.sass */
+.entry-content ul li {
+  margin-bottom: 10px;
+}
+
+/* line 107, ../scss/style.sass */
 h2 + p, h3 + p,
 h2 + ul, h3 + ul {
   margin-top: 0.25em;
 }
 
-/* line 100, ../scss/style.sass */
+/* line 113, ../scss/style.sass */
 form input[type='text'] {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -171,11 +187,11 @@ form input[type='text'] {
   outline: none;
   padding: 8px 16px;
 }
-/* line 109, ../scss/style.sass */
+/* line 122, ../scss/style.sass */
 form input[type='text']:focus {
   background: #e6f7ff;
 }
-/* line 112, ../scss/style.sass */
+/* line 125, ../scss/style.sass */
 form input[type='submit'] {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -197,32 +213,32 @@ form input[type='submit'] {
   padding: 8px 16px;
 }
 
-/* line 123, ../scss/style.sass */
+/* line 136, ../scss/style.sass */
 .sidebar {
   width: 31.25%;
 }
 
-/* line 127, ../scss/style.sass */
+/* line 140, ../scss/style.sass */
 #menu_container {
   overflow: hidden;
   *zoom: 1;
   padding: 20px 0 40px;
 }
 
-/* line 132, ../scss/style.sass */
+/* line 145, ../scss/style.sass */
 #menu h1 {
   float: left;
 }
-/* line 135, ../scss/style.sass */
+/* line 148, ../scss/style.sass */
 #menu h1 img {
   display: inline;
 }
-/* line 138, ../scss/style.sass */
+/* line 151, ../scss/style.sass */
 #menu ul {
   float: left;
   font-size: 0;
 }
-/* line 142, ../scss/style.sass */
+/* line 155, ../scss/style.sass */
 #menu ul li {
   display: -moz-inline-stack;
   display: inline-block;
@@ -232,7 +248,7 @@ form input[type='submit'] {
   *display: inline;
   margin-left: 3em;
 }
-/* line 146, ../scss/style.sass */
+/* line 159, ../scss/style.sass */
 #menu ul li a {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -241,7 +257,7 @@ form input[type='submit'] {
 }
 
 @media screen and (max-width: 760px) {
-  /* line 150, ../scss/style.sass */
+  /* line 163, ../scss/style.sass */
   h2 {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
@@ -249,32 +265,32 @@ form input[type='submit'] {
     line-height: 30px;
   }
 
-  /* line 152, ../scss/style.sass */
+  /* line 165, ../scss/style.sass */
   #menu_container {
     background: #991b29;
     margin-bottom: 10px;
     padding: 10px 0;
   }
 
-  /* line 158, ../scss/style.sass */
+  /* line 171, ../scss/style.sass */
   #menu h1 {
     margin-bottom: 10px;
     text-align: center;
     width: 100%;
   }
-  /* line 163, ../scss/style.sass */
+  /* line 176, ../scss/style.sass */
   #menu ul {
     float: none;
     text-align: center;
   }
-  /* line 167, ../scss/style.sass */
+  /* line 180, ../scss/style.sass */
   #menu ul li {
     margin: 0 1.5%;
     width: 30%;
   }
 }
 @media screen and (max-width: 520px) {
-  /* line 172, ../scss/style.sass */
+  /* line 185, ../scss/style.sass */
   h2 {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
@@ -282,7 +298,7 @@ form input[type='submit'] {
     line-height: 24px;
   }
 
-  /* line 175, ../scss/style.sass */
+  /* line 188, ../scss/style.sass */
   h3 {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
@@ -290,33 +306,33 @@ form input[type='submit'] {
     line-height: 20px;
   }
 
-  /* line 178, ../scss/style.sass */
+  /* line 191, ../scss/style.sass */
   .content {
     padding-left: 8px;
     padding-right: 8px;
   }
 
-  /* line 184, ../scss/style.sass */
+  /* line 197, ../scss/style.sass */
   #menu h1 {
     width: 100%;
     text-align: center;
   }
-  /* line 188, ../scss/style.sass */
+  /* line 201, ../scss/style.sass */
   #menu h1 img {
     width: 150px;
     height: 30px;
   }
-  /* line 192, ../scss/style.sass */
+  /* line 205, ../scss/style.sass */
   #menu ul {
     float: none;
     text-align: center;
   }
-  /* line 196, ../scss/style.sass */
+  /* line 209, ../scss/style.sass */
   #menu ul li {
     margin: 0 1.5%;
     width: 30%;
   }
-  /* line 200, ../scss/style.sass */
+  /* line 213, ../scss/style.sass */
   #menu ul li a {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
