@@ -14,7 +14,7 @@ Template Name: Home Page
 
 				<p>Join us for Toronto’s biggest holiday party, in support of the Daily Bread Food Bank.</p>
 
-				<a href="#" class="button event_details">Event Details</a>
+				<a href="/tickets/" class="button event_details">Event Details</a>
 			</div><!--
 
 			--><div id="tickets">

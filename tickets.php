@@ -105,8 +105,8 @@ Template Name: Tickets Page
 				
 				<ul id="activities">
 					<li>
-						<h3>Benefit Raffle</h3>
-						<p>Try your luck at the benefit raffle for some great sports, tech, reading, foodie, and other prizes.</p>
+						<h3>Raffle</h3>
+						<p>Try your luck at the raffle for some great sports, tech, reading, foodie, and other prizes.</p>
 					</li><li>
 						<h3>Photo Booth</h3>
 						<p>Give a little, play a lot with the prop-infested photo booth.</p>

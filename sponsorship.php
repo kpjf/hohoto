@@ -14,10 +14,8 @@ Template Name: Sponsorship Page
 				<p>If you choose to come on board as a sponsor, it becomes the personal mission of our team to ensure that everyone at the event (and thousands more who are following the live and post-event coverage) will get to know just how terrific you are.</p>
 				<div class="sponsor_container">
 
-
-
 					<h2><img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon_sponsor.png"/>Sponsorship Packages</h2>
-					<a href="#" class="button">Become a sponsor</a>
+					<a href="https://www.uniiverse.com/listings/hohoto-2013-for-sponsors-toronto-FWVW2" class="button">Buy Sponsorship</a>
 
 					<ul class="packages">
 						<li>
