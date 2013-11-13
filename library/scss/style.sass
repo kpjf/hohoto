@@ -159,6 +159,16 @@ form
 			a
 				+headline(28px,40px)
 
++breakpoint(tablet)
+	body
+		.content
+			.sidebar
+				:width 100%
+				:display block
+
+			#mce-responses
+				+inline-block
+				:margin-right 10px
 +breakpoint(oversize_phone) // Less than 520px down to iPhone (& similar)
 	h2
 		+headline(26px,30px)	

@@ -161,9 +161,8 @@ Template Name: Tickets Page
 		</div><!--
 
 		--><div id="share">
-			<h2>Tell your friends</h2>
-			<p>Share HoHoTO with everyone you care about.</p>
-
+			<h2>Get Social</h2>
+			<p>Connect with HoHoTO on your favourite social network.</p>
 			<a href="https://www.facebook.com/HoHoTO" class="share facebook"><img alt="" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_facebook.png"/></a><!--
 			--><a href="http://twitter.com/hohoto" class="share twitter"><img alt="" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_twitter.png"/></a>
 		</div>

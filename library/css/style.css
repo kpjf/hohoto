@@ -1,4 +1,4 @@
-/* line 17, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -256,8 +256,25 @@ form input[type='submit'] {
   line-height: 40px;
 }
 
+@media screen and (max-width: 768px) {
+  /* line 165, ../scss/style.sass */
+  body .content .sidebar {
+    width: 100%;
+    display: block;
+  }
+  /* line 169, ../scss/style.sass */
+  body .content #mce-responses {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+    margin-right: 10px;
+  }
+}
 @media screen and (max-width: 760px) {
-  /* line 163, ../scss/style.sass */
+  /* line 173, ../scss/style.sass */
   h2 {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
@@ -265,32 +282,32 @@ form input[type='submit'] {
     line-height: 30px;
   }
 
-  /* line 165, ../scss/style.sass */
+  /* line 175, ../scss/style.sass */
   #menu_container {
     background: #991b29;
     margin-bottom: 10px;
     padding: 10px 0;
   }
 
-  /* line 171, ../scss/style.sass */
+  /* line 181, ../scss/style.sass */
   #menu h1 {
     margin-bottom: 10px;
     text-align: center;
     width: 100%;
   }
-  /* line 176, ../scss/style.sass */
+  /* line 186, ../scss/style.sass */
   #menu ul {
     float: none;
     text-align: center;
   }
-  /* line 180, ../scss/style.sass */
+  /* line 190, ../scss/style.sass */
   #menu ul li {
     margin: 0 1.5%;
     width: 30%;
   }
 }
 @media screen and (max-width: 520px) {
-  /* line 185, ../scss/style.sass */
+  /* line 195, ../scss/style.sass */
   h2 {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
@@ -298,7 +315,7 @@ form input[type='submit'] {
     line-height: 24px;
   }
 
-  /* line 188, ../scss/style.sass */
+  /* line 198, ../scss/style.sass */
   h3 {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
@@ -306,33 +323,33 @@ form input[type='submit'] {
     line-height: 20px;
   }
 
-  /* line 191, ../scss/style.sass */
+  /* line 201, ../scss/style.sass */
   .content {
     padding-left: 8px;
     padding-right: 8px;
   }
 
-  /* line 197, ../scss/style.sass */
+  /* line 207, ../scss/style.sass */
   #menu h1 {
     width: 100%;
     text-align: center;
   }
-  /* line 201, ../scss/style.sass */
+  /* line 211, ../scss/style.sass */
   #menu h1 img {
     width: 150px;
     height: 30px;
   }
-  /* line 205, ../scss/style.sass */
+  /* line 215, ../scss/style.sass */
   #menu ul {
     float: none;
     text-align: center;
   }
-  /* line 209, ../scss/style.sass */
+  /* line 219, ../scss/style.sass */
   #menu ul li {
     margin: 0 1.5%;
     width: 30%;
   }
-  /* line 213, ../scss/style.sass */
+  /* line 223, ../scss/style.sass */
   #menu ul li a {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
@@ -433,7 +450,7 @@ form input[type='submit'] {
   width: 100%;
   padding: 0 2px;
   height: 20px;
-  background-image: url('../images/bkgr/bkgr_buy_tickets.png?1383586485');
+  background-image: url('../images/bkgr/bkgr_buy_tickets.png?1384187806');
   background-size: 100% 20px;
   background-repeat: no-repeat;
 }
@@ -1417,14 +1434,19 @@ form input[type='submit'] {
     max-width: none;
     width: 100%;
   }
-  /* line 109, ../scss/_blog.sass */
+  /* line 108, ../scss/_blog.sass */
+  #blog_container .sidebar {
+    width: 100%;
+    display: block;
+  }
+  /* line 112, ../scss/_blog.sass */
   #blog_container #connect_and_share {
     margin: 0 0 20px;
     max-width: none;
     width: 100%;
     text-align: center;
   }
-  /* line 117, ../scss/_blog.sass */
+  /* line 120, ../scss/_blog.sass */
   #blog_container #connect_and_share #stay_connected form input {
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
@@ -1434,7 +1456,7 @@ form input[type='submit'] {
   }
 }
 @media screen and (max-width: 520px) {
-  /* line 124, ../scss/_blog.sass */
+  /* line 127, ../scss/_blog.sass */
   #blog_container .sidebar {
     display: -moz-inline-stack;
     display: inline-block;
@@ -1444,18 +1466,18 @@ form input[type='submit'] {
     *display: inline;
     width: 100%;
   }
-  /* line 128, ../scss/_blog.sass */
+  /* line 131, ../scss/_blog.sass */
   #blog_container .article .author,
   #blog_container .article .date {
     float: none;
     display: block;
     margin: 0;
   }
-  /* line 134, ../scss/_blog.sass */
+  /* line 137, ../scss/_blog.sass */
   #blog_container .article .author {
     margin-top: 1em;
   }
-  /* line 136, ../scss/_blog.sass */
+  /* line 139, ../scss/_blog.sass */
   #blog_container .article .date {
     margin-bottom: 1em;
   }
@@ -1474,7 +1496,7 @@ form input[type='submit'] {
   padding: 20px;
   width: 100%;
 }
-/* line 38, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .ticket_container:after,
 .raffle_container:after,
 .sponsor_container:after {
@@ -1665,11 +1687,7 @@ form input[type='submit'] {
     line-height: 24px;
   }
 }
-/* line 4, ../scss/_sponsorships.sass */
-#sponsorship h2, #sponsorship h3 {
-  color: #bc2132;
-}
-/* line 7, ../scss/_sponsorships.sass */
+/* line 6, ../scss/_sponsorships.sass */
 #sponsorship #become_a_sponsor {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -1698,10 +1716,14 @@ form input[type='submit'] {
   margin-bottom: 20px;
 }
 /* line 20, ../scss/_sponsorships.sass */
+#sponsorship #become_a_sponsor h2, #sponsorship #become_a_sponsor h3 {
+  color: #bc2132;
+}
+/* line 23, ../scss/_sponsorships.sass */
 #sponsorship #become_a_sponsor ul.packages {
   clear: both;
 }
-/* line 23, ../scss/_sponsorships.sass */
+/* line 26, ../scss/_sponsorships.sass */
 #sponsorship #become_a_sponsor ul.packages li {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1716,11 +1738,11 @@ form input[type='submit'] {
   padding: 40px 0 0;
   vertical-align: top;
 }
-/* line 31, ../scss/_sponsorships.sass */
+/* line 34, ../scss/_sponsorships.sass */
 #sponsorship #become_a_sponsor ul.packages li:nth-of-type(2n+1) {
   padding-right: 20px;
 }
-/* line 34, ../scss/_sponsorships.sass */
+/* line 37, ../scss/_sponsorships.sass */
 #sponsorship #become_a_sponsor ul.packages li h2 {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -1730,7 +1752,7 @@ form input[type='submit'] {
   padding: 0;
   float: none;
 }
-/* line 41, ../scss/_sponsorships.sass */
+/* line 44, ../scss/_sponsorships.sass */
 #sponsorship #become_a_sponsor ul.packages li h3 {
   font-family: "Museo Sans", Helvetica, Arial, sans-serif;
   font-weight: 100;
@@ -1739,7 +1761,7 @@ form input[type='submit'] {
   color: black;
   margin-bottom: 0.5em;
 }
-/* line 46, ../scss/_sponsorships.sass */
+/* line 49, ../scss/_sponsorships.sass */
 #sponsorship #become_a_sponsor ul.packages li ol li, #sponsorship #become_a_sponsor ul.packages li p {
   font-family: "Museo Sans", Helvetica, Arial, sans-serif;
   font-weight: 100;
@@ -1750,19 +1772,19 @@ form input[type='submit'] {
   padding: 0;
   width: auto;
 }
-/* line 53, ../scss/_sponsorships.sass */
+/* line 56, ../scss/_sponsorships.sass */
 #sponsorship #become_a_sponsor ul.packages li ol li:last-of-type, #sponsorship #become_a_sponsor ul.packages li p:last-of-type {
   padding: 0;
 }
-/* line 56, ../scss/_sponsorships.sass */
+/* line 59, ../scss/_sponsorships.sass */
 #sponsorship #become_a_sponsor ul.packages li ol li:nth-of-type(2n+1), #sponsorship #become_a_sponsor ul.packages li p:nth-of-type(2n+1) {
   padding: 0;
 }
-/* line 59, ../scss/_sponsorships.sass */
+/* line 62, ../scss/_sponsorships.sass */
 #sponsorship #become_a_sponsor ul.packages li a {
   color: black;
 }
-/* line 62, ../scss/_sponsorships.sass */
+/* line 65, ../scss/_sponsorships.sass */
 #sponsorship #become_a_sponsor ul.packages li .button {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -1773,7 +1795,7 @@ form input[type='submit'] {
   padding: 0 0.75em;
   float: none;
 }
-/* line 70, ../scss/_sponsorships.sass */
+/* line 73, ../scss/_sponsorships.sass */
 #sponsorship .sidebar {
   display: -moz-inline-stack;
   display: inline-block;
@@ -1783,7 +1805,7 @@ form input[type='submit'] {
   *display: inline;
   width: 31.25%;
 }
-/* line 74, ../scss/_sponsorships.sass */
+/* line 77, ../scss/_sponsorships.sass */
 #sponsorship #connect_and_share {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -1798,17 +1820,17 @@ form input[type='submit'] {
   text-align: left;
   vertical-align: top;
 }
-/* line 84, ../scss/_sponsorships.sass */
+/* line 87, ../scss/_sponsorships.sass */
 #sponsorship #connect_and_share #stay_connected {
   margin-bottom: 2em;
   max-width: none;
   width: 100%;
 }
-/* line 89, ../scss/_sponsorships.sass */
+/* line 92, ../scss/_sponsorships.sass */
 #sponsorship #connect_and_share #stay_connected p {
   max-width: none;
 }
-/* line 94, ../scss/_sponsorships.sass */
+/* line 97, ../scss/_sponsorships.sass */
 #sponsorship #connect_and_share #stay_connected form input {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1816,31 +1838,31 @@ form input[type='submit'] {
   width: 100%;
   margin-bottom: 0.5em;
 }
-/* line 99, ../scss/_sponsorships.sass */
+/* line 102, ../scss/_sponsorships.sass */
 #sponsorship #connect_and_share #share {
   max-width: none;
   width: 100%;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 105, ../scss/_sponsorships.sass */
+  /* line 108, ../scss/_sponsorships.sass */
   #sponsorship #become_a_sponsor {
     width: 100%;
     margin: 0 0 20px;
   }
-  /* line 109, ../scss/_sponsorships.sass */
+  /* line 112, ../scss/_sponsorships.sass */
   #sponsorship .sidebar {
     display: block;
     width: 100%;
   }
-  /* line 113, ../scss/_sponsorships.sass */
+  /* line 116, ../scss/_sponsorships.sass */
   #sponsorship #connect_and_share {
     margin: 0 0 20px;
     max-width: none;
     width: 100%;
     text-align: center;
   }
-  /* line 121, ../scss/_sponsorships.sass */
+  /* line 124, ../scss/_sponsorships.sass */
   #sponsorship #connect_and_share #stay_connected form input {
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
@@ -1850,15 +1872,15 @@ form input[type='submit'] {
   }
 }
 @media screen and (max-width: 520px) {
-  /* line 131, ../scss/_sponsorships.sass */
+  /* line 134, ../scss/_sponsorships.sass */
   #sponsorship #become_a_sponsor ul.packages li {
     width: 100%;
   }
-  /* line 134, ../scss/_sponsorships.sass */
+  /* line 137, ../scss/_sponsorships.sass */
   #sponsorship #become_a_sponsor ul.packages li:nth-of-type(2n+1) {
     padding-right: 0;
   }
-  /* line 138, ../scss/_sponsorships.sass */
+  /* line 141, ../scss/_sponsorships.sass */
   #sponsorship .sidebar {
     display: -moz-inline-stack;
     display: inline-block;
