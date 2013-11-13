@@ -1,0 +1,141 @@
+#sponsorship
+	
+
+	h2, h3
+		:color #BC2132
+
+	#become_a_sponsor
+		+border-radius(4px)
+		+box-sizing(border-box)
+		+paragraph(24px,30px)
+		+inline-block
+		:background #FFF
+		:color #333333
+		:margin-right 3.125%
+		//:max-width 630px
+		:padding 20px 20px 40px
+		:vertical-align top
+		:width 65.625%
+		:margin-bottom 20px
+		ul.packages
+			:clear both
+
+			li
+				+box-sizing(border-box)
+				+inline-block
+				:width 50%
+				:padding 40px 0 0
+				:vertical-align top
+
+
+				&:nth-of-type(2n+1)
+					:padding-right 20px
+
+				h2	
+					+headline(20px)
+					:margin-bottom 0.5em
+					:padding 0
+					:float none
+
+
+				h3
+					+paragraph(18px)
+					:color #000
+					:margin-bottom 0.5em
+
+				ol li, p
+					+paragraph(14px)
+					:display block
+					:margin-bottom 0.5em
+					:padding 0
+					:width auto
+
+					&:last-of-type
+						:padding 0
+
+					&:nth-of-type(2n+1)
+						:padding 0
+
+				a
+					:color #000
+
+				.button
+					+headline(16px,44px)
+					:background #FFCC33
+					:color #231F20
+					:padding 0 0.75em
+					:float none
+
+
+	.sidebar
+		+inline-block(top)
+		:width 31.25%
+
+	#connect_and_share
+		+border-radius(4px)
+		+box-sizing(border-box)
+		
+		:max-width 300px
+		:padding 0
+		:text-align left
+		:vertical-align top
+		
+
+		#stay_connected
+			:margin-bottom 2em
+			:max-width none
+			:width 100%
+
+			p
+				:max-width none
+
+
+			form
+				input
+					+box-sizing(border-box)
+					:width 100%
+					:margin-bottom 0.5em
+
+		#share
+			:max-width none
+			:width 100%
+
++breakpoint(tablet)
+	#sponsorship
+		#become_a_sponsor
+			:width 100%
+			:margin 0 0 20px
+		
+		.sidebar
+			:display block
+			:width 100%
+
+		#connect_and_share
+			:margin 0 0 20px
+			:max-width none
+			:width 100%
+			:text-align center
+
+			#stay_connected
+				form
+					input
+						+box-sizing(content-box)
+						:width auto
+						:margin-bottom 0	
+
++breakpoint(phone)
+	#sponsorship
+		#become_a_sponsor
+			ul.packages
+				
+				li
+					:width 100%
+
+					&:nth-of-type(2n+1)
+						:padding-right 0
+
+
+		.sidebar
+			+inline-block(top)
+			:width 100%
+		

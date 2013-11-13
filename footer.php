@@ -71,15 +71,13 @@
 						} else {
 							$image = null;
 						}
-					?>
-					<a href="#">
+					?><a href="#">
 						<?php
 							if ( $image[0] ) {
 								echo '<img src="'.$image[0].'" alt="'.get_the_title().'" />';
 							}
 						?>
-					</a>
-					<?php } ?>
+					</a><?php } ?>
 					
 				</div>
 				<?php } ?>
@@ -94,15 +92,13 @@
 						} else {
 							$image = null;
 						}
-					?>
-					<a href="#">
+					?><a href="#">
 						<?php
 							if ( $image[0] ) {
 								echo '<img src="'.$image[0].'" alt="'.get_the_title().'" />';
 							}
 						?>
-					</a>
-					<?php } ?>
+					</a><?php } ?>
 				</div>
 				<?php } ?>
 
@@ -117,15 +113,13 @@
 						} else {
 							$image = null;
 						}
-					?>
-					<a href="#">
+					?><a href="#">
 						<?php
 							if ( $image[0] ) {
 								echo '<img src="'.$image[0].'" alt="'.get_the_title().'" />';
 							}
 						?>
-					</a>
-					<?php } ?>
+					</a><?php } ?>
 				</div>
 				<?php } ?>
 
@@ -139,15 +133,13 @@
 						} else {
 							$image = null;
 						}
-					?>
-					<a href="#">
+					?><a href="#">
 						<?php
 							if ( $image[0] ) {
 								echo '<img src="'.$image[0].'" alt="'.get_the_title().'" />';
 							}
 						?>
-					</a>
-					<?php } ?>
+					</a><?php } ?>
 				</div>
 				<?php } ?>
 				
@@ -161,15 +153,13 @@
 						} else {
 							$image = null;
 						}
-					?>
-					<a href="#">
+					?><a href="#">
 						<?php
 							if ( $image[0] ) {
 								echo '<img src="'.$image[0].'" alt="'.get_the_title().'" />';
 							}
 						?>
-					</a>
-					<?php } ?>
+					</a><?php } ?>
 				</div>
 				<?php } ?>
 
@@ -183,15 +173,13 @@
 						} else {
 							$image = null;
 						}
-					?>
-					<a href="#">
+					?><a href="#">
 						<?php
 							if ( $image[0] ) {
 								echo '<img src="'.$image[0].'" alt="'.get_the_title().'" />';
 							}
 						?>
-					</a>
-					<?php } ?>
+					</a><?php } ?>
 				</div>
 				<?php } ?>
 
@@ -205,15 +193,11 @@
 						} else {
 							$image = null;
 						}
-					?>
-					<a href="#">
-						<?php
+					?><a href="#"><?php
 							if ( $image[0] ) {
 								echo '<img src="'.$image[0].'" alt="'.get_the_title().'" />';
 							}
-						?>
-					</a>
-
+						?></a>
 					<?php } ?>
 				</div>
 				<?php } ?>
@@ -227,16 +211,12 @@
 						} else {
 							$image = null;
 						}
-					?>
-					<a href="<?php echo get_post_meta( get_the_ID(), 'sponsor_url', true ); ?>">
+					?><a href="<?php echo get_post_meta( get_the_ID(), 'sponsor_url', true ); ?>">
 						<?php
 							if ( $image[0] ) {
 								echo '<img src="'.$image[0].'" alt="'.get_the_title().'" />';
 							}
-						?>
-					</a>
-
-					<?php } ?>
+						?></a><?php } ?>
 				</div>
 			</div>
 		</div>

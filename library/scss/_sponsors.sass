@@ -20,6 +20,7 @@
 
 		a
 			+border-radius(4px)
+			+box-sizing(border-box)
 			+inline-block
 			:text-align center
 			:padding 5px
@@ -44,7 +45,7 @@
 				&:nth-child(2n+1) // Setup for 2UP
 					:margin-left 0
 
-		&.elf
+		&.elf, &.in-kind
 			a
 				:width 31.25%
 				:margin
@@ -52,14 +53,14 @@
 				&:nth-child(3n+1) // Setup for 3UP
 					:margin-left 0
 
-		&.in-kind
-			a
-				:padding 5px
-				:width 22.40%
-				:margin-left 2.025%
+		//&.in-kind
+		//	a
+		//		:padding 5px
+		//		:width 22.40%
+		//		:margin-left 2.025%
 				
-				&:nth-child(4n+1) // Setup for 4UP
-					:margin-left 0	 
+		//		&:nth-child(4n+1) // Setup for 4UP
+		//			:margin-left 0	 
 
 		&.reindeer,
 		&.snowflake,

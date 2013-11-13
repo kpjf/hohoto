@@ -1,4 +1,4 @@
-/* line 17, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -433,7 +433,7 @@ form input[type='submit'] {
   width: 100%;
   padding: 0 2px;
   height: 20px;
-  background-image: url('../images/bkgr/bkgr_buy_tickets.png?1383586485');
+  background-image: url('../images/bkgr/bkgr_buy_tickets.png?1384187806');
   background-size: 100% 20px;
   background-repeat: no-repeat;
 }
@@ -562,7 +562,6 @@ form input[type='submit'] {
   font-weight: 500;
   font-size: 28px;
   line-height: 36px;
-  text-align: center;
 }
 /* line 8, ../scss/_news_and_updates.sass */
 #news_and_updates #stories {
@@ -607,7 +606,6 @@ form input[type='submit'] {
   padding: 20px;
   position: relative;
   width: 30%;
-  height: 275px;
 }
 /* line 42, ../scss/_news_and_updates.sass */
 #news_and_updates li.tweets h2 {
@@ -618,56 +616,72 @@ form input[type='submit'] {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 20px;
-  line-height: 32px;
+  line-height: 24px;
   text-align: left;
   padding: 0;
+  margin-bottom: 0.5em;
 }
-/* line 50, ../scss/_news_and_updates.sass */
+/* line 51, ../scss/_news_and_updates.sass */
 #news_and_updates li h2 a {
   text-decoration: none;
   color: #bc2132;
 }
-/* line 54, ../scss/_news_and_updates.sass */
+/* line 55, ../scss/_news_and_updates.sass */
 #news_and_updates li h3 {
   font-family: "Museo Sans", Helvetica, Arial, sans-serif;
   font-weight: 100;
   font-size: 16px;
   line-height: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 0.5em;
 }
-/* line 58, ../scss/_news_and_updates.sass */
+/* line 59, ../scss/_news_and_updates.sass */
 #news_and_updates li h3 + p {
   margin-top: 1em;
 }
-/* line 61, ../scss/_news_and_updates.sass */
+/* line 62, ../scss/_news_and_updates.sass */
 #news_and_updates li p {
   margin-bottom: 1em;
 }
-/* line 64, ../scss/_news_and_updates.sass */
+/* line 65, ../scss/_news_and_updates.sass */
 #news_and_updates li a.psudeo_anchor {
   color: black;
   text-decoration: underline;
 }
+/* line 69, ../scss/_news_and_updates.sass */
+#news_and_updates li a.excerpt-read-more {
+  color: #bc2132;
+  display: block;
+  margin-top: 0.5em;
+  text-decoration: underline;
+}
 
 @media screen and (max-width: 768px) {
-  /* line 71, ../scss/_news_and_updates.sass */
+  /* line 80, ../scss/_news_and_updates.sass */
+  body #news_and_updates li h2 {
+    text-align: left;
+  }
+  /* line 83, ../scss/_news_and_updates.sass */
   body #news_and_updates li:nth-child(2) {
     display: none;
   }
+  /* line 86, ../scss/_news_and_updates.sass */
+  body #news_and_updates h2 {
+    text-align: center;
+  }
 }
 @media screen and (max-width: 760px) {
-  /* line 76, ../scss/_news_and_updates.sass */
+  /* line 90, ../scss/_news_and_updates.sass */
   #news_and_updates li:nth-child(2) {
     display: none;
   }
 }
 @media screen and (max-width: 520px) {
-  /* line 81, ../scss/_news_and_updates.sass */
+  /* line 95, ../scss/_news_and_updates.sass */
   #news_and_updates {
     display: block;
     margin: 20px 0 0;
   }
-  /* line 85, ../scss/_news_and_updates.sass */
+  /* line 99, ../scss/_news_and_updates.sass */
   #news_and_updates h2 {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
@@ -675,12 +689,12 @@ form input[type='submit'] {
     line-height: 28px;
     padding: 1em 0 1em;
   }
-  /* line 89, ../scss/_news_and_updates.sass */
+  /* line 104, ../scss/_news_and_updates.sass */
   #news_and_updates #stories {
     display: block;
     margin: 0;
   }
-  /* line 93, ../scss/_news_and_updates.sass */
+  /* line 108, ../scss/_news_and_updates.sass */
   #news_and_updates #stories li {
     color: black;
     display: block;
@@ -688,12 +702,12 @@ form input[type='submit'] {
     margin-bottom: 10px;
     padding: 10px;
   }
-  /* line 100, ../scss/_news_and_updates.sass */
+  /* line 115, ../scss/_news_and_updates.sass */
   #news_and_updates #stories li h2 {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 28px;
+    line-height: 20px;
   }
 }
 /* line 1, ../scss/_sponsors.sass */
@@ -735,6 +749,9 @@ form input[type='submit'] {
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
@@ -746,80 +763,70 @@ form input[type='submit'] {
   background: white;
   margin-bottom: 30px;
 }
-/* line 29, ../scss/_sponsors.sass */
+/* line 30, ../scss/_sponsors.sass */
 #sponsors .kind_is a img {
   margin: 0 auto;
   max-width: 80%;
   text-align: center;
   display: block;
 }
-/* line 37, ../scss/_sponsors.sass */
+/* line 38, ../scss/_sponsors.sass */
 #sponsors .kind_is.santa a {
   width: 100%;
 }
-/* line 40, ../scss/_sponsors.sass */
+/* line 41, ../scss/_sponsors.sass */
 #sponsors .kind_is.mrsclaus a {
   width: 48.4375%;
   margin-left: 3.125%;
 }
-/* line 44, ../scss/_sponsors.sass */
+/* line 45, ../scss/_sponsors.sass */
 #sponsors .kind_is.mrsclaus a:nth-child(2n+1) {
   margin-left: 0;
 }
-/* line 48, ../scss/_sponsors.sass */
-#sponsors .kind_is.elf a {
+/* line 49, ../scss/_sponsors.sass */
+#sponsors .kind_is.elf a, #sponsors .kind_is.in-kind a {
   width: 31.25%;
   margin-left: 3.125%;
 }
-/* line 52, ../scss/_sponsors.sass */
-#sponsors .kind_is.elf a:nth-child(3n+1) {
+/* line 53, ../scss/_sponsors.sass */
+#sponsors .kind_is.elf a:nth-child(3n+1), #sponsors .kind_is.in-kind a:nth-child(3n+1) {
   margin-left: 0;
 }
-/* line 56, ../scss/_sponsors.sass */
-#sponsors .kind_is.in-kind a {
-  padding: 5px;
-  width: 22.4%;
-  margin-left: 2.025%;
-}
-/* line 61, ../scss/_sponsors.sass */
-#sponsors .kind_is.in-kind a:nth-child(4n+1) {
-  margin-left: 0;
-}
-/* line 68, ../scss/_sponsors.sass */
+/* line 69, ../scss/_sponsors.sass */
 #sponsors .kind_is.reindeer a, #sponsors .kind_is.snowflake a, #sponsors .kind_is.gingerbread a, #sponsors .kind_is.candycane a {
   width: 22.4%;
   margin-left: 3.125%;
 }
-/* line 72, ../scss/_sponsors.sass */
+/* line 73, ../scss/_sponsors.sass */
 #sponsors .kind_is.reindeer a:nth-child(4n+1), #sponsors .kind_is.snowflake a:nth-child(4n+1), #sponsors .kind_is.gingerbread a:nth-child(4n+1), #sponsors .kind_is.candycane a:nth-child(4n+1) {
   margin-left: 0;
 }
 
 @media screen and (max-width: 520px) {
-  /* line 77, ../scss/_sponsors.sass */
+  /* line 78, ../scss/_sponsors.sass */
   #sponsors h2 {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
   }
-  /* line 79, ../scss/_sponsors.sass */
+  /* line 80, ../scss/_sponsors.sass */
   #sponsors h3 {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
   }
-  /* line 87, ../scss/_sponsors.sass */
+  /* line 88, ../scss/_sponsors.sass */
   #sponsors .kind_is.reindeer a, #sponsors .kind_is.snowflake a, #sponsors .kind_is.gingerbread a, #sponsors .kind_is.candycane a {
     width: 31.25%;
     margin-left: 3.125%;
   }
-  /* line 91, ../scss/_sponsors.sass */
+  /* line 92, ../scss/_sponsors.sass */
   #sponsors .kind_is.reindeer a:nth-child(4n+1), #sponsors .kind_is.snowflake a:nth-child(4n+1), #sponsors .kind_is.gingerbread a:nth-child(4n+1), #sponsors .kind_is.candycane a:nth-child(4n+1) {
     margin-left: 3.125%;
   }
-  /* line 94, ../scss/_sponsors.sass */
+  /* line 95, ../scss/_sponsors.sass */
   #sponsors .kind_is.reindeer a:nth-child(3n+1), #sponsors .kind_is.snowflake a:nth-child(3n+1), #sponsors .kind_is.gingerbread a:nth-child(3n+1), #sponsors .kind_is.candycane a:nth-child(3n+1) {
     margin-left: 0;
   }
@@ -1463,7 +1470,7 @@ form input[type='submit'] {
   padding: 20px;
   width: 100%;
 }
-/* line 38, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .ticket_container:after,
 .raffle_container:after,
 .sponsor_container:after {
@@ -1652,5 +1659,209 @@ form input[type='submit'] {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
+  }
+}
+/* line 4, ../scss/_sponsorships.sass */
+#sponsorship h2, #sponsorship h3 {
+  color: #bc2132;
+}
+/* line 7, ../scss/_sponsorships.sass */
+#sponsorship #become_a_sponsor {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Museo Sans", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 30px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  background: white;
+  color: #333333;
+  margin-right: 3.125%;
+  padding: 20px 20px 40px;
+  vertical-align: top;
+  width: 65.625%;
+  margin-bottom: 20px;
+}
+/* line 20, ../scss/_sponsorships.sass */
+#sponsorship #become_a_sponsor ul.packages {
+  clear: both;
+}
+/* line 23, ../scss/_sponsorships.sass */
+#sponsorship #become_a_sponsor ul.packages li {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  width: 50%;
+  padding: 40px 0 0;
+  vertical-align: top;
+}
+/* line 31, ../scss/_sponsorships.sass */
+#sponsorship #become_a_sponsor ul.packages li:nth-of-type(2n+1) {
+  padding-right: 20px;
+}
+/* line 34, ../scss/_sponsorships.sass */
+#sponsorship #become_a_sponsor ul.packages li h2 {
+  font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 0.5em;
+  padding: 0;
+  float: none;
+}
+/* line 41, ../scss/_sponsorships.sass */
+#sponsorship #become_a_sponsor ul.packages li h3 {
+  font-family: "Museo Sans", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 22px;
+  color: black;
+  margin-bottom: 0.5em;
+}
+/* line 46, ../scss/_sponsorships.sass */
+#sponsorship #become_a_sponsor ul.packages li ol li, #sponsorship #become_a_sponsor ul.packages li p {
+  font-family: "Museo Sans", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 18px;
+  display: block;
+  margin-bottom: 0.5em;
+  padding: 0;
+  width: auto;
+}
+/* line 53, ../scss/_sponsorships.sass */
+#sponsorship #become_a_sponsor ul.packages li ol li:last-of-type, #sponsorship #become_a_sponsor ul.packages li p:last-of-type {
+  padding: 0;
+}
+/* line 56, ../scss/_sponsorships.sass */
+#sponsorship #become_a_sponsor ul.packages li ol li:nth-of-type(2n+1), #sponsorship #become_a_sponsor ul.packages li p:nth-of-type(2n+1) {
+  padding: 0;
+}
+/* line 59, ../scss/_sponsorships.sass */
+#sponsorship #become_a_sponsor ul.packages li a {
+  color: black;
+}
+/* line 62, ../scss/_sponsorships.sass */
+#sponsorship #become_a_sponsor ul.packages li .button {
+  font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 44px;
+  background: #ffcc33;
+  color: #231f20;
+  padding: 0 0.75em;
+  float: none;
+}
+/* line 70, ../scss/_sponsorships.sass */
+#sponsorship .sidebar {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  width: 31.25%;
+}
+/* line 74, ../scss/_sponsorships.sass */
+#sponsorship #connect_and_share {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 300px;
+  padding: 0;
+  text-align: left;
+  vertical-align: top;
+}
+/* line 84, ../scss/_sponsorships.sass */
+#sponsorship #connect_and_share #stay_connected {
+  margin-bottom: 2em;
+  max-width: none;
+  width: 100%;
+}
+/* line 89, ../scss/_sponsorships.sass */
+#sponsorship #connect_and_share #stay_connected p {
+  max-width: none;
+}
+/* line 94, ../scss/_sponsorships.sass */
+#sponsorship #connect_and_share #stay_connected form input {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 0.5em;
+}
+/* line 99, ../scss/_sponsorships.sass */
+#sponsorship #connect_and_share #share {
+  max-width: none;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 105, ../scss/_sponsorships.sass */
+  #sponsorship #become_a_sponsor {
+    width: 100%;
+    margin: 0 0 20px;
+  }
+  /* line 109, ../scss/_sponsorships.sass */
+  #sponsorship .sidebar {
+    display: block;
+    width: 100%;
+  }
+  /* line 113, ../scss/_sponsorships.sass */
+  #sponsorship #connect_and_share {
+    margin: 0 0 20px;
+    max-width: none;
+    width: 100%;
+    text-align: center;
+  }
+  /* line 121, ../scss/_sponsorships.sass */
+  #sponsorship #connect_and_share #stay_connected form input {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: auto;
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 520px) {
+  /* line 131, ../scss/_sponsorships.sass */
+  #sponsorship #become_a_sponsor ul.packages li {
+    width: 100%;
+  }
+  /* line 134, ../scss/_sponsorships.sass */
+  #sponsorship #become_a_sponsor ul.packages li:nth-of-type(2n+1) {
+    padding-right: 0;
+  }
+  /* line 138, ../scss/_sponsorships.sass */
+  #sponsorship .sidebar {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+    width: 100%;
   }
 }

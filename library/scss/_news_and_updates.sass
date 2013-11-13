@@ -2,7 +2,7 @@
 	:margin-top 40px
 	h2
 		+headline(28px,36px)
-		:text-align center
+		
 
 
 	#stories
@@ -36,16 +36,17 @@
 		:padding 20px
 		:position relative
 		:width 30%
-		:height 275px
+		//:height 275px
 
 		&.tweets
 			h2 
 				:margin-bottom 20px
 
 		h2
-			+headline(20px,32px)
+			+headline(20px,24px)
 			:text-align left
 			:padding 0
+			:margin-bottom 0.5em
 
 			a
 				:text-decoration none
@@ -53,7 +54,7 @@
 
 		h3
 			+paragraph(16px,20px)
-			:margin-bottom 20px
+			:margin-bottom 0.5em
 
 		h3+p
 			:margin-top 1em
@@ -65,12 +66,25 @@
 			:color #000
 			:text-decoration underline
 
+		a.excerpt-read-more
+			:color #BC2132
+			:display block
+			:margin-top 0.5em
+			:text-decoration underline
+			
 
 +breakpoint(tablet) // iPad Portrait (& similar)
 	body
-		#news_and_updates li:nth-child(2)
-			:display none
+		#news_and_updates
+			li
+				h2
+					:text-align left
+				
+				&:nth-child(2)
+					:display none
 
+			h2
+				:text-align center
 
 +breakpoint(oversize_phone) // Less than iPad Portrait (& similar) 
 	#news_and_updates li:nth-child(2)
@@ -85,6 +99,7 @@
 		h2
 			+headline(24px,28px)
 			:padding 1em 0 1em
+		
 
 		#stories
 			:display block
@@ -98,4 +113,4 @@
 				:padding 10px
 
 				h2
-					+headline(16px,28px)
+					+headline(16px)
