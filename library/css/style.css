@@ -1,4 +1,4 @@
-/* line 17, ../../../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -433,7 +433,7 @@ form input[type='submit'] {
   width: 100%;
   padding: 0 2px;
   height: 20px;
-  background-image: url('../images/bkgr/bkgr_buy_tickets.png?1384187806');
+  background-image: url('../images/bkgr/bkgr_buy_tickets.png?1383586485');
   background-size: 100% 20px;
   background-repeat: no-repeat;
 }
@@ -572,25 +572,29 @@ form input[type='submit'] {
 /* line 13, ../scss/_news_and_updates.sass */
 #news_and_updates #stories ul {
   display: block;
-  height: 200px;
 }
-/* line 17, ../scss/_news_and_updates.sass */
+/* line 16, ../scss/_news_and_updates.sass */
 #news_and_updates #stories ul li {
   display: block;
   width: 100%;
   padding: 0;
   height: auto;
+  margin-bottom: 1em;
 }
 /* line 23, ../scss/_news_and_updates.sass */
+#news_and_updates #stories ul li p {
+  margin-bottom: 0;
+}
+/* line 26, ../scss/_news_and_updates.sass */
 #news_and_updates #stories ul .from-now {
   font-size: 0.7em;
   text-transform: uppercase;
 }
-/* line 27, ../scss/_news_and_updates.sass */
+/* line 30, ../scss/_news_and_updates.sass */
 #news_and_updates #stories ul a {
   color: #bc2132;
 }
-/* line 30, ../scss/_news_and_updates.sass */
+/* line 33, ../scss/_news_and_updates.sass */
 #news_and_updates li {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -607,11 +611,11 @@ form input[type='submit'] {
   position: relative;
   width: 30%;
 }
-/* line 42, ../scss/_news_and_updates.sass */
+/* line 45, ../scss/_news_and_updates.sass */
 #news_and_updates li.tweets h2 {
   margin-bottom: 20px;
 }
-/* line 45, ../scss/_news_and_updates.sass */
+/* line 48, ../scss/_news_and_updates.sass */
 #news_and_updates li h2 {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -621,12 +625,12 @@ form input[type='submit'] {
   padding: 0;
   margin-bottom: 0.5em;
 }
-/* line 51, ../scss/_news_and_updates.sass */
+/* line 54, ../scss/_news_and_updates.sass */
 #news_and_updates li h2 a {
   text-decoration: none;
   color: #bc2132;
 }
-/* line 55, ../scss/_news_and_updates.sass */
+/* line 58, ../scss/_news_and_updates.sass */
 #news_and_updates li h3 {
   font-family: "Museo Sans", Helvetica, Arial, sans-serif;
   font-weight: 100;
@@ -634,20 +638,20 @@ form input[type='submit'] {
   line-height: 20px;
   margin-bottom: 0.5em;
 }
-/* line 59, ../scss/_news_and_updates.sass */
+/* line 62, ../scss/_news_and_updates.sass */
 #news_and_updates li h3 + p {
   margin-top: 1em;
 }
-/* line 62, ../scss/_news_and_updates.sass */
+/* line 65, ../scss/_news_and_updates.sass */
 #news_and_updates li p {
   margin-bottom: 1em;
 }
-/* line 65, ../scss/_news_and_updates.sass */
+/* line 68, ../scss/_news_and_updates.sass */
 #news_and_updates li a.psudeo_anchor {
   color: black;
   text-decoration: underline;
 }
-/* line 69, ../scss/_news_and_updates.sass */
+/* line 72, ../scss/_news_and_updates.sass */
 #news_and_updates li a.excerpt-read-more {
   color: #bc2132;
   display: block;
@@ -656,32 +660,32 @@ form input[type='submit'] {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 80, ../scss/_news_and_updates.sass */
+  /* line 83, ../scss/_news_and_updates.sass */
   body #news_and_updates li h2 {
     text-align: left;
   }
-  /* line 83, ../scss/_news_and_updates.sass */
+  /* line 86, ../scss/_news_and_updates.sass */
   body #news_and_updates li:nth-child(2) {
     display: none;
   }
-  /* line 86, ../scss/_news_and_updates.sass */
+  /* line 89, ../scss/_news_and_updates.sass */
   body #news_and_updates h2 {
     text-align: center;
   }
 }
 @media screen and (max-width: 760px) {
-  /* line 90, ../scss/_news_and_updates.sass */
+  /* line 93, ../scss/_news_and_updates.sass */
   #news_and_updates li:nth-child(2) {
     display: none;
   }
 }
 @media screen and (max-width: 520px) {
-  /* line 95, ../scss/_news_and_updates.sass */
+  /* line 98, ../scss/_news_and_updates.sass */
   #news_and_updates {
     display: block;
     margin: 20px 0 0;
   }
-  /* line 99, ../scss/_news_and_updates.sass */
+  /* line 102, ../scss/_news_and_updates.sass */
   #news_and_updates h2 {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
@@ -689,12 +693,12 @@ form input[type='submit'] {
     line-height: 28px;
     padding: 1em 0 1em;
   }
-  /* line 104, ../scss/_news_and_updates.sass */
+  /* line 107, ../scss/_news_and_updates.sass */
   #news_and_updates #stories {
     display: block;
     margin: 0;
   }
-  /* line 108, ../scss/_news_and_updates.sass */
+  /* line 111, ../scss/_news_and_updates.sass */
   #news_and_updates #stories li {
     color: black;
     display: block;
@@ -702,7 +706,7 @@ form input[type='submit'] {
     margin-bottom: 10px;
     padding: 10px;
   }
-  /* line 115, ../scss/_news_and_updates.sass */
+  /* line 118, ../scss/_news_and_updates.sass */
   #news_and_updates #stories li h2 {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
@@ -1470,7 +1474,7 @@ form input[type='submit'] {
   padding: 20px;
   width: 100%;
 }
-/* line 38, ../../../../../../../../../opt/local/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .ticket_container:after,
 .raffle_container:after,
 .sponsor_container:after {

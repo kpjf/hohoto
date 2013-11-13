@@ -42,7 +42,7 @@ jQuery(document).ready(function($) {
 			simpleTweets.init({
 		        screen_name: 'hohoto',
 		        $el: jQuery('#tweets ul'),
-		        count: 1
+		        count: 2
 		    }); 
 		}
 	
