@@ -140,6 +140,7 @@ function bones_scripts_and_styles() {
 		}
 
 		//adding scripts file in the footer
+		wp_register_script( 'uniiverse', 'https://www.uniiverse.com/embed.js', array(), '', false );
 		wp_register_script( 'bones-js', get_stylesheet_directory_uri() . '/library/js/scripts.js', array( 'jquery' ), '', true );
 		wp_register_script( 'twitter-text', get_stylesheet_directory_uri() . '/library/js/libs/twitter-text.js', array( 'jquery' ), '', true );
 		wp_register_script( 'moment', get_stylesheet_directory_uri() . '/library/js/libs/moment/moment.js', array(), '', true );
@@ -152,13 +153,16 @@ function bones_scripts_and_styles() {
 
 		$wp_styles->add_data( 'bones-ie-only', 'conditional', 'lt IE 9' ); // add conditional wrapper around ie stylesheet
 
+		if ( is_page('tickets') ) {
+			wp_enqueue_script( 'uniiverse' );
+		}
+
 		/*
 		I recommend using a plugin to call jQuery
 		using the google cdn. That way it stays cached
 		and your site will load faster.
 		*/
 		wp_enqueue_script( 'jquery' );
-
     	wp_enqueue_script( 'simple-tweets' );
 		wp_enqueue_script( 'bones-js' );
 
