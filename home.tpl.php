@@ -20,7 +20,7 @@ Template Name: Home Page
 			--><div id="tickets">
 				<a href="/tickets/" class="button buy_tickets">Buy Tickets!</a>
 				<a href="/become-a-sponsor/" class="button be_a_sponsor">Become a sponsor</a>
-				<a href="#" class="button get_involved">Get involved</a>
+				<a href="/how-can-i-help/ " class="button get_involved">Get involved</a>
 			</div>
 		</div>
 
