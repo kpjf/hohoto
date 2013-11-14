@@ -153,7 +153,7 @@ function bones_scripts_and_styles() {
 
 		$wp_styles->add_data( 'bones-ie-only', 'conditional', 'lt IE 9' ); // add conditional wrapper around ie stylesheet
 
-		if ( is_page('tickets') ) {
+		if ( is_page('tickets') || is_page( 'become-a-sponsor' )) {
 			wp_enqueue_script( 'uniiverse' );
 		}
 

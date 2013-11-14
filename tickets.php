@@ -15,7 +15,7 @@ Template Name: Tickets Page
 					<li class="date">
 						<img alt="" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_date.png"/>
 						<h2>Thursday, December 19th</h2>
-						<span>8pm - late</span>
+						<span>7pm - late</span>
 					</li><li class="location">
 						<img alt="" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_location.png"/>
 						<h2>The Mod Club</h2>
@@ -44,7 +44,7 @@ Template Name: Tickets Page
 								<li class="price">$150</li>
 								<li class="details">
 									<span>VIP admission package</span>
-									<span class="description">Cocktails and appetizers from 7p - 9p</span>
+									<span class="description">Drinks and appetizers from 7p - 9p</span>
 								</li>
 							</ol>
 						</li>
@@ -97,7 +97,7 @@ Template Name: Tickets Page
 				<h3>Featuring</h3>
 				<ul id="featuring">
 					<li>Massive main floor dance floor and bar</li><li>
-					Exclusive main room bar for big givers</li><li>
+					Exclusive main room VIP bar for big givers.</li><li>
 					Raffle and conversation room upstairs</li>
 				</ul>
 
