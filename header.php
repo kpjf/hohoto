@@ -8,12 +8,27 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title><?php wp_title(''); ?></title>
+		<title>
+			<?php if ( is_front_page() ) { ?>
+			<?php bloginfo('name'); ?>
+			<?php } else { ?>
+			<?php bloginfo('name'); ?> | <?php wp_title(''); ?>
+			<?php } ?>
+		</title>
 
 		<?php // mobile meta (hooray!) ?>
 		<meta name="HandheldFriendly" content="True">
 		<meta name="MobileOptimized" content="320">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+		<meta property="og:title" content="HoHoTo">
+		<meta property="og:description" content="<?php bloginfo('description'); ?>">
+
+		<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/library/images/fblogo.jpg">
+		<meta property="og:image:type" content="image/jpeg">
+		<meta property="og:image:width" content="300">
+		<meta property="og:image:height" content="250">
+
 
 		<?php // icons & favicons (for more: http://www.jonathantneal.com/blog/understand-the-favicon/) ?>
 		<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/library/images/apple-icon-touch.png">

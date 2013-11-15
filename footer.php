@@ -71,7 +71,7 @@
 						} else {
 							$image = null;
 						}
-					?><a href="#">
+					?><a href="<?php echo get_post_meta( get_the_ID(), 'sponsor_url', true ); ?>">
 						<?php
 							if ( $image[0] ) {
 								echo '<img src="'.$image[0].'" alt="'.get_the_title().'" />';
@@ -92,7 +92,7 @@
 						} else {
 							$image = null;
 						}
-					?><a href="#">
+					?><a href="<?php echo get_post_meta( get_the_ID(), 'sponsor_url', true ); ?>">
 						<?php
 							if ( $image[0] ) {
 								echo '<img src="'.$image[0].'" alt="'.get_the_title().'" />';
@@ -113,7 +113,7 @@
 						} else {
 							$image = null;
 						}
-					?><a href="#">
+					?><a href="<?php echo get_post_meta( get_the_ID(), 'sponsor_url', true ); ?>">
 						<?php
 							if ( $image[0] ) {
 								echo '<img src="'.$image[0].'" alt="'.get_the_title().'" />';
@@ -133,7 +133,7 @@
 						} else {
 							$image = null;
 						}
-					?><a href="#">
+					?><a href="<?php echo get_post_meta( get_the_ID(), 'sponsor_url', true ); ?>">
 						<?php
 							if ( $image[0] ) {
 								echo '<img src="'.$image[0].'" alt="'.get_the_title().'" />';
@@ -153,7 +153,7 @@
 						} else {
 							$image = null;
 						}
-					?><a href="#">
+					?><a href="<?php echo get_post_meta( get_the_ID(), 'sponsor_url', true ); ?>">
 						<?php
 							if ( $image[0] ) {
 								echo '<img src="'.$image[0].'" alt="'.get_the_title().'" />';
@@ -173,7 +173,7 @@
 						} else {
 							$image = null;
 						}
-					?><a href="#">
+					?><a href="<?php echo get_post_meta( get_the_ID(), 'sponsor_url', true ); ?>">
 						<?php
 							if ( $image[0] ) {
 								echo '<img src="'.$image[0].'" alt="'.get_the_title().'" />';
@@ -193,7 +193,7 @@
 						} else {
 							$image = null;
 						}
-					?><a href="#"><?php
+					?><a href="<?php echo get_post_meta( get_the_ID(), 'sponsor_url', true ); ?>"><?php
 							if ( $image[0] ) {
 								echo '<img src="'.$image[0].'" alt="'.get_the_title().'" />';
 							}
