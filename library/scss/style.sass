@@ -84,6 +84,14 @@ h2
 h3
 	+headline(20px,24px)
 
+.entry-content
+	h1,h2,h3,h4,h5,h6,p,blockquote,ul
+		:margin-bottom 1.3em
+
+header 
+	h1
+		:margin-bottom 0
+
 p, ul, ul li
 	+paragraph(18px,22px)
 
@@ -102,11 +110,6 @@ p
 
 		li
 			:margin-bottom 10px
-
-
-h2+p, h3+p,
-h2+ul, h3+ul
-	:margin-top 0.25em
 
 // Forms
 form
