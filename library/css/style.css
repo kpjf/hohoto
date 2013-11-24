@@ -822,32 +822,45 @@ form input[type='submit'] {
 #sponsors .kind_is.reindeer a:nth-child(4n+1), #sponsors .kind_is.snowflake a:nth-child(4n+1), #sponsors .kind_is.gingerbread a:nth-child(4n+1), #sponsors .kind_is.candycane a:nth-child(4n+1) {
   margin-left: 0;
 }
+/* line 76, ../scss/_sponsors.sass */
+#sponsors .kind_is.in-kind {
+  border-bottom: 0px;
+}
+/* line 80, ../scss/_sponsors.sass */
+#sponsors .kind_is.in-kind-2 a {
+  width: 20.4%;
+  margin-left: 3.125%;
+}
+/* line 84, ../scss/_sponsors.sass */
+#sponsors .kind_is.in-kind-2 a:nth-child(4n+1) {
+  margin-left: 0;
+}
 
 @media screen and (max-width: 520px) {
-  /* line 78, ../scss/_sponsors.sass */
+  /* line 89, ../scss/_sponsors.sass */
   #sponsors h2 {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
   }
-  /* line 80, ../scss/_sponsors.sass */
+  /* line 91, ../scss/_sponsors.sass */
   #sponsors h3 {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
   }
-  /* line 88, ../scss/_sponsors.sass */
+  /* line 99, ../scss/_sponsors.sass */
   #sponsors .kind_is.reindeer a, #sponsors .kind_is.snowflake a, #sponsors .kind_is.gingerbread a, #sponsors .kind_is.candycane a {
     width: 31.25%;
     margin-left: 3.125%;
   }
-  /* line 92, ../scss/_sponsors.sass */
+  /* line 103, ../scss/_sponsors.sass */
   #sponsors .kind_is.reindeer a:nth-child(4n+1), #sponsors .kind_is.snowflake a:nth-child(4n+1), #sponsors .kind_is.gingerbread a:nth-child(4n+1), #sponsors .kind_is.candycane a:nth-child(4n+1) {
     margin-left: 3.125%;
   }
-  /* line 95, ../scss/_sponsors.sass */
+  /* line 106, ../scss/_sponsors.sass */
   #sponsors .kind_is.reindeer a:nth-child(3n+1), #sponsors .kind_is.snowflake a:nth-child(3n+1), #sponsors .kind_is.gingerbread a:nth-child(3n+1), #sponsors .kind_is.candycane a:nth-child(3n+1) {
     margin-left: 0;
   }

@@ -54,6 +54,15 @@
 				'sponsor_tier' => 'in-kind',
 				'order'=>'ASC'
 			));
+
+			$inkindish = new WP_Query(array(
+				'post_type' => 'sponsor', 
+				'posts_per_page' => -1, 
+				'sponsor_tier' => 'in-kind-2',
+				'order'=>'ASC'
+			));
+
+
 		?>
 		
 		<div id="sponsor_container">
@@ -206,6 +215,22 @@
 				<div class="kind_is in-kind">
 					<?php while ( $inkind->have_posts() ) { 
 						$inkind->the_post(); 
+						if (has_post_thumbnail( $post->ID ) ) {
+							$image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); 
+						} else {
+							$image = null;
+						}
+					?><a href="<?php echo get_post_meta( get_the_ID(), 'sponsor_url', true ); ?>">
+						<?php
+							if ( $image[0] ) {
+								echo '<img src="'.$image[0].'" alt="'.get_the_title().'" />';
+							}
+						?></a><?php } ?>
+				</div>
+
+				<div class="kind_is in-kind-2">
+					<?php while ( $inkindish->have_posts() ) { 
+						$inkindish->the_post(); 
 						if (has_post_thumbnail( $post->ID ) ) {
 							$image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); 
 						} else {
