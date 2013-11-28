@@ -23,7 +23,11 @@
 					
 						
 					
-					</div> <?php // end article ?></div>
+					</div> <?php // end article ?>
+
+					<?php comments_template(); ?>
+
+				</div>
 
 				<?php get_sidebar(); ?>
 

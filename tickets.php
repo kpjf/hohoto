@@ -125,10 +125,12 @@ Template Name: Tickets Page
 					<?php
 						while ( $entertainment->have_posts() ) : $entertainment->the_post();
 							$image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); 
+							$url = get_post_meta( get_the_ID(), 'sponsor_url', true );
 					?>
 						<li>
-						<img src="<?php echo $image[0]; ?>" alt="<?php get_the_title(); ?>" /><!--
-						--><h4><?php the_title(); ?></h4><!--
+
+						<a href="<?php echo $url; ?>"><img src="<?php echo $image[0]; ?>" alt="<?php get_the_title(); ?>" /></a><!--
+						--><h4><a href="<?php echo $url; ?>"><?php the_title(); ?></a></h4><!--
 						--><span><?php echo get_the_excerpt(); ?></span>
 					</li>
 					<?php endwhile; ?> 
