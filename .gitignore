@@ -24,7 +24,6 @@ local.properties
 .cproject
 .buildpath
 nbproject/
-node_modules/
 
 ############
 ## OSes
@@ -59,3 +58,4 @@ temp/
 
 *.sassc
 library/scss/.sass-cache
+node_modules

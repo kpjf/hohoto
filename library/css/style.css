@@ -1,4 +1,3 @@
-/* line 17, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,93 +19,77 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
-/* line 48, ../scss/style.sass */
 body {
   font-family: "Museo Sans", Helvetica, Arial, sans-serif;
   font-weight: 100;
   font-size: 16px;
   line-height: 20px;
-  background-color: #bc2132;
-  color: white;
+  background-color: #BC2132;
+  color: #FFF;
 }
 
-/* line 57, ../scss/style.sass */
 a {
-  color: white;
+  color: #FFF;
   text-decoration: none;
 }
 
-/* line 62, ../scss/style.sass */
 .article a {
-  color: #bc2132;
+  color: #BC2132;
 }
 
-/* line 65, ../scss/style.sass */
 .button {
-  -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
+  -webkit-border-radius: 4px;
   border-radius: 4px;
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
-  zoom: 1;
+  *zoom: 1;
   *display: inline;
   text-align: center;
 }
 
-/* line 71, ../scss/style.sass */
 .content {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0 auto;
   max-width: 960px;
@@ -116,7 +99,6 @@ a {
   font-size: 0;
 }
 
-/* line 81, ../scss/style.sass */
 h2 {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -124,7 +106,6 @@ h2 {
   line-height: 36px;
 }
 
-/* line 84, ../scss/style.sass */
 h3 {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -132,21 +113,17 @@ h3 {
   line-height: 24px;
 }
 
-/* line 88, ../scss/style.sass */
 .entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6, .entry-content p, .entry-content blockquote, .entry-content ul {
   margin-bottom: 1.3em;
 }
-/* line 90, ../scss/style.sass */
 .entry-content em {
   font-style: italic;
 }
 
-/* line 94, ../scss/style.sass */
 header h1 {
   margin-bottom: 0;
 }
 
-/* line 97, ../scss/style.sass */
 p, ul, ul li {
   font-family: "Museo Sans", Helvetica, Arial, sans-serif;
   font-weight: 100;
@@ -154,60 +131,47 @@ p, ul, ul li {
   line-height: 22px;
 }
 
-/* line 100, ../scss/style.sass */
 p {
   margin-bottom: 1.5em;
 }
 
-/* line 104, ../scss/style.sass */
 .entry-content blockquote {
   font-style: italic;
-  background-color: #f0f0f0;
+  background-color: #F0F0F0;
   padding: 20px;
 }
-/* line 109, ../scss/style.sass */
 .entry-content ul {
   list-style: disc;
   padding-left: 25px;
 }
-/* line 113, ../scss/style.sass */
 .entry-content ul li {
   margin-bottom: 10px;
 }
 
-/* line 118, ../scss/style.sass */
 form input[type='text'] {
-  -webkit-appearance: none;
   -moz-appearance: none;
-  appearance: none;
-  -webkit-border-radius: 4px;
+  -webkit-appearance: none;
   -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
+  -webkit-border-radius: 4px;
   border-radius: 4px;
   font-family: "Museo Sans", Helvetica, Arial, sans-serif;
   font-weight: 100;
   font-size: 16px;
   line-height: 20px;
   border: none;
-  background: white;
+  background: #FFF;
   margin: 0;
   outline: none;
   padding: 8px 16px;
 }
-/* line 127, ../scss/style.sass */
 form input[type='text']:focus {
   background: #e6f7ff;
 }
-/* line 130, ../scss/style.sass */
 form input[type='submit'] {
-  -webkit-appearance: none;
   -moz-appearance: none;
-  appearance: none;
-  -webkit-border-radius: 4px;
+  -webkit-appearance: none;
   -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
+  -webkit-border-radius: 4px;
   border-radius: 4px;
   font-family: "Museo Sans", Helvetica, Arial, sans-serif;
   font-weight: 100;
@@ -221,42 +185,34 @@ form input[type='submit'] {
   padding: 8px 16px;
 }
 
-/* line 141, ../scss/style.sass */
 .sidebar {
   width: 31.25%;
 }
 
-/* line 145, ../scss/style.sass */
 #menu_container {
   overflow: hidden;
   *zoom: 1;
   padding: 20px 0 40px;
 }
 
-/* line 150, ../scss/style.sass */
 #menu h1 {
   float: left;
 }
-/* line 153, ../scss/style.sass */
 #menu h1 img {
   display: inline;
 }
-/* line 156, ../scss/style.sass */
 #menu ul {
   float: left;
   font-size: 0;
 }
-/* line 160, ../scss/style.sass */
 #menu ul li {
-  display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
-  zoom: 1;
+  *zoom: 1;
   *display: inline;
   margin-left: 3em;
 }
-/* line 164, ../scss/style.sass */
 #menu ul li a {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -265,24 +221,20 @@ form input[type='submit'] {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 170, ../scss/style.sass */
   body .content .sidebar {
     width: 100%;
     display: block;
   }
-  /* line 174, ../scss/style.sass */
   body .content #mce-responses {
-    display: -moz-inline-stack;
     display: inline-block;
     vertical-align: middle;
     *vertical-align: auto;
-    zoom: 1;
+    *zoom: 1;
     *display: inline;
     margin-right: 10px;
   }
 }
 @media screen and (max-width: 760px) {
-  /* line 178, ../scss/style.sass */
   h2 {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
@@ -290,32 +242,27 @@ form input[type='submit'] {
     line-height: 30px;
   }
 
-  /* line 180, ../scss/style.sass */
   #menu_container {
-    background: #991b29;
+    background: #991B29;
     margin-bottom: 10px;
     padding: 10px 0;
   }
 
-  /* line 186, ../scss/style.sass */
   #menu h1 {
     margin-bottom: 10px;
     text-align: center;
     width: 100%;
   }
-  /* line 191, ../scss/style.sass */
   #menu ul {
     float: none;
     text-align: center;
   }
-  /* line 195, ../scss/style.sass */
   #menu ul li {
     margin: 0 1.5%;
     width: 30%;
   }
 }
 @media screen and (max-width: 520px) {
-  /* line 200, ../scss/style.sass */
   h2 {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
@@ -323,7 +270,6 @@ form input[type='submit'] {
     line-height: 24px;
   }
 
-  /* line 203, ../scss/style.sass */
   h3 {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
@@ -331,33 +277,27 @@ form input[type='submit'] {
     line-height: 20px;
   }
 
-  /* line 206, ../scss/style.sass */
   .content {
     padding-left: 8px;
     padding-right: 8px;
   }
 
-  /* line 212, ../scss/style.sass */
   #menu h1 {
     width: 100%;
     text-align: center;
   }
-  /* line 216, ../scss/style.sass */
   #menu h1 img {
     width: 150px;
     height: 30px;
   }
-  /* line 220, ../scss/style.sass */
   #menu ul {
     float: none;
     text-align: center;
   }
-  /* line 224, ../scss/style.sass */
   #menu ul li {
     margin: 0 1.5%;
     width: 30%;
   }
-  /* line 228, ../scss/style.sass */
   #menu ul li a {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
@@ -365,91 +305,77 @@ form input[type='submit'] {
     line-height: 44px;
   }
 }
-/* line 1, ../scss/_introduction_and_tickets.sass */
 #event_container {
   padding-bottom: 20px;
 }
 
-/* line 8, ../scss/_introduction_and_tickets.sass */
 #introduction_and_tickets {
   clear: both;
 }
-/* line 11, ../scss/_introduction_and_tickets.sass */
 #introduction_and_tickets #introduction {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 28px;
   line-height: 36px;
-  display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
-  zoom: 1;
+  *zoom: 1;
   *display: inline;
   vertical-align: top;
   width: 61.5%;
   margin-right: 7.25%;
   max-width: 590px;
 }
-/* line 19, ../scss/_introduction_and_tickets.sass */
 #introduction_and_tickets #introduction h2 {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
 }
-/* line 22, ../scss/_introduction_and_tickets.sass */
 #introduction_and_tickets #introduction h3 {
-  color: #ffb3bb;
+  color: #FFB3BB;
 }
-/* line 25, ../scss/_introduction_and_tickets.sass */
 #introduction_and_tickets #introduction h3 + p {
   margin-top: 1.5em;
 }
-/* line 28, ../scss/_introduction_and_tickets.sass */
 #introduction_and_tickets #introduction p {
   margin-bottom: 1.5em;
 }
-/* line 31, ../scss/_introduction_and_tickets.sass */
 #introduction_and_tickets #introduction .event_details {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 50px;
-  background: #ffcc33;
-  color: #231f20;
+  background: #FFCC33;
+  color: #231F20;
   padding: 0 2em;
 }
-/* line 37, ../scss/_introduction_and_tickets.sass */
 #introduction_and_tickets #tickets {
-  display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
-  zoom: 1;
+  *zoom: 1;
   *display: inline;
   vertical-align: top;
   width: 100%;
   width: 31.25%;
   max-width: 300px;
 }
-/* line 45, ../scss/_introduction_and_tickets.sass */
 #introduction_and_tickets #tickets a.button {
   margin-bottom: 30px;
   width: 100%;
 }
-/* line 49, ../scss/_introduction_and_tickets.sass */
 #introduction_and_tickets #tickets .buy_tickets {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 36px;
   line-height: 40px;
   padding: 40px 0;
-  background: #ffcc33;
-  color: #231f20;
+  background: #FFCC33;
+  color: #231F20;
   position: relative;
 }
-/* line 56, ../scss/_introduction_and_tickets.sass */
 #introduction_and_tickets #tickets .buy_tickets:before {
   content: "";
   position: absolute;
@@ -458,11 +384,10 @@ form input[type='submit'] {
   width: 100%;
   padding: 0 2px;
   height: 20px;
-  background-image: url('../images/bkgr/bkgr_buy_tickets.png?1383586485');
+  background-image: url('/library/images/bkgr/bkgr_buy_tickets.png?1383586485');
   background-size: 100% 20px;
   background-repeat: no-repeat;
 }
-/* line 70, ../scss/_introduction_and_tickets.sass */
 #introduction_and_tickets #tickets .be_a_sponsor,
 #introduction_and_tickets #tickets .get_involved {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
@@ -470,17 +395,15 @@ form input[type='submit'] {
   font-size: 20px;
   line-height: 24px;
   padding: 13px 0;
-  background: white;
-  color: #231f20;
+  background: #FFF;
+  color: #231F20;
 }
-/* line 77, ../scss/_introduction_and_tickets.sass */
 #introduction_and_tickets #tickets .get_involved {
-  background: #991b29;
-  color: white;
+  background: #991B29;
+  color: #FFF;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 82, ../scss/_introduction_and_tickets.sass */
   #introduction_and_tickets #tickets .buy_tickets {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
@@ -489,27 +412,22 @@ form input[type='submit'] {
   }
 }
 @media screen and (max-width: 760px) {
-  /* line 86, ../scss/_introduction_and_tickets.sass */
   #introduction_and_tickets {
     text-align: center;
   }
-  /* line 89, ../scss/_introduction_and_tickets.sass */
   #introduction_and_tickets #introduction {
     width: 100%;
     max-width: 480px;
     margin: 0;
   }
-  /* line 94, ../scss/_introduction_and_tickets.sass */
   #introduction_and_tickets #introduction .event_details {
     display: none;
   }
-  /* line 97, ../scss/_introduction_and_tickets.sass */
   #introduction_and_tickets #tickets {
     width: 100%;
     max-width: 480px;
     margin: 0;
   }
-  /* line 101, ../scss/_introduction_and_tickets.sass */
   #introduction_and_tickets #tickets .buy_tickets {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
@@ -518,48 +436,40 @@ form input[type='submit'] {
   }
 }
 @media screen and (max-width: 520px) {
-  /* line 106, ../scss/_introduction_and_tickets.sass */
   #introduction_and_tickets #introduction {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 26px;
   }
-  /* line 109, ../scss/_introduction_and_tickets.sass */
   #introduction_and_tickets #introduction h2 {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
     font-size: 30px;
     line-height: 38px;
   }
-  /* line 112, ../scss/_introduction_and_tickets.sass */
   #introduction_and_tickets #introduction h3 {
-    color: #ffb3bb;
+    color: #FFB3BB;
   }
-  /* line 115, ../scss/_introduction_and_tickets.sass */
   #introduction_and_tickets #introduction h3 + p {
     margin-top: 1em;
   }
-  /* line 118, ../scss/_introduction_and_tickets.sass */
   #introduction_and_tickets #introduction p {
     margin-bottom: 1.5em;
   }
-  /* line 121, ../scss/_introduction_and_tickets.sass */
   #introduction_and_tickets #introduction .event_details {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 50px;
-    background: #ffcc33;
-    color: #231f20;
+    background: #FFCC33;
+    color: #231F20;
     padding: 0 2em;
   }
-  /* line 128, ../scss/_introduction_and_tickets.sass */
   #introduction_and_tickets #tickets a.button {
     margin-bottom: 10px;
     width: 100%;
   }
-  /* line 132, ../scss/_introduction_and_tickets.sass */
   #introduction_and_tickets #tickets .buy_tickets {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
@@ -567,7 +477,6 @@ form input[type='submit'] {
     line-height: 32px;
     padding: 20px 0;
   }
-  /* line 137, ../scss/_introduction_and_tickets.sass */
   #introduction_and_tickets #tickets .be_a_sponsor,
   #introduction_and_tickets #tickets .get_involved {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
@@ -577,28 +486,23 @@ form input[type='submit'] {
     padding: 12px 0;
   }
 }
-/* line 1, ../scss/_news_and_updates.sass */
 #news_and_updates {
   margin-top: 40px;
 }
-/* line 3, ../scss/_news_and_updates.sass */
 #news_and_updates h2 {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 28px;
   line-height: 36px;
 }
-/* line 8, ../scss/_news_and_updates.sass */
 #news_and_updates #stories {
   display: table;
   border-spacing: 30px;
   margin: 0 -30px 0;
 }
-/* line 13, ../scss/_news_and_updates.sass */
 #news_and_updates #stories ul {
   display: block;
 }
-/* line 16, ../scss/_news_and_updates.sass */
 #news_and_updates #stories ul li {
   display: block;
   width: 100%;
@@ -606,41 +510,33 @@ form input[type='submit'] {
   height: auto;
   margin-bottom: 1em;
 }
-/* line 23, ../scss/_news_and_updates.sass */
 #news_and_updates #stories ul li p {
   margin-bottom: 0;
 }
-/* line 26, ../scss/_news_and_updates.sass */
 #news_and_updates #stories ul .from-now {
   font-size: 0.7em;
   text-transform: uppercase;
 }
-/* line 30, ../scss/_news_and_updates.sass */
 #news_and_updates #stories ul a {
-  color: #bc2132;
+  color: #BC2132;
 }
-/* line 33, ../scss/_news_and_updates.sass */
 #news_and_updates li {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
+  -webkit-border-radius: 4px;
   border-radius: 4px;
-  background: white;
-  color: black;
+  background: #FFF;
+  color: #000;
   display: table-cell;
   padding: 20px;
   position: relative;
   width: 30%;
 }
-/* line 45, ../scss/_news_and_updates.sass */
 #news_and_updates li.tweets h2 {
   margin-bottom: 20px;
 }
-/* line 48, ../scss/_news_and_updates.sass */
 #news_and_updates li h2 {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -650,12 +546,10 @@ form input[type='submit'] {
   padding: 0;
   margin-bottom: 0.5em;
 }
-/* line 54, ../scss/_news_and_updates.sass */
 #news_and_updates li h2 a {
   text-decoration: none;
-  color: #bc2132;
+  color: #BC2132;
 }
-/* line 58, ../scss/_news_and_updates.sass */
 #news_and_updates li h3 {
   font-family: "Museo Sans", Helvetica, Arial, sans-serif;
   font-weight: 100;
@@ -663,54 +557,44 @@ form input[type='submit'] {
   line-height: 20px;
   margin-bottom: 0.5em;
 }
-/* line 62, ../scss/_news_and_updates.sass */
 #news_and_updates li h3 + p {
   margin-top: 1em;
 }
-/* line 65, ../scss/_news_and_updates.sass */
 #news_and_updates li p {
   margin-bottom: 1em;
 }
-/* line 68, ../scss/_news_and_updates.sass */
 #news_and_updates li a.psudeo_anchor {
-  color: black;
+  color: #000;
   text-decoration: underline;
 }
-/* line 72, ../scss/_news_and_updates.sass */
 #news_and_updates li a.excerpt-read-more {
-  color: #bc2132;
+  color: #BC2132;
   display: block;
   margin-top: 0.5em;
   text-decoration: underline;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 83, ../scss/_news_and_updates.sass */
   body #news_and_updates li h2 {
     text-align: left;
   }
-  /* line 86, ../scss/_news_and_updates.sass */
   body #news_and_updates li:nth-child(2) {
     display: none;
   }
-  /* line 89, ../scss/_news_and_updates.sass */
   body #news_and_updates h2 {
     text-align: center;
   }
 }
 @media screen and (max-width: 760px) {
-  /* line 93, ../scss/_news_and_updates.sass */
   #news_and_updates li:nth-child(2) {
     display: none;
   }
 }
 @media screen and (max-width: 520px) {
-  /* line 98, ../scss/_news_and_updates.sass */
   #news_and_updates {
     display: block;
     margin: 20px 0 0;
   }
-  /* line 102, ../scss/_news_and_updates.sass */
   #news_and_updates h2 {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
@@ -718,20 +602,17 @@ form input[type='submit'] {
     line-height: 28px;
     padding: 1em 0 1em;
   }
-  /* line 107, ../scss/_news_and_updates.sass */
   #news_and_updates #stories {
     display: block;
     margin: 0;
   }
-  /* line 111, ../scss/_news_and_updates.sass */
   #news_and_updates #stories li {
-    color: black;
+    color: #000;
     display: block;
     width: 100%;
     margin-bottom: 10px;
     padding: 10px;
   }
-  /* line 118, ../scss/_news_and_updates.sass */
   #news_and_updates #stories li h2 {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
@@ -739,16 +620,13 @@ form input[type='submit'] {
     line-height: 20px;
   }
 }
-/* line 1, ../scss/_sponsors.sass */
 #sponsor_container {
-  background: #991b29;
+  background: #991B29;
 }
 
-/* line 4, ../scss/_sponsors.sass */
 #sponsors {
   text-align: center;
 }
-/* line 7, ../scss/_sponsors.sass */
 #sponsors h2 {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -756,144 +634,118 @@ form input[type='submit'] {
   line-height: 36px;
   padding: 1em 0 0;
 }
-/* line 10, ../scss/_sponsors.sass */
 #sponsors h3 {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
-  color: #ffb3bb;
+  color: #FFB3BB;
   padding: 1em 0 1em;
 }
-/* line 15, ../scss/_sponsors.sass */
 #sponsors .kind_is {
   text-align: center;
-  border-bottom: 2px #bc2132 solid;
+  border-bottom: 2px #BC2132 solid;
   font-size: 0px;
 }
-/* line 21, ../scss/_sponsors.sass */
 #sponsors .kind_is a {
-  -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
+  -webkit-border-radius: 4px;
   border-radius: 4px;
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
-  zoom: 1;
+  *zoom: 1;
   *display: inline;
   text-align: center;
   padding: 5px;
-  background: white;
+  background: #FFF;
   margin-bottom: 30px;
 }
-/* line 30, ../scss/_sponsors.sass */
 #sponsors .kind_is a img {
   margin: 0 auto;
   max-width: 80%;
   text-align: center;
   display: block;
 }
-/* line 38, ../scss/_sponsors.sass */
 #sponsors .kind_is.santa a {
   width: 100%;
 }
-/* line 41, ../scss/_sponsors.sass */
 #sponsors .kind_is.mrsclaus a {
   width: 48.4375%;
   margin-left: 3.125%;
 }
-/* line 45, ../scss/_sponsors.sass */
 #sponsors .kind_is.mrsclaus a:nth-child(2n+1) {
   margin-left: 0;
 }
-/* line 49, ../scss/_sponsors.sass */
 #sponsors .kind_is.elf a, #sponsors .kind_is.in-kind a {
   width: 31.25%;
   margin-left: 3.125%;
 }
-/* line 53, ../scss/_sponsors.sass */
 #sponsors .kind_is.elf a:nth-child(3n+1), #sponsors .kind_is.in-kind a:nth-child(3n+1) {
   margin-left: 0;
 }
-/* line 69, ../scss/_sponsors.sass */
 #sponsors .kind_is.reindeer a, #sponsors .kind_is.snowflake a, #sponsors .kind_is.gingerbread a, #sponsors .kind_is.candycane a {
   width: 22.4%;
   margin-left: 3.125%;
 }
-/* line 73, ../scss/_sponsors.sass */
 #sponsors .kind_is.reindeer a:nth-child(4n+1), #sponsors .kind_is.snowflake a:nth-child(4n+1), #sponsors .kind_is.gingerbread a:nth-child(4n+1), #sponsors .kind_is.candycane a:nth-child(4n+1) {
   margin-left: 0;
 }
-/* line 76, ../scss/_sponsors.sass */
 #sponsors .kind_is.in-kind {
   border-bottom: 0px;
 }
-/* line 80, ../scss/_sponsors.sass */
 #sponsors .kind_is.in-kind-2 a {
   width: 20.4%;
   margin-left: 3.125%;
 }
-/* line 84, ../scss/_sponsors.sass */
 #sponsors .kind_is.in-kind-2 a:nth-child(4n+1) {
   margin-left: 0;
 }
 
 @media screen and (max-width: 520px) {
-  /* line 89, ../scss/_sponsors.sass */
   #sponsors h2 {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
   }
-  /* line 91, ../scss/_sponsors.sass */
   #sponsors h3 {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
   }
-  /* line 99, ../scss/_sponsors.sass */
   #sponsors .kind_is.reindeer a, #sponsors .kind_is.snowflake a, #sponsors .kind_is.gingerbread a, #sponsors .kind_is.candycane a {
     width: 31.25%;
     margin-left: 3.125%;
   }
-  /* line 103, ../scss/_sponsors.sass */
   #sponsors .kind_is.reindeer a:nth-child(4n+1), #sponsors .kind_is.snowflake a:nth-child(4n+1), #sponsors .kind_is.gingerbread a:nth-child(4n+1), #sponsors .kind_is.candycane a:nth-child(4n+1) {
     margin-left: 3.125%;
   }
-  /* line 106, ../scss/_sponsors.sass */
   #sponsors .kind_is.reindeer a:nth-child(3n+1), #sponsors .kind_is.snowflake a:nth-child(3n+1), #sponsors .kind_is.gingerbread a:nth-child(3n+1), #sponsors .kind_is.candycane a:nth-child(3n+1) {
     margin-left: 0;
   }
 }
-/* line 1, ../scss/_overview_and_features.sass */
 #overview {
-  -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
+  -webkit-border-radius: 4px;
   border-radius: 4px;
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-family: "Museo Sans", Helvetica, Arial, sans-serif;
   font-weight: 100;
   font-size: 24px;
   line-height: 30px;
-  display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
-  zoom: 1;
+  *zoom: 1;
   *display: inline;
-  background: white;
+  background: #FFF;
   color: #333333;
   margin-right: 3.125%;
   max-width: 630px;
@@ -901,48 +753,40 @@ form input[type='submit'] {
   vertical-align: top;
   width: 65.625%;
 }
-/* line 14, ../scss/_overview_and_features.sass */
 #overview h2, #overview h3 {
-  color: #bc2132;
+  color: #BC2132;
 }
-/* line 18, ../scss/_overview_and_features.sass */
 #overview ul#date_and_location li {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
-  zoom: 1;
+  *zoom: 1;
   *display: inline;
   padding-left: 32px;
   position: relative;
   vertical-align: top;
 }
-/* line 25, ../scss/_overview_and_features.sass */
 #overview ul#date_and_location li.date {
   width: 50%;
   margin-right: 10%;
 }
-/* line 29, ../scss/_overview_and_features.sass */
 #overview ul#date_and_location li.location {
   width: 40%;
 }
-/* line 32, ../scss/_overview_and_features.sass */
 #overview ul#date_and_location img {
   position: absolute;
   top: 0;
   left: 0;
 }
-/* line 37, ../scss/_overview_and_features.sass */
 #overview ul#date_and_location h2 {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
 }
-/* line 40, ../scss/_overview_and_features.sass */
 #overview ul#date_and_location span {
   display: block;
   font-family: "Museo Sans", Helvetica, Arial, sans-serif;
@@ -951,66 +795,55 @@ form input[type='submit'] {
   line-height: 22px;
   color: #333333;
 }
-/* line 45, ../scss/_overview_and_features.sass */
 #overview img#img_logo_dbfb {
   float: right;
 }
-/* line 49, ../scss/_overview_and_features.sass */
 #overview ul#featuring li {
-  display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
-  zoom: 1;
+  *zoom: 1;
   *display: inline;
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin-left: 5%;
   vertical-align: top;
   width: 30%;
 }
-/* line 56, ../scss/_overview_and_features.sass */
 #overview ul#featuring li:first-of-type {
   margin-left: 0;
 }
 
-/* line 59, ../scss/_overview_and_features.sass */
 #features {
-  -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
+  -webkit-border-radius: 4px;
   border-radius: 4px;
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
-  zoom: 1;
+  *zoom: 1;
   *display: inline;
-  background: #e6f7ff;
+  background: #E6F7FF;
   max-width: 300px;
   padding: 20px;
   vertical-align: top;
   width: 31.25%;
 }
-/* line 69, ../scss/_overview_and_features.sass */
 #features h3 {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
-  color: #0084a6;
+  color: #0084A6;
 }
-/* line 73, ../scss/_overview_and_features.sass */
 #features h3 + p,
 #features h3 + ul {
   margin-top: 0.5em;
 }
-/* line 77, ../scss/_overview_and_features.sass */
 #features p, #features ul {
   font-family: "Museo Sans", Helvetica, Arial, sans-serif;
   font-weight: 100;
@@ -1019,68 +852,56 @@ form input[type='submit'] {
   color: #333333;
   margin-bottom: 0.5em;
 }
-/* line 82, ../scss/_overview_and_features.sass */
 #features p + h3 {
   margin-top: 1em;
 }
-/* line 85, ../scss/_overview_and_features.sass */
 #features ul#activities li {
   margin-bottom: 1.5em;
 }
-/* line 89, ../scss/_overview_and_features.sass */
 #features ul#entertainment li {
   margin-bottom: 1.5em;
   padding-left: 26%;
   position: relative;
 }
-/* line 94, ../scss/_overview_and_features.sass */
 #features ul#entertainment li a {
-  color: #333333;
+  color: #333;
 }
-/* line 97, ../scss/_overview_and_features.sass */
 #features ul#entertainment li h4 {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
 }
-/* line 99, ../scss/_overview_and_features.sass */
 #features ul#entertainment li span {
   font-family: "Museo Sans", Helvetica, Arial, sans-serif;
   font-weight: 100;
   font-size: 18px;
   line-height: 22px;
 }
-/* line 101, ../scss/_overview_and_features.sass */
 #features ul#entertainment li img {
   position: absolute;
   left: 0;
   top: 0;
-  -webkit-border-radius: 44px;
   -moz-border-radius: 44px;
-  -ms-border-radius: 44px;
-  -o-border-radius: 44px;
+  -webkit-border-radius: 44px;
   border-radius: 44px;
-  display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
-  zoom: 1;
+  *zoom: 1;
   *display: inline;
-  background-color: #b8c6cc;
+  background-color: #B8C6CC;
   width: 20%;
   max-width: 44px;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 112, ../scss/_overview_and_features.sass */
   #overview {
     margin: 0 0 16px;
     max-width: none;
     width: 100%;
   }
 
-  /* line 117, ../scss/_overview_and_features.sass */
   #features {
     margin: 0;
     max-width: none;
@@ -1088,266 +909,219 @@ form input[type='submit'] {
   }
 }
 @media screen and (max-width: 768px) and (min-width: 521px) {
-  /* line 124, ../scss/_overview_and_features.sass */
   #features ul#activities li {
-    display: -moz-inline-stack;
     display: inline-block;
     vertical-align: middle;
     *vertical-align: auto;
-    zoom: 1;
+    *zoom: 1;
     *display: inline;
     vertical-align: top;
     width: 47%;
     margin-bottom: 0.5em;
   }
-  /* line 130, ../scss/_overview_and_features.sass */
   #features ul#activities li:first-of-type {
     margin-right: 6%;
   }
-  /* line 133, ../scss/_overview_and_features.sass */
   #features ul#entertainment li {
-    -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    display: -moz-inline-stack;
     display: inline-block;
     vertical-align: middle;
     *vertical-align: auto;
-    zoom: 1;
+    *zoom: 1;
     *display: inline;
     padding-left: 8%;
     vertical-align: top;
     width: 30%;
     margin-left: 5%;
   }
-  /* line 141, ../scss/_overview_and_features.sass */
   #features ul#entertainment li:nth-of-type(3n+1) {
     margin-left: 0;
   }
 }
 @media screen and (max-width: 520px) {
-  /* line 148, ../scss/_overview_and_features.sass */
   #overview ul#date_and_location {
     text-align: center;
   }
-  /* line 151, ../scss/_overview_and_features.sass */
   #overview ul#date_and_location li {
     display: block;
     padding-left: 0;
   }
-  /* line 155, ../scss/_overview_and_features.sass */
   #overview ul#date_and_location li.date {
     width: 100%;
     margin-right: 0;
     margin-bottom: 10px;
   }
-  /* line 161, ../scss/_overview_and_features.sass */
   #overview ul#date_and_location li.location {
     width: 100%;
   }
-  /* line 164, ../scss/_overview_and_features.sass */
   #overview ul#date_and_location li h2 {
     font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
   }
-  /* line 167, ../scss/_overview_and_features.sass */
   #overview ul#date_and_location li img {
     display: none;
   }
-  /* line 170, ../scss/_overview_and_features.sass */
   #overview img#img_logo_dbfb {
     display: none;
   }
-  /* line 175, ../scss/_overview_and_features.sass */
   #overview ul#featuring li {
     width: 100%;
     margin-bottom: 0.5em;
     margin-left: 0;
   }
 
-  /* line 181, ../scss/_overview_and_features.sass */
   #features ul#entertainment li {
-    -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    display: -moz-inline-stack;
     display: inline-block;
     vertical-align: middle;
     *vertical-align: auto;
-    zoom: 1;
+    *zoom: 1;
     *display: inline;
     padding-left: 60px;
     vertical-align: top;
     width: 100%;
   }
-  /* line 189, ../scss/_overview_and_features.sass */
   #features ul#entertainment li:nth-of-type(3n+1) {
     margin-left: 0;
   }
 }
-/* line 1, ../scss/_connect_and_share.sass */
 .sidebar {
   width: 31.25%;
 }
 
-/* line 4, ../scss/_connect_and_share.sass */
 #connect_and_share {
   padding-bottom: 20px;
 }
 
-/* line 7, ../scss/_connect_and_share.sass */
 #stay_connected {
-  display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
-  zoom: 1;
+  *zoom: 1;
   *display: inline;
-  color: white;
+  color: #FFF;
   margin-right: 3.125%;
   max-width: 630px;
   vertical-align: top;
   width: 100%;
 }
-/* line 15, ../scss/_connect_and_share.sass */
 .page-template-tickets-php #stay_connected {
   width: 65.625%;
 }
-/* line 17, ../scss/_connect_and_share.sass */
 .page-template-tickets-php #stay_connected p {
   width: 60%;
 }
-/* line 20, ../scss/_connect_and_share.sass */
 #stay_connected p {
   max-width: 100%;
 }
 
-/* line 23, ../scss/_connect_and_share.sass */
 #share {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
-  zoom: 1;
+  *zoom: 1;
   *display: inline;
   vertical-align: top;
   width: 31.25%;
   max-width: 300px;
 }
-/* line 30, ../scss/_connect_and_share.sass */
 .sidebar #share {
   margin-top: 25px;
 }
-/* line 33, ../scss/_connect_and_share.sass */
 #share a.share {
-  display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
-  zoom: 1;
+  *zoom: 1;
   *display: inline;
   margin-right: 16px;
 }
-/* line 37, ../scss/_connect_and_share.sass */
 #share a.share img {
-  -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
+  -webkit-border-radius: 4px;
   border-radius: 4px;
   display: block;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 43, ../scss/_connect_and_share.sass */
   #stay_connected p {
     max-width: 90%;
   }
 }
 @media screen and (max-width: 760px) {
-  /* line 47, ../scss/_connect_and_share.sass */
   #stay_connected {
     text-align: center;
     margin-bottom: 2em;
     max-width: none;
     width: 100%;
   }
-  /* line 53, ../scss/_connect_and_share.sass */
   .page-template-tickets-php #stay_connected {
     width: 100%;
     margin-bottom: 20px;
   }
-  /* line 56, ../scss/_connect_and_share.sass */
   .page-template-tickets-php #stay_connected p {
     width: 100%;
   }
-  /* line 59, ../scss/_connect_and_share.sass */
   #stay_connected p {
     max-width: none;
   }
 
-  /* line 62, ../scss/_connect_and_share.sass */
   #share {
     text-align: center;
     max-width: none;
     width: 100%;
   }
 }
-/* line 3, ../scss/_blog.sass */
 #blog_container .articles {
-  display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
-  zoom: 1;
+  *zoom: 1;
   *display: inline;
   width: 65.625%;
   margin-right: 3.125%;
 }
-/* line 8, ../scss/_blog.sass */
 #blog_container .wp-caption {
   padding: 10px;
-  background-color: #eeeeee;
+  background-color: #EEEEEE;
   margin-bottom: 20px;
 }
-/* line 13, ../scss/_blog.sass */
 #blog_container .wp-caption img {
   display: block;
   margin-bottom: 10px;
 }
-/* line 17, ../scss/_blog.sass */
 #blog_container .wp-caption p {
   font-family: "Museo Sans", Helvetica, Arial, sans-serif;
   font-weight: 100;
   font-size: 16px;
   line-height: 20px;
 }
-/* line 23, ../scss/_blog.sass */
 #blog_container .article {
-  -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
+  -webkit-border-radius: 4px;
   border-radius: 4px;
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-family: "Museo Sans", Helvetica, Arial, sans-serif;
   font-weight: 100;
   font-size: 24px;
   line-height: 30px;
-  display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
-  zoom: 1;
+  *zoom: 1;
   *display: inline;
-  background: white;
+  background: #FFF;
   color: #333333;
   margin-right: 3.125%;
   max-width: 630px;
@@ -1356,19 +1130,16 @@ form input[type='submit'] {
   width: 100%;
   margin-bottom: 20px;
 }
-/* line 37, ../scss/_blog.sass */
 #blog_container .article h1 {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 32px;
   line-height: 36px;
-  color: #bc2132;
+  color: #BC2132;
 }
-/* line 42, ../scss/_blog.sass */
 #blog_container .article h2 a {
-  color: #bc2132;
+  color: #BC2132;
 }
-/* line 45, ../scss/_blog.sass */
 #blog_container .article .metadata {
   margin: 1em 0 1.5em;
   font-family: "Museo Sans", Helvetica, Arial, sans-serif;
@@ -1376,139 +1147,114 @@ form input[type='submit'] {
   font-size: 16px;
   line-height: 20px;
 }
-/* line 52, ../scss/_blog.sass */
 #blog_container .article p:first-of-type {
   clear: both;
 }
-/* line 55, ../scss/_blog.sass */
 #blog_container .article p:last-of-type {
   margin-bottom: 0;
 }
-/* line 58, ../scss/_blog.sass */
 #blog_container .sidebar {
-  display: -moz-inline-stack;
   display: inline-block;
   vertical-align: top;
   *vertical-align: auto;
-  zoom: 1;
+  *zoom: 1;
   *display: inline;
   width: 31.25%;
 }
-/* line 62, ../scss/_blog.sass */
 #blog_container #connect_and_share {
-  -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
+  -webkit-border-radius: 4px;
   border-radius: 4px;
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   max-width: 300px;
   padding: 0;
   text-align: left;
   vertical-align: top;
 }
-/* line 72, ../scss/_blog.sass */
 #blog_container #connect_and_share #stay_connected {
   margin-bottom: 2em;
   max-width: none;
   width: 100%;
 }
-/* line 77, ../scss/_blog.sass */
 #blog_container #connect_and_share #stay_connected p {
   max-width: none;
 }
-/* line 82, ../scss/_blog.sass */
 #blog_container #connect_and_share #stay_connected form input {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
   margin-bottom: 0.5em;
 }
-/* line 87, ../scss/_blog.sass */
 #blog_container #connect_and_share #share {
   max-width: none;
   width: 100%;
 }
 
-/* line 92, ../scss/_blog.sass */
 .pagination li {
-  display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
-  zoom: 1;
+  *zoom: 1;
   *display: inline;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 97, ../scss/_blog.sass */
   #blog_container .articles {
     width: 100%;
     margin: 0 0 20px;
   }
-  /* line 101, ../scss/_blog.sass */
   #blog_container .article {
     margin: 0 0 20px;
     max-width: none;
     width: 100%;
   }
-  /* line 105, ../scss/_blog.sass */
   #blog_container .sidebar {
     width: 100%;
     display: block;
   }
-  /* line 109, ../scss/_blog.sass */
   #blog_container #connect_and_share {
     margin: 0 0 20px;
     max-width: none;
     width: 100%;
     text-align: center;
   }
-  /* line 117, ../scss/_blog.sass */
   #blog_container #connect_and_share #stay_connected form input {
-    -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
     box-sizing: content-box;
     width: auto;
     margin-bottom: 0;
   }
 }
 @media screen and (max-width: 520px) {
-  /* line 124, ../scss/_blog.sass */
   #blog_container .sidebar {
-    display: -moz-inline-stack;
     display: inline-block;
     vertical-align: top;
     *vertical-align: auto;
-    zoom: 1;
+    *zoom: 1;
     *display: inline;
     width: 100%;
   }
-  /* line 128, ../scss/_blog.sass */
   #blog_container .article .author,
   #blog_container .article .date {
     float: none;
     display: block;
     margin: 0;
   }
-  /* line 134, ../scss/_blog.sass */
   #blog_container .article .author {
     margin-top: 1em;
   }
-  /* line 136, ../scss/_blog.sass */
   #blog_container .article .date {
     margin-bottom: 1em;
   }
 }
-/* line 2, ../scss/_tickets.sass */
 .page-template-tickets-php #stay_connected input[type="text"] {
   margin-right: 10px;
 }
 
-/* line 5, ../scss/_tickets.sass */
 .ticket_container,
 .raffle_container,
 .sponsor_container {
@@ -1517,7 +1263,6 @@ form input[type='submit'] {
   padding: 20px;
   width: 100%;
 }
-/* line 38, ../../../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .ticket_container:after,
 .raffle_container:after,
 .sponsor_container:after {
@@ -1525,7 +1270,25 @@ form input[type='submit'] {
   display: table;
   clear: both;
 }
-/* line 14, ../scss/_tickets.sass */
+.page-template-page-archive-event-php .ticket_container, .page-template-page-archive-event-php
+.raffle_container, .page-template-page-archive-event-php
+.sponsor_container {
+  margin: 20px -20px;
+}
+.page-template-page-archive-event-php .ticket_container h2, .page-template-page-archive-event-php
+.raffle_container h2, .page-template-page-archive-event-php
+.sponsor_container h2 {
+  font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.2;
+}
+.page-template-page-archive-event-php .ticket_container h2 a, .page-template-page-archive-event-php
+.raffle_container h2 a, .page-template-page-archive-event-php
+.sponsor_container h2 a {
+  color: #BC2132;
+  text-decoration: underline;
+}
 .ticket_container h2,
 .raffle_container h2,
 .sponsor_container h2 {
@@ -1538,7 +1301,6 @@ form input[type='submit'] {
   padding-left: 32px;
   position: relative;
 }
-/* line 21, ../scss/_tickets.sass */
 .ticket_container h2 img,
 .raffle_container h2 img,
 .sponsor_container h2 img {
@@ -1546,7 +1308,6 @@ form input[type='submit'] {
   top: 11px;
   left: 0;
 }
-/* line 26, ../scss/_tickets.sass */
 .ticket_container .button,
 .raffle_container .button,
 .sponsor_container .button {
@@ -1554,18 +1315,16 @@ form input[type='submit'] {
   font-weight: 500;
   font-size: 16px;
   line-height: 44px;
-  background: #ffcc33;
-  color: #231f20;
+  background: #FFCC33;
+  color: #231F20;
   float: right;
   padding: 0 0.75em;
 }
-/* line 34, ../scss/_tickets.sass */
 .ticket_container .tickets,
 .raffle_container .tickets,
 .sponsor_container .tickets {
   clear: both;
 }
-/* line 37, ../scss/_tickets.sass */
 .ticket_container .tickets li,
 .raffle_container .tickets li,
 .sponsor_container .tickets li {
@@ -1576,37 +1335,31 @@ form input[type='submit'] {
   display: block;
   margin-bottom: 0.5em;
 }
-/* line 42, ../scss/_tickets.sass */
 .ticket_container .tickets li:last-of-type,
 .raffle_container .tickets li:last-of-type,
 .sponsor_container .tickets li:last-of-type {
   margin-bottom: 0;
 }
-/* line 45, ../scss/_tickets.sass */
 .ticket_container .tickets ol li,
 .raffle_container .tickets ol li,
 .sponsor_container .tickets ol li {
-  display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
-  zoom: 1;
+  *zoom: 1;
   *display: inline;
   vertical-align: top;
 }
-/* line 49, ../scss/_tickets.sass */
 .ticket_container .tickets .price,
 .raffle_container .tickets .price,
 .sponsor_container .tickets .price {
   min-width: 80px;
 }
-/* line 52, ../scss/_tickets.sass */
 .ticket_container .tickets .details span,
 .raffle_container .tickets .details span,
 .sponsor_container .tickets .details span {
   display: block;
 }
-/* line 55, ../scss/_tickets.sass */
 .ticket_container .tickets .details span.description,
 .raffle_container .tickets .details span.description,
 .sponsor_container .tickets .details span.description {
@@ -1616,7 +1369,6 @@ form input[type='submit'] {
   line-height: 18px;
   margin-top: 0.25em;
 }
-/* line 59, ../scss/_tickets.sass */
 .ticket_container .fine_print,
 .raffle_container .fine_print,
 .sponsor_container .fine_print {
@@ -1624,38 +1376,32 @@ form input[type='submit'] {
   font-weight: 100;
   font-size: 14px;
   line-height: 18px;
-  color: #dd9098;
+  color: #DD9098;
 }
 
-/* line 63, ../scss/_tickets.sass */
 .ticket_container {
-  background: #fffaec;
+  background: #FFFAEC;
   margin-top: 20px;
 }
 
-/* line 67, ../scss/_tickets.sass */
 .raffle_container {
-  background: #fffcf5;
+  background: #FFFCF5;
 }
 
-/* line 70, ../scss/_tickets.sass */
 .sponsor_container {
-  background: #fffaec;
+  background: #FFFAEC;
   margin-bottom: 20px;
 }
-/* line 74, ../scss/_tickets.sass */
 .sponsor_container h2 {
   margin-bottom: 0;
 }
 
 @media screen and (max-width: 520px) {
-  /* line 78, ../scss/_tickets.sass */
   .ticket_container,
   .raffle_container,
   .sponsor_container {
     text-align: center;
   }
-  /* line 82, ../scss/_tickets.sass */
   .ticket_container h2,
   .raffle_container h2,
   .sponsor_container h2 {
@@ -1667,14 +1413,12 @@ form input[type='submit'] {
     padding: 0;
     margin-bottom: 0.25em;
   }
-  /* line 88, ../scss/_tickets.sass */
   .ticket_container h2 img,
   .raffle_container h2 img,
   .sponsor_container h2 img {
     top: 0;
     display: none;
   }
-  /* line 92, ../scss/_tickets.sass */
   .ticket_container .button,
   .raffle_container .button,
   .sponsor_container .button {
@@ -1682,14 +1426,12 @@ form input[type='submit'] {
     width: 100%;
     max-width: 320px;
   }
-  /* line 97, ../scss/_tickets.sass */
   .ticket_container .tickets li,
   .raffle_container .tickets li,
   .sponsor_container .tickets li {
     margin-top: 1em;
     margin-bottom: 0;
   }
-  /* line 101, ../scss/_tickets.sass */
   .ticket_container .tickets ol li,
   .raffle_container .tickets ol li,
   .sponsor_container .tickets ol li {
@@ -1697,7 +1439,6 @@ form input[type='submit'] {
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 106, ../scss/_tickets.sass */
   .ticket_container .tickets .price,
   .raffle_container .tickets .price,
   .sponsor_container .tickets .price {
@@ -1708,31 +1449,26 @@ form input[type='submit'] {
     line-height: 24px;
   }
 }
-/* line 3, ../scss/_sponsorships.sass */
 #sponsorship h2, #sponsorship h3 {
-  color: white;
+  color: #FFF;
 }
-/* line 6, ../scss/_sponsorships.sass */
 #sponsorship #become_a_sponsor {
-  -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
+  -webkit-border-radius: 4px;
   border-radius: 4px;
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-family: "Museo Sans", Helvetica, Arial, sans-serif;
   font-weight: 100;
   font-size: 24px;
   line-height: 30px;
-  display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
-  zoom: 1;
+  *zoom: 1;
   *display: inline;
-  background: white;
+  background: #FFF;
   color: #333333;
   margin-right: 3.125%;
   padding: 20px 20px 40px;
@@ -1740,34 +1476,28 @@ form input[type='submit'] {
   width: 65.625%;
   margin-bottom: 20px;
 }
-/* line 20, ../scss/_sponsorships.sass */
 #sponsorship #become_a_sponsor h2, #sponsorship #become_a_sponsor h3 {
-  color: #bc2132;
+  color: #BC2132;
 }
-/* line 23, ../scss/_sponsorships.sass */
 #sponsorship #become_a_sponsor ul.packages {
   clear: both;
 }
-/* line 26, ../scss/_sponsorships.sass */
 #sponsorship #become_a_sponsor ul.packages li {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
-  zoom: 1;
+  *zoom: 1;
   *display: inline;
   width: 50%;
   padding: 40px 0 0;
   vertical-align: top;
 }
-/* line 34, ../scss/_sponsorships.sass */
 #sponsorship #become_a_sponsor ul.packages li:nth-of-type(2n+1) {
   padding-right: 20px;
 }
-/* line 37, ../scss/_sponsorships.sass */
 #sponsorship #become_a_sponsor ul.packages li h2 {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -1777,16 +1507,14 @@ form input[type='submit'] {
   padding: 0;
   float: none;
 }
-/* line 44, ../scss/_sponsorships.sass */
 #sponsorship #become_a_sponsor ul.packages li h3 {
   font-family: "Museo Sans", Helvetica, Arial, sans-serif;
   font-weight: 100;
   font-size: 18px;
   line-height: 22px;
-  color: black;
+  color: #000;
   margin-bottom: 0.5em;
 }
-/* line 49, ../scss/_sponsorships.sass */
 #sponsorship #become_a_sponsor ul.packages li ol li, #sponsorship #become_a_sponsor ul.packages li p {
   font-family: "Museo Sans", Helvetica, Arial, sans-serif;
   font-weight: 100;
@@ -1797,121 +1525,100 @@ form input[type='submit'] {
   padding: 0;
   width: auto;
 }
-/* line 56, ../scss/_sponsorships.sass */
 #sponsorship #become_a_sponsor ul.packages li ol li:last-of-type, #sponsorship #become_a_sponsor ul.packages li p:last-of-type {
   padding: 0;
 }
-/* line 59, ../scss/_sponsorships.sass */
 #sponsorship #become_a_sponsor ul.packages li ol li:nth-of-type(2n+1), #sponsorship #become_a_sponsor ul.packages li p:nth-of-type(2n+1) {
   padding: 0;
 }
-/* line 62, ../scss/_sponsorships.sass */
 #sponsorship #become_a_sponsor ul.packages li a {
-  color: black;
+  color: #000;
 }
-/* line 65, ../scss/_sponsorships.sass */
 #sponsorship #become_a_sponsor ul.packages li .button {
   font-family: "Museo", "Trebuchet MS", Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 44px;
-  background: #ffcc33;
-  color: #231f20;
+  background: #FFCC33;
+  color: #231F20;
   padding: 0 0.75em;
   float: none;
 }
-/* line 73, ../scss/_sponsorships.sass */
 #sponsorship .sidebar {
-  display: -moz-inline-stack;
   display: inline-block;
   vertical-align: top;
   *vertical-align: auto;
-  zoom: 1;
+  *zoom: 1;
   *display: inline;
   width: 31.25%;
 }
-/* line 77, ../scss/_sponsorships.sass */
 #sponsorship #connect_and_share {
-  -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
+  -webkit-border-radius: 4px;
   border-radius: 4px;
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   max-width: 300px;
   padding: 0;
   text-align: left;
   vertical-align: top;
 }
-/* line 87, ../scss/_sponsorships.sass */
 #sponsorship #connect_and_share #stay_connected {
   margin-bottom: 2em;
   max-width: none;
   width: 100%;
 }
-/* line 92, ../scss/_sponsorships.sass */
 #sponsorship #connect_and_share #stay_connected p {
   max-width: none;
 }
-/* line 97, ../scss/_sponsorships.sass */
 #sponsorship #connect_and_share #stay_connected form input {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
   margin-bottom: 0.5em;
 }
-/* line 102, ../scss/_sponsorships.sass */
 #sponsorship #connect_and_share #share {
   max-width: none;
   width: 100%;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 108, ../scss/_sponsorships.sass */
   #sponsorship #become_a_sponsor {
     width: 100%;
     margin: 0 0 20px;
   }
-  /* line 112, ../scss/_sponsorships.sass */
   #sponsorship .sidebar {
     display: block;
     width: 100%;
   }
-  /* line 116, ../scss/_sponsorships.sass */
   #sponsorship #connect_and_share {
     margin: 0 0 20px;
     max-width: none;
     width: 100%;
     text-align: center;
   }
-  /* line 124, ../scss/_sponsorships.sass */
   #sponsorship #connect_and_share #stay_connected form input {
-    -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
     box-sizing: content-box;
     width: auto;
     margin-bottom: 0;
   }
 }
 @media screen and (max-width: 520px) {
-  /* line 134, ../scss/_sponsorships.sass */
   #sponsorship #become_a_sponsor ul.packages li {
     width: 100%;
   }
-  /* line 137, ../scss/_sponsorships.sass */
   #sponsorship #become_a_sponsor ul.packages li:nth-of-type(2n+1) {
     padding-right: 0;
   }
-  /* line 141, ../scss/_sponsorships.sass */
   #sponsorship .sidebar {
-    display: -moz-inline-stack;
     display: inline-block;
     vertical-align: top;
     *vertical-align: auto;
-    zoom: 1;
+    *zoom: 1;
     *display: inline;
     width: 100%;
   }

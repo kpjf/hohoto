@@ -1,0 +1,17 @@
+{
+  "name": "hohoto-wordpress-theme",
+  "version": "1.1.0",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-compass": "~0.7.2",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-uglify": "^0.5.1",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-modernizr": "^0.5.2",
+    "grunt-rsync": "^0.6.2",
+    "grunt-wordpress-setup": "*",
+    "load-grunt-tasks": "^0.6.0",
+    "underscore": "^1.7.0"
+  }
+}
