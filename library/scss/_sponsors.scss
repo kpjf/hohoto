@@ -1,0 +1,120 @@
+#sponsor_container {
+  background: #991B29;
+}
+
+#sponsors {
+  text-align: center;
+  h2 {
+    @include headline(28px, 36px);
+    padding: 1em 0 0;
+  }
+  h3 {
+    @include headline(24px, 28px);
+    color: #FFB3BB;
+    padding: 1em 0 1em;
+  }
+  .kind_is {
+    text-align: center;
+    border-bottom: 2px #BC2132 solid;
+    font-size: 0px;
+    a {
+      @include border-radius(4px);
+      @include box-sizing(border-box);
+      @include inline-block;
+      text-align: center;
+      padding: 5px;
+      background: #FFF;
+      margin-bottom: 30px;
+      img {
+        margin: 0 auto;
+        max-width: 80%;
+        text-align: center;
+        display: block;
+      }
+    }
+    &.santa {
+      a {
+        width: 100%;
+      }
+    }
+    &.mrsclaus {
+      a {
+        width: 48.4375%;
+        margin-left: 3.125%;
+        &:nth-child(2n+1) {
+          margin-left: 0;
+        }
+      }
+    }
+    &.elf, &.in-kind {
+      a {
+        width: 31.25%;
+        margin: {
+          left: 3.125%;
+        };
+        &:nth-child(3n+1) {
+          margin-left: 0;
+        }
+      }
+    }
+    //&.in-kind
+    //	a
+    //		:padding 5px
+    //		:width 22.40%
+    //		:margin-left 2.025%
+    //		&:nth-child(4n+1) // Setup for 4UP
+    //			:margin-left 0
+    &.reindeer,
+    &.snowflake,
+    &.gingerbread,
+    &.candycane {
+      a {
+        width: 22.4%;
+        margin-left: 3.125%;
+        &:nth-child(4n+1) {
+          margin-left: 0;
+        }
+      }
+    }
+    &.in-kind {
+      border-bottom: 0px;
+    }
+    &.in-kind-2 {
+      a {
+        width: 20.4%;
+        margin-left: 3.125%;
+        &:nth-child(4n+1) {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}
+
+@include breakpoint(phone) {
+  #sponsors {
+    h2 {
+      @include headline(24px, 28px);
+    }
+    h3 {
+      @include headline(20px, 24px);
+    }
+    .kind_is {
+      &.reindeer,
+      &.snowflake,
+      &.gingerbread,
+      &.candycane {
+        a {
+          width: 31.25%;
+          margin-left: 3.125%;
+          &:nth-child(4n+1) {
+            margin-left: 3.125%;
+          }
+          &:nth-child(3n+1) {
+            margin-left: 0;
+          }
+        }
+      }
+    }
+  }
+}

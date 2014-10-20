@@ -1,0 +1,128 @@
+#news_and_updates {
+  margin-top: 40px;
+  h2 {
+    @include headline(28px, 36px);
+  }
+  #stories {
+    display: table;
+    border-spacing: 30px;
+    margin: 0 -30px 0;
+    ul {
+      display: block;
+      li {
+        display: block;
+        width: 100%;
+        padding: 0;
+        height: auto;
+        margin-bottom: 1em;
+        p {
+          margin-bottom: 0;
+        }
+      }
+      .from-now {
+        font-size: 0.7em;
+        text-transform: uppercase;
+      }
+      a {
+        color: #BC2132;
+      }
+    }
+  }
+  li {
+    @include box-sizing(border-box);
+    @include border-radius(4px);
+    background: #FFF;
+    color: #000;
+    display: table-cell;
+    padding: 20px;
+    position: relative;
+    width: 30%;
+    //:height 275px
+    &.tweets {
+      h2 {
+        margin-bottom: 20px;
+      }
+    }
+    h2 {
+      @include headline(20px, 24px);
+      text-align: left;
+      padding: 0;
+      margin-bottom: 0.5em;
+      a {
+        text-decoration: none;
+        color: #BC2132;
+      }
+    }
+    h3 {
+      @include paragraph(16px, 20px);
+      margin-bottom: 0.5em;
+    }
+    h3 + p {
+      margin-top: 1em;
+    }
+    p {
+      margin-bottom: 1em;
+    }
+    a.psudeo_anchor {
+      color: #000;
+      text-decoration: underline;
+    }
+    a.excerpt-read-more {
+      color: #BC2132;
+      display: block;
+      margin-top: 0.5em;
+      text-decoration: underline;
+    }
+  }
+}
+
+@include breakpoint(tablet) {
+  body {
+    #news_and_updates {
+      li {
+        h2 {
+          text-align: left;
+        }
+        &:nth-child(2) {
+          display: none;
+        }
+      }
+      h2 {
+        text-align: center;
+      }
+    }
+  }
+}
+
+
+@include breakpoint(oversize_phone) {
+  #news_and_updates li:nth-child(2) {
+    display: none;
+  }
+}
+
+
+@include breakpoint(phone) {
+  #news_and_updates {
+    display: block;
+    margin: 20px 0 0;
+    h2 {
+      @include headline(24px, 28px);
+      padding: 1em 0 1em;
+    }
+    #stories {
+      display: block;
+      margin: 0;
+      li {
+        color: #000;
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 10px;
+        h2 {
+          @include headline(16px);
+        }
+      }
+    }
+  }
+}

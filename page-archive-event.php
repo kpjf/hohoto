@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Tickets Page
+Template Name: Archived Event
 */
 ?>
 
@@ -14,7 +14,7 @@ Template Name: Tickets Page
 				<ul id="date_and_location">
 					<li class="date">
 						<img alt="" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_date.png"/>
-						<h2>Thursday, December 19th</h2>
+						<h2>Thursday, December 19th, 2013</h2>
 						<span>7pm - late</span>
 					</li><li class="location">
 						<img alt="" src="<?php echo get_template_directory_uri(); ?>/library/images/icon_location.png"/>
@@ -26,111 +26,9 @@ Template Name: Tickets Page
 
 				<!-- Ticket Code -->
 				<div class="ticket_container">
-
-					<h2><img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon_ticket.png"/>General Admission Tickets</h2>
-					<a href="https://www.uniiverse.com/listings/hohoto-2014-supporting-the-daily-bread-food-bank-tickets-toronto-LKY03" class="button">Buy Tickets</a>
-
-					 <ul class="tickets">
-					 	<li>
-					 		<ol>
-						 		<li class="price">$35</li>
-						 		<li class="details">
-									<span>SUPER Early-bird admission</span>
-								</li>
-							</ol>
-						</li>
-					 	<li>
-					 		<ol>
-						 		<li class="price">$40</li>
-						 		<li class="details">
-									<span>Early-bird admission</span>
-								</li>
-							</ol>
-						</li>
-					 	<li>
-					 		<ol>
-						 		<li class="price">$45</li>
-						 		<li class="details">
-									<span>Regular admission</span>
-								</li>
-							</ol>
-						</li>
-					</ul>
-
-				</div>
-				<div class="ticket_container">
-
-					<h2><img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon_ticket.png"/>Group Tickets</h2>
-					<a href="https://www.uniiverse.com/listings/hohoto-2014-supporting-the-daily-bread-food-bank-tickets-toronto-LKY03" class="button">Buy Group Tickets</a>
-
-					 <ul class="tickets">
-					 	<li>
-					 		<ol>
-						 		<li class="price">$35</li>
-						 		<li class="details">
-									<span>Regular admissions. <br>For groups of 5 or more.</span>
-								</li>
-							</ol>
-						</li>
-					</ul>
-
-				</div>
-				<div class="ticket_container">
-
-					<h2><img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon_ticket.png"/>Student Tickets</h2>
-					<a href="https://www.uniiverse.com/listings/hohoto-2014-supporting-the-daily-bread-food-bank-tickets-toronto-LKY03" class="button">Buy Student Tickets</a>
-
-					 <ul class="tickets">
-					 	<li>
-					 		<ol>
-						 		<li class="price">$25</li>
-						 		<li class="details">
-									<span>Regular admission. <br> For students and recent graduates.</span>
-								</li>
-							</ol>
-						</li>
-					</ul>
-
+					<h2>We raised over $40,000 for the Daily Bread Food Bank in 2013 Paragraph: Thanks to everyone for their support. <a href="/tickets/">Join us again this year</a></h2>
 				</div>
 
-				<div class="raffle_container">
-
-					 <h2><img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon_raffle.png"/>Raffle Ticket Pre-order*</h2>
-					 <a href="https://www.uniiverse.com/listings/hohoto-2014-supporting-the-daily-bread-food-bank-tickets-toronto-LKY03" class="button">Add Raffle Tickets</a>
-
-					 <ul class="tickets">
-
-					 	<li>
-					 		<ol>
-						 		<li class="price">$20</li>
-						 		<li class="details">
-									<span>20 tickets</span>
-								</li>
-							</ol>
-						</li>
-						<li>
-							<ol>
-								<li class="price">$100</li>
-						 		<li class="details">
-									<span>150 tickets</span>
-								</li>
-								</li>
-							</ol>
-						</li>
-					</ul>
-
-					 <span class="fine_print">*does not include admission.</span>
-				</div>
-
-				<div class="sponsor_container">
-
-					 <h2><img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon_sponsor.png"/>Sponsorship</h2>
-					 <a href="/become-a-sponsor" class="button">Become a sponsor</a>
-
-				</div>
-
-				<h2>Holiday Party Central</h2>
-				<p>Party with 600 of your favourite startup, tech, social media, and design friends.</p>
 				
 				<img alt="" src="<?php echo get_template_directory_uri(); ?>/library/images/logo_dbfb.png" id="img_logo_dbfb" />
 				<h2>In support of the Daily Bread Food Bank</h2>
@@ -160,7 +58,7 @@ Template Name: Tickets Page
 						'post_type' => 'sponsor', 
 						'posts_per_page' => -1, 
 						'sponsor_tier' => 'entertainment',
-						'sponsor_year' => '2014',
+						'sponsor_year' => '2013',
 						'order'=>'ASC'
 					));
 				?>

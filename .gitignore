@@ -58,3 +58,4 @@ temp/
 
 *.sassc
 library/scss/.sass-cache
+node_modules

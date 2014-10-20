@@ -66,6 +66,28 @@ function sponsors_setup () {
 	for more information on taxonomies, go here:
 	http://codex.wordpress.org/Function_Reference/register_taxonomy
 	*/
+
+	register_taxonomy( 'sponsor_year', 
+		array('sponsor'), /* if you change the name of register_post_type( 'brew', then you have to change this */
+		array('hierarchical' => true,     /* if this is true, it acts like categories */             
+			'labels' => array(
+				'name' => __( 'Year', 'bonestheme' ), /* name of the custom taxonomy */
+				'singular_name' => __( 'Sponsor Year', 'bonestheme' ), /* single taxonomy name */
+				'search_items' =>  __( 'Search Year', 'bonestheme' ), /* search title for taxomony */
+				'all_items' => __( 'All Year options', 'bonestheme' ), /* all title for taxonomies */
+				'parent_item' => __( 'Parent Category', 'bonestheme' ), /* parent title for taxonomy */
+				'parent_item_colon' => __( 'Parent Category:', 'bonestheme' ), /* parent taxonomy title */
+				'edit_item' => __( 'Edit Year Option', 'bonestheme' ), /* edit custom taxonomy title */
+				'update_item' => __( 'Update Year Option', 'bonestheme' ), /* update title for taxonomy */
+				'add_new_item' => __( 'Add New Year option', 'bonestheme' ), /* add new title for taxonomy */
+				'new_item_name' => __( 'New Year Option', 'bonestheme' ) /* name title for taxonomy */
+			),
+			'show_admin_column' => true, 
+			'show_ui' => true,
+			'query_var' => true,
+			'rewrite' => array( 'slug' => 'year' ),
+		)
+	);  
 	
 	// now let's add custom categories (these act like categories)
 	register_taxonomy( 'sponsor_tier', 

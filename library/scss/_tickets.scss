@@ -1,0 +1,140 @@
+.page-template-tickets-php #stay_connected {
+	input[type="text"] {
+		margin-right: 10px;
+	}
+}
+
+
+
+.ticket_container,
+.raffle_container,
+.sponsor_container {
+	@include pie-clearfix;
+	margin: 0 -20px;
+	padding: 20px;
+	width: 100%;
+
+	.page-template-page-archive-event-php & {
+		margin: 20px -20px;
+		h2 {
+			@include headline(22px, 1.2);
+			a {
+				color: #BC2132;
+				text-decoration: underline;
+			}
+		}
+	}
+
+	h2 {
+		@include headline(22px, 44px);
+		float: left;
+		margin-bottom: 0.5em;
+		padding-left: 32px;
+		position: relative;
+		img {
+			position: absolute;
+			top: 11px;
+			left: 0;
+		}
+	}
+	.button {
+		@include headline(16px, 44px);
+		background: #FFCC33;
+		color: #231F20;
+		float: right;
+		padding: 0 0.75em;
+	}
+	.tickets {
+		clear: both;
+		li {
+			@include paragraph(18px);
+			display: block;
+			margin-bottom: 0.5em;
+			&:last-of-type {
+				margin-bottom: 0;
+			}
+		}
+		ol li {
+			@include inline-block;
+			vertical-align: top;
+		}
+		.price {
+			min-width: 80px;
+		}
+		.details {
+			span {
+				display: block;
+				&.description {
+					@include paragraph(14px);
+					margin-top: 0.25em;
+				}
+			}
+		}
+	}
+	.fine_print {
+		@include paragraph(14px);
+		color: #DD9098;
+	}
+}
+
+.ticket_container {
+	background: #FFFAEC;
+
+	&:nth-child(odd) {
+		background-color: #FFFCF5;
+	}	
+}
+
+.raffle_container {
+	background: #FFFCF5;
+}
+
+.sponsor_container {
+	background: #FFFAEC;
+	margin-bottom: 20px;
+	h2 {
+		margin-bottom: 0;
+	}
+}
+
+@include breakpoint(phone) {
+	.ticket_container,
+	.raffle_container,
+	.sponsor_container {
+		text-align: center;
+		h2 {
+			@include headline(20px, 22px);
+			float: none;
+			padding: 0;
+			margin-bottom: 0.25em;
+			img {
+				top: 0;
+				display: none;
+			}
+		}
+		.button {
+			float: none;
+			width: 100%;
+			max-width: 320px;
+		}
+		.tickets {
+			li {
+				margin: {
+					top: 1em;
+					bottom: 0;
+				};
+			}
+			ol li {
+				display: block;
+				margin: {
+					top: 0;
+					bottom: 0;
+				};
+			}
+			.price {
+				min-width: 0;
+				@include headline(20px);
+			}
+		}
+	}
+}

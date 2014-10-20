@@ -1,0 +1,152 @@
+#sponsorship {
+  h2, h3 {
+    color: #FFF;
+  }
+  #become_a_sponsor {
+    @include border-radius(4px);
+    @include box-sizing(border-box);
+    @include paragraph(24px, 30px);
+    @include inline-block;
+    background: #FFF;
+    color: #333333;
+    margin-right: 3.125%;
+    //:max-width 630px
+    padding: 20px 20px 40px;
+    vertical-align: top;
+    width: 65.625%;
+    margin-bottom: 20px;
+    h2, h3 {
+      color: #BC2132;
+    }
+    p.tax-receipt {
+      @include paragraph(10px);
+      margin-top: 20px;
+    }
+    ul.packages {
+      clear: both;
+      li {
+        @include box-sizing(border-box);
+        @include inline-block;
+        width: 50%;
+        padding: 40px 0 0;
+        vertical-align: top;
+        &:nth-of-type(2n+1) {
+          padding-right: 20px;
+        }
+        h2 {
+          @include headline(20px);
+          margin-bottom: 0.5em;
+          padding: 0;
+          float: none;
+        }
+        h3 {
+          @include paragraph(18px);
+          color: #000;
+          margin-bottom: 0.5em;
+        }
+        ol li, p {
+          @include paragraph(14px);
+          display: block;
+          margin-bottom: 0.5em;
+          padding: 0;
+          width: auto;
+          &:last-of-type {
+            padding: 0;
+          }
+          &:nth-of-type(2n+1) {
+            padding: 0;
+          }
+        }
+        a {
+          color: #000;
+        }
+        .button {
+          @include headline(16px, 44px);
+          background: #FFCC33;
+          color: #231F20;
+          padding: 0 0.75em;
+          float: none;
+        }
+      }
+    }
+  }
+  .sidebar {
+    @include inline-block(top);
+    width: 31.25%;
+  }
+  #connect_and_share {
+    @include border-radius(4px);
+    @include box-sizing(border-box);
+    max-width: 300px;
+    padding: 0;
+    text-align: left;
+    vertical-align: top;
+    #stay_connected {
+      margin-bottom: 2em;
+      max-width: none;
+      width: 100%;
+      p {
+        max-width: none;
+      }
+      form {
+        input {
+          @include box-sizing(border-box);
+          width: 100%;
+          margin-bottom: 0.5em;
+        }
+      }
+    }
+    #share {
+      max-width: none;
+      width: 100%;
+    }
+  }
+}
+
+@include breakpoint(tablet) {
+  #sponsorship {
+    #become_a_sponsor {
+      width: 100%;
+      margin: 0 0 20px;
+    }
+    .sidebar {
+      display: block;
+      width: 100%;
+    }
+    #connect_and_share {
+      margin: 0 0 20px;
+      max-width: none;
+      width: 100%;
+      text-align: center;
+      #stay_connected {
+        form {
+          input {
+            @include box-sizing(content-box);
+            width: auto;
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@include breakpoint(phone) {
+  #sponsorship {
+    #become_a_sponsor {
+      ul.packages {
+        li {
+          width: 100%;
+          &:nth-of-type(2n+1) {
+            padding-right: 0;
+          }
+        }
+      }
+    }
+    .sidebar {
+      @include inline-block(top);
+      width: 100%;
+    }
+  }
+}
