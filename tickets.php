@@ -27,10 +27,18 @@ Template Name: Tickets Page
 				<!-- Ticket Code -->
 				<div class="ticket_container">
 
-					<h2><img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon_ticket.png"/>Tickets</h2>
-					<a href="https://www.uniiverse.com/listings/hohoto-2013-supporting-the-daily-bread-food-bank-toronto-ZBHGW" class="button">Buy Tickets</a>
+					<h2><img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon_ticket.png"/>General Admission Tickets</h2>
+					<a href="https://www.uniiverse.com/listings/hohoto-2014-supporting-the-daily-bread-food-bank-tickets-toronto-LKY03" class="button">Buy Tickets</a>
 
 					 <ul class="tickets">
+					 	<li>
+					 		<ol>
+						 		<li class="price">$35</li>
+						 		<li class="details">
+									<span>SUPER Early-bird admission</span>
+								</li>
+							</ol>
+						</li>
 					 	<li>
 					 		<ol>
 						 		<li class="price">$40</li>
@@ -39,22 +47,56 @@ Template Name: Tickets Page
 								</li>
 							</ol>
 						</li>
-						<li>
-							<ol>
-								<li class="price">$150</li>
-								<li class="details">
-									<span>VIP admission package</span>
-									<span class="description">Drinks and appetizers from 7p - 9p</span>
+					 	<li>
+					 		<ol>
+						 		<li class="price">$45</li>
+						 		<li class="details">
+									<span>Regular admission</span>
 								</li>
 							</ol>
 						</li>
 					</ul>
 
 				</div>
+				<div class="ticket_container">
+
+					<h2><img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon_ticket.png"/>Group Tickets</h2>
+					<a href="https://www.uniiverse.com/listings/hohoto-2014-supporting-the-daily-bread-food-bank-tickets-toronto-LKY03" class="button">Buy Group Tickets</a>
+
+					 <ul class="tickets">
+					 	<li>
+					 		<ol>
+						 		<li class="price">$35</li>
+						 		<li class="details">
+									<span>Regular admissions. <br>For groups of 5 or more.</span>
+								</li>
+							</ol>
+						</li>
+					</ul>
+
+				</div>
+				<div class="ticket_container">
+
+					<h2><img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon_ticket.png"/>Student Tickets</h2>
+					<a href="https://www.uniiverse.com/listings/hohoto-2014-supporting-the-daily-bread-food-bank-tickets-toronto-LKY03" class="button">Buy Student Tickets</a>
+
+					 <ul class="tickets">
+					 	<li>
+					 		<ol>
+						 		<li class="price">$25</li>
+						 		<li class="details">
+									<span>Regular admission. <br> For students and recent graduates.</span>
+								</li>
+							</ol>
+						</li>
+					</ul>
+
+				</div>
+
 				<div class="raffle_container">
 
 					 <h2><img src="<?php echo get_template_directory_uri(); ?>/library/images/icons/icon_raffle.png"/>Raffle Ticket Pre-order*</h2>
-					 <a href="https://www.uniiverse.com/listings/hohoto-2013-supporting-the-daily-bread-food-bank-toronto-ZBHGW" class="button">Add Raffle Tickets</a>
+					 <a href="https://www.uniiverse.com/listings/hohoto-2014-supporting-the-daily-bread-food-bank-tickets-toronto-LKY03" class="button">Add Raffle Tickets</a>
 
 					 <ul class="tickets">
 
@@ -118,6 +160,7 @@ Template Name: Tickets Page
 						'post_type' => 'sponsor', 
 						'posts_per_page' => -1, 
 						'sponsor_tier' => 'entertainment',
+						'sponsor_year' => '2014',
 						'order'=>'ASC'
 					));
 				?>

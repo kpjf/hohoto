@@ -5,7 +5,7 @@ require "breakpoint"
 require "rgbapng"
 
 # Set this to the root of your project when deployed:
-http_path = "/"
+http_path = "/wp-content/themes/hohoto/"
 css_dir = "library/css"
 sass_dir = "library/scss"
 images_dir = "library/images"

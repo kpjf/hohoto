@@ -58,6 +58,7 @@ Template Name: Archived Event
 						'post_type' => 'sponsor', 
 						'posts_per_page' => -1, 
 						'sponsor_tier' => 'entertainment',
+						'sponsor_year' => '2013',
 						'order'=>'ASC'
 					));
 				?>

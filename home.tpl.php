@@ -9,10 +9,10 @@ Template Name: Home Page
 	<div id="promos">
 		<div id="introduction_and_tickets" class="content">
 			<div id="introduction">
-				<h2>December 19th, 2013</h2>
+				<h2>December 11th, 2014</h2>
 				<h3>at The Mod Club</h3>
 
-				<p>Join us for Toronto’s biggest holiday party, in support of the Daily Bread Food Bank.</p>
+				<p>With over $40,000 raised last year, and more than $300,000 to date, join us again for Toronto’s biggest holiday party in support of the Daily Bread Food Bank.</p>
 
 				<a href="/tickets/" class="button event_details">Event Details</a>
 			</div><!--

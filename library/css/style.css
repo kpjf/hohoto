@@ -384,7 +384,7 @@ form input[type='submit'] {
   width: 100%;
   padding: 0 2px;
   height: 20px;
-  background-image: url('/library/images/bkgr/bkgr_buy_tickets.png?1383586485');
+  background-image: url('/wp-content/themes/hohoto/library/images/bkgr/bkgr_buy_tickets.png?1383586485');
   background-size: 100% 20px;
   background-repeat: no-repeat;
 }
@@ -755,6 +755,9 @@ form input[type='submit'] {
 }
 #overview h2, #overview h3 {
   color: #BC2132;
+}
+#overview ul#date_and_location {
+  margin-bottom: 20px;
 }
 #overview ul#date_and_location li {
   -moz-box-sizing: border-box;
@@ -1381,7 +1384,9 @@ form input[type='submit'] {
 
 .ticket_container {
   background: #FFFAEC;
-  margin-top: 20px;
+}
+.ticket_container:nth-child(odd) {
+  background-color: #FFFCF5;
 }
 
 .raffle_container {
@@ -1478,6 +1483,13 @@ form input[type='submit'] {
 }
 #sponsorship #become_a_sponsor h2, #sponsorship #become_a_sponsor h3 {
   color: #BC2132;
+}
+#sponsorship #become_a_sponsor p.tax-receipt {
+  font-family: "Museo Sans", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 10px;
+  line-height: 14px;
+  margin-top: 20px;
 }
 #sponsorship #become_a_sponsor ul.packages {
   clear: both;

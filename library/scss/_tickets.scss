@@ -79,7 +79,10 @@
 
 .ticket_container {
 	background: #FFFAEC;
-	margin-top: 20px;
+
+	&:nth-child(odd) {
+		background-color: #FFFCF5;
+	}	
 }
 
 .raffle_container {

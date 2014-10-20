@@ -14,6 +14,7 @@
     color: #BC2132;
   }
   ul#date_and_location {
+    margin-bottom: 20px;
     li {
       @include box-sizing(border-box);
       @include inline-block;

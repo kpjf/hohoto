@@ -54,6 +54,7 @@ Template Name: Sponsorship Page
 							<h2>Elf</h2>
 							<h3>$5,000 Daily Bread Donation</h3>
 							<ol>
+								<li>Choice of a section of the Mod Club for corporate branding</li>
 								<li>12 complimentary tickets to the event</li>
 								<li>12 complimentary drink tickets</li>
 								<li>Your logo on hohoto.ca with a link to your site &amp; displayed at the event</li>
@@ -62,6 +63,7 @@ Template Name: Sponsorship Page
 							<h2>Mrs. Claus</h2>
 							<h3>$7,500 Daily Bread Donation</h3>
 							<ol>
+								<li>First choice of a section of the Mod Club for corporate branding</li>
 								<li>15 complimentary tickets to the event</li>
 								<li>15 complimentary drink tickets</li>
 								<li>Your logo on hohoto.ca with a link to your site &amp; prominently displayed at the event</li>
@@ -72,7 +74,7 @@ Template Name: Sponsorship Page
 							<ol>
 								<li>Access to an exclusive VIP booth</li>
 								<li>18 complimentary tickets to the event</li>
-								<li>1 complimentary bottle of liquor</li>
+								<li>2 complimentary bottles of liquor</li>
 								<li>Your logo on hohoto.ca with a link to your site</li>
 								<li>Your logo prominently displayed at the event</li>
 								<li>Other branding and promotional opportunities may be available – please contact us to discuss.</li>
@@ -80,7 +82,7 @@ Template Name: Sponsorship Page
 							<a href="mailto:sponsors@hohoto.ca?subject=Santa%20Sponsorship" class="button">Get in touch</a>
 						</li><li>
 							<h2>Angel</h2>
-							<h3>Let's talk</h3>
+							<h3>Daily Bread Donation: Let's talk</h3>
 
 							<p>Want to go above and beyond to make this year’s HoHoTO the best one yet? Please contact us to discuss the details of your contribution and our commitment to you, including:</p>
 							<ol>
@@ -103,6 +105,8 @@ Template Name: Sponsorship Page
 							<a href="mailto:sponsors@hohoto.ca?subject=Custom%20Packages" class="button">Get in touch</a>
 						</li>
 					</ul>
+
+					<p class="tax-receipt">Please Note: Tax receipts will be issued by the Daily Bread Food Bank for all monetary or tangible donations.</p>
 				</div>
 			</div>
 				<?php get_sidebar(); ?>
